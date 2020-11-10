@@ -22865,6 +22865,1633 @@ video {
           animation: bounce 1s infinite;
 }
 
+.blend-normal {
+  mix-blend-mode: normal;
+}
+
+.blend-multiply {
+  mix-blend-mode: multiply;
+}
+
+.blend-screen {
+  mix-blend-mode: screen;
+}
+
+.blend-overlay {
+  mix-blend-mode: overlay;
+}
+
+.blend-darken {
+  mix-blend-mode: darken;
+}
+
+.blend-lighten {
+  mix-blend-mode: lighten;
+}
+
+.blend-color-dodge {
+  mix-blend-mode: color-dodge;
+}
+
+.blend-color-burn {
+  mix-blend-mode: color-burn;
+}
+
+.blend-hard-light {
+  mix-blend-mode: hard-light;
+}
+
+.blend-soft-light {
+  mix-blend-mode: soft-light;
+}
+
+.blend-difference {
+  mix-blend-mode: difference;
+}
+
+.blend-exclusion {
+  mix-blend-mode: exclusion;
+}
+
+.blend-hue {
+  mix-blend-mode: hue;
+}
+
+.blend-saturation {
+  mix-blend-mode: saturation;
+}
+
+.blend-color {
+  mix-blend-mode: color;
+}
+
+.blend-luminosity {
+  mix-blend-mode: luminosity;
+}
+
+.bg-blend-normal {
+  background-blend-mode: normal;
+}
+
+.bg-blend-multiply {
+  background-blend-mode: multiply;
+}
+
+.bg-blend-screen {
+  background-blend-mode: screen;
+}
+
+.bg-blend-overlay {
+  background-blend-mode: overlay;
+}
+
+.bg-blend-darken {
+  background-blend-mode: darken;
+}
+
+.bg-blend-lighten {
+  background-blend-mode: lighten;
+}
+
+.bg-blend-color-dodge {
+  background-blend-mode: color-dodge;
+}
+
+.bg-blend-color-burn {
+  background-blend-mode: color-burn;
+}
+
+.bg-blend-hard-light {
+  background-blend-mode: hard-light;
+}
+
+.bg-blend-soft-light {
+  background-blend-mode: soft-light;
+}
+
+.bg-blend-difference {
+  background-blend-mode: difference;
+}
+
+.bg-blend-exclusion {
+  background-blend-mode: exclusion;
+}
+
+.bg-blend-hue {
+  background-blend-mode: hue;
+}
+
+.bg-blend-saturation {
+  background-blend-mode: saturation;
+}
+
+.bg-blend-color {
+  background-blend-mode: color;
+}
+
+.bg-blend-luminosity {
+  background-blend-mode: luminosity;
+}
+
+.isolation-isolate {
+  isolation: isolate;
+}
+
+.isolation-auto {
+  isolation: auto;
+}
+
+.bdf {
+  --bdf-blur: 0;
+  --bdf-brightness: 1;
+  --bdf-contrast: 1;
+  --bdf-drop-shadow: 0 0 0;
+  --bdf-grayscale: 0;
+  --bdf-hue-rotate: 0;
+  --bdf-invert: 0;
+  --bdf-saturate: 1;
+  --bdf-sepia: 0;
+  -webkit-backdrop-filter: blur(var(--bdf-blur)) brightness(var(--bdf-brightness)) contrast(var(--bdf-contrast)) drop-shadow(var(--bdf-drop-shadow)) grayscale(var(--bdf-grayscale)) hue-rotate(var(--bdf-hue-rotate)) invert(var(--bdf-invert)) saturate(var(--bdf-saturate)) sepia(var(--bdf-sepia));
+          backdrop-filter: blur(var(--bdf-blur)) brightness(var(--bdf-brightness)) contrast(var(--bdf-contrast)) drop-shadow(var(--bdf-drop-shadow)) grayscale(var(--bdf-grayscale)) hue-rotate(var(--bdf-hue-rotate)) invert(var(--bdf-invert)) saturate(var(--bdf-saturate)) sepia(var(--bdf-sepia));
+}
+
+.bdf-blur-2 {
+  --bdf-blur: 2px;
+}
+
+.bdf-blur-4 {
+  --bdf-blur: 4px;
+}
+
+.bdf-blur-8 {
+  --bdf-blur: 8px;
+}
+
+.bdf-blur-16 {
+  --bdf-blur: 16px;
+}
+
+.bdf-blur-32 {
+  --bdf-blur: 32px;
+}
+
+.bdf-blur-64 {
+  --bdf-blur: 64px;
+}
+
+.hover\:bdf-blur-2:hover {
+  --bdf-blur: 2px;
+}
+
+.hover\:bdf-blur-4:hover {
+  --bdf-blur: 4px;
+}
+
+.hover\:bdf-blur-8:hover {
+  --bdf-blur: 8px;
+}
+
+.hover\:bdf-blur-16:hover {
+  --bdf-blur: 16px;
+}
+
+.hover\:bdf-blur-32:hover {
+  --bdf-blur: 32px;
+}
+
+.hover\:bdf-blur-64:hover {
+  --bdf-blur: 64px;
+}
+
+.focus\:bdf-blur-2:focus {
+  --bdf-blur: 2px;
+}
+
+.focus\:bdf-blur-4:focus {
+  --bdf-blur: 4px;
+}
+
+.focus\:bdf-blur-8:focus {
+  --bdf-blur: 8px;
+}
+
+.focus\:bdf-blur-16:focus {
+  --bdf-blur: 16px;
+}
+
+.focus\:bdf-blur-32:focus {
+  --bdf-blur: 32px;
+}
+
+.focus\:bdf-blur-64:focus {
+  --bdf-blur: 64px;
+}
+
+.bdf-brightness-0 {
+  --bdf-brightness: 0%;
+}
+
+.bdf-brightness-25 {
+  --bdf-brightness: 25%;
+}
+
+.bdf-brightness-50 {
+  --bdf-brightness: 50%;
+}
+
+.bdf-brightness-75 {
+  --bdf-brightness: 75%;
+}
+
+.bdf-brightness-100 {
+  --bdf-brightness: 100%;
+}
+
+.hover\:bdf-brightness-0:hover {
+  --bdf-brightness: 0%;
+}
+
+.hover\:bdf-brightness-25:hover {
+  --bdf-brightness: 25%;
+}
+
+.hover\:bdf-brightness-50:hover {
+  --bdf-brightness: 50%;
+}
+
+.hover\:bdf-brightness-75:hover {
+  --bdf-brightness: 75%;
+}
+
+.hover\:bdf-brightness-100:hover {
+  --bdf-brightness: 100%;
+}
+
+.focus\:bdf-brightness-0:focus {
+  --bdf-brightness: 0%;
+}
+
+.focus\:bdf-brightness-25:focus {
+  --bdf-brightness: 25%;
+}
+
+.focus\:bdf-brightness-50:focus {
+  --bdf-brightness: 50%;
+}
+
+.focus\:bdf-brightness-75:focus {
+  --bdf-brightness: 75%;
+}
+
+.focus\:bdf-brightness-100:focus {
+  --bdf-brightness: 100%;
+}
+
+.bdf-contrast-0 {
+  --bdf-contrast: 0%;
+}
+
+.bdf-contrast-25 {
+  --bdf-contrast: 25%;
+}
+
+.bdf-contrast-50 {
+  --bdf-contrast: 50%;
+}
+
+.bdf-contrast-75 {
+  --bdf-contrast: 75%;
+}
+
+.bdf-contrast-100 {
+  --bdf-contrast: 100%;
+}
+
+.hover\:bdf-contrast-0:hover {
+  --bdf-contrast: 0%;
+}
+
+.hover\:bdf-contrast-25:hover {
+  --bdf-contrast: 25%;
+}
+
+.hover\:bdf-contrast-50:hover {
+  --bdf-contrast: 50%;
+}
+
+.hover\:bdf-contrast-75:hover {
+  --bdf-contrast: 75%;
+}
+
+.hover\:bdf-contrast-100:hover {
+  --bdf-contrast: 100%;
+}
+
+.focus\:bdf-contrast-0:focus {
+  --bdf-contrast: 0%;
+}
+
+.focus\:bdf-contrast-25:focus {
+  --bdf-contrast: 25%;
+}
+
+.focus\:bdf-contrast-50:focus {
+  --bdf-contrast: 50%;
+}
+
+.focus\:bdf-contrast-75:focus {
+  --bdf-contrast: 75%;
+}
+
+.focus\:bdf-contrast-100:focus {
+  --bdf-contrast: 100%;
+}
+
+.bdf-drop-shadow-sm {
+  --bdf-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.bdf-drop-shadow {
+  --bdf-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.bdf-drop-shadow-md {
+  --bdf-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bdf-drop-shadow-lg {
+  --bdf-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.bdf-drop-shadow-xl {
+  --bdf-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+}
+
+.bdf-drop-shadow-2xl {
+  --bdf-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+}
+
+.hover\:bdf-drop-shadow-sm:hover {
+  --bdf-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.hover\:bdf-drop-shadow:hover {
+  --bdf-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.hover\:bdf-drop-shadow-md:hover {
+  --bdf-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hover\:bdf-drop-shadow-lg:hover {
+  --bdf-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hover\:bdf-drop-shadow-xl:hover {
+  --bdf-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+}
+
+.hover\:bdf-drop-shadow-2xl:hover {
+  --bdf-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+}
+
+.focus\:bdf-drop-shadow-sm:focus {
+  --bdf-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.focus\:bdf-drop-shadow:focus {
+  --bdf-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.focus\:bdf-drop-shadow-md:focus {
+  --bdf-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.focus\:bdf-drop-shadow-lg:focus {
+  --bdf-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.focus\:bdf-drop-shadow-xl:focus {
+  --bdf-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+}
+
+.focus\:bdf-drop-shadow-2xl:focus {
+  --bdf-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+}
+
+.bdf-grayscale-0 {
+  --bdf-grayscale: 0%;
+}
+
+.bdf-grayscale-25 {
+  --bdf-grayscale: 25%;
+}
+
+.bdf-grayscale-50 {
+  --bdf-grayscale: 50%;
+}
+
+.bdf-grayscale-75 {
+  --bdf-grayscale: 75%;
+}
+
+.bdf-grayscale-100 {
+  --bdf-grayscale: 100%;
+}
+
+.hover\:bdf-grayscale-0:hover {
+  --bdf-grayscale: 0%;
+}
+
+.hover\:bdf-grayscale-25:hover {
+  --bdf-grayscale: 25%;
+}
+
+.hover\:bdf-grayscale-50:hover {
+  --bdf-grayscale: 50%;
+}
+
+.hover\:bdf-grayscale-75:hover {
+  --bdf-grayscale: 75%;
+}
+
+.hover\:bdf-grayscale-100:hover {
+  --bdf-grayscale: 100%;
+}
+
+.focus\:bdf-grayscale-0:focus {
+  --bdf-grayscale: 0%;
+}
+
+.focus\:bdf-grayscale-25:focus {
+  --bdf-grayscale: 25%;
+}
+
+.focus\:bdf-grayscale-50:focus {
+  --bdf-grayscale: 50%;
+}
+
+.focus\:bdf-grayscale-75:focus {
+  --bdf-grayscale: 75%;
+}
+
+.focus\:bdf-grayscale-100:focus {
+  --bdf-grayscale: 100%;
+}
+
+.bdf-hue-rotate-0 {
+  --bdf-hue-rotate: 0deg;
+}
+
+.bdf-hue-rotate-60 {
+  --bdf-hue-rotate: 60deg;
+}
+
+.bdf-hue-rotate-90 {
+  --bdf-hue-rotate: 90deg;
+}
+
+.bdf-hue-rotate-120 {
+  --bdf-hue-rotate: 120deg;
+}
+
+.bdf-hue-rotate-150 {
+  --bdf-hue-rotate: 150deg;
+}
+
+.bdf-hue-rotate-180 {
+  --bdf-hue-rotate: 180deg;
+}
+
+.bdf-hue-rotate-210 {
+  --bdf-hue-rotate: 210deg;
+}
+
+.bdf-hue-rotate-240 {
+  --bdf-hue-rotate: 240deg;
+}
+
+.bdf-hue-rotate-270 {
+  --bdf-hue-rotate: 270deg;
+}
+
+.bdf-hue-rotate-300 {
+  --bdf-hue-rotate: 300deg;
+}
+
+.bdf-hue-rotate-330 {
+  --bdf-hue-rotate: 330deg;
+}
+
+.hover\:bdf-hue-rotate-0:hover {
+  --bdf-hue-rotate: 0deg;
+}
+
+.hover\:bdf-hue-rotate-60:hover {
+  --bdf-hue-rotate: 60deg;
+}
+
+.hover\:bdf-hue-rotate-90:hover {
+  --bdf-hue-rotate: 90deg;
+}
+
+.hover\:bdf-hue-rotate-120:hover {
+  --bdf-hue-rotate: 120deg;
+}
+
+.hover\:bdf-hue-rotate-150:hover {
+  --bdf-hue-rotate: 150deg;
+}
+
+.hover\:bdf-hue-rotate-180:hover {
+  --bdf-hue-rotate: 180deg;
+}
+
+.hover\:bdf-hue-rotate-210:hover {
+  --bdf-hue-rotate: 210deg;
+}
+
+.hover\:bdf-hue-rotate-240:hover {
+  --bdf-hue-rotate: 240deg;
+}
+
+.hover\:bdf-hue-rotate-270:hover {
+  --bdf-hue-rotate: 270deg;
+}
+
+.hover\:bdf-hue-rotate-300:hover {
+  --bdf-hue-rotate: 300deg;
+}
+
+.hover\:bdf-hue-rotate-330:hover {
+  --bdf-hue-rotate: 330deg;
+}
+
+.focus\:bdf-hue-rotate-0:focus {
+  --bdf-hue-rotate: 0deg;
+}
+
+.focus\:bdf-hue-rotate-60:focus {
+  --bdf-hue-rotate: 60deg;
+}
+
+.focus\:bdf-hue-rotate-90:focus {
+  --bdf-hue-rotate: 90deg;
+}
+
+.focus\:bdf-hue-rotate-120:focus {
+  --bdf-hue-rotate: 120deg;
+}
+
+.focus\:bdf-hue-rotate-150:focus {
+  --bdf-hue-rotate: 150deg;
+}
+
+.focus\:bdf-hue-rotate-180:focus {
+  --bdf-hue-rotate: 180deg;
+}
+
+.focus\:bdf-hue-rotate-210:focus {
+  --bdf-hue-rotate: 210deg;
+}
+
+.focus\:bdf-hue-rotate-240:focus {
+  --bdf-hue-rotate: 240deg;
+}
+
+.focus\:bdf-hue-rotate-270:focus {
+  --bdf-hue-rotate: 270deg;
+}
+
+.focus\:bdf-hue-rotate-300:focus {
+  --bdf-hue-rotate: 300deg;
+}
+
+.focus\:bdf-hue-rotate-330:focus {
+  --bdf-hue-rotate: 330deg;
+}
+
+.bdf-invert-0 {
+  --bdf-invert: 0%;
+}
+
+.bdf-invert-25 {
+  --bdf-invert: 25%;
+}
+
+.bdf-invert-50 {
+  --bdf-invert: 50%;
+}
+
+.bdf-invert-75 {
+  --bdf-invert: 75%;
+}
+
+.bdf-invert-100 {
+  --bdf-invert: 100%;
+}
+
+.hover\:bdf-invert-0:hover {
+  --bdf-invert: 0%;
+}
+
+.hover\:bdf-invert-25:hover {
+  --bdf-invert: 25%;
+}
+
+.hover\:bdf-invert-50:hover {
+  --bdf-invert: 50%;
+}
+
+.hover\:bdf-invert-75:hover {
+  --bdf-invert: 75%;
+}
+
+.hover\:bdf-invert-100:hover {
+  --bdf-invert: 100%;
+}
+
+.focus\:bdf-invert-0:focus {
+  --bdf-invert: 0%;
+}
+
+.focus\:bdf-invert-25:focus {
+  --bdf-invert: 25%;
+}
+
+.focus\:bdf-invert-50:focus {
+  --bdf-invert: 50%;
+}
+
+.focus\:bdf-invert-75:focus {
+  --bdf-invert: 75%;
+}
+
+.focus\:bdf-invert-100:focus {
+  --bdf-invert: 100%;
+}
+
+.bdf-saturate-0 {
+  --bdf-saturate: 0%;
+}
+
+.bdf-saturate-25 {
+  --bdf-saturate: 25%;
+}
+
+.bdf-saturate-50 {
+  --bdf-saturate: 50%;
+}
+
+.bdf-saturate-75 {
+  --bdf-saturate: 75%;
+}
+
+.bdf-saturate-100 {
+  --bdf-saturate: 100%;
+}
+
+.bdf-saturate-125 {
+  --bdf-saturate: 125%;
+}
+
+.bdf-saturate-150 {
+  --bdf-saturate: 150%;
+}
+
+.bdf-saturate-175 {
+  --bdf-saturate: 175%;
+}
+
+.bdf-saturate-200 {
+  --bdf-saturate: 200%;
+}
+
+.hover\:bdf-saturate-0:hover {
+  --bdf-saturate: 0%;
+}
+
+.hover\:bdf-saturate-25:hover {
+  --bdf-saturate: 25%;
+}
+
+.hover\:bdf-saturate-50:hover {
+  --bdf-saturate: 50%;
+}
+
+.hover\:bdf-saturate-75:hover {
+  --bdf-saturate: 75%;
+}
+
+.hover\:bdf-saturate-100:hover {
+  --bdf-saturate: 100%;
+}
+
+.hover\:bdf-saturate-125:hover {
+  --bdf-saturate: 125%;
+}
+
+.hover\:bdf-saturate-150:hover {
+  --bdf-saturate: 150%;
+}
+
+.hover\:bdf-saturate-175:hover {
+  --bdf-saturate: 175%;
+}
+
+.hover\:bdf-saturate-200:hover {
+  --bdf-saturate: 200%;
+}
+
+.focus\:bdf-saturate-0:focus {
+  --bdf-saturate: 0%;
+}
+
+.focus\:bdf-saturate-25:focus {
+  --bdf-saturate: 25%;
+}
+
+.focus\:bdf-saturate-50:focus {
+  --bdf-saturate: 50%;
+}
+
+.focus\:bdf-saturate-75:focus {
+  --bdf-saturate: 75%;
+}
+
+.focus\:bdf-saturate-100:focus {
+  --bdf-saturate: 100%;
+}
+
+.focus\:bdf-saturate-125:focus {
+  --bdf-saturate: 125%;
+}
+
+.focus\:bdf-saturate-150:focus {
+  --bdf-saturate: 150%;
+}
+
+.focus\:bdf-saturate-175:focus {
+  --bdf-saturate: 175%;
+}
+
+.focus\:bdf-saturate-200:focus {
+  --bdf-saturate: 200%;
+}
+
+.bdf-sepia-0 {
+  --bdf-sepia: 0%;
+}
+
+.bdf-sepia-25 {
+  --bdf-sepia: 25%;
+}
+
+.bdf-sepia-50 {
+  --bdf-sepia: 50%;
+}
+
+.bdf-sepia-75 {
+  --bdf-sepia: 75%;
+}
+
+.bdf-sepia-100 {
+  --bdf-sepia: 100%;
+}
+
+.bdf-sepia-125 {
+  --bdf-sepia: 125%;
+}
+
+.bdf-sepia-150 {
+  --bdf-sepia: 150%;
+}
+
+.bdf-sepia-175 {
+  --bdf-sepia: 175%;
+}
+
+.bdf-sepia-200 {
+  --bdf-sepia: 200%;
+}
+
+.hover\:bdf-sepia-0:hover {
+  --bdf-sepia: 0%;
+}
+
+.hover\:bdf-sepia-25:hover {
+  --bdf-sepia: 25%;
+}
+
+.hover\:bdf-sepia-50:hover {
+  --bdf-sepia: 50%;
+}
+
+.hover\:bdf-sepia-75:hover {
+  --bdf-sepia: 75%;
+}
+
+.hover\:bdf-sepia-100:hover {
+  --bdf-sepia: 100%;
+}
+
+.hover\:bdf-sepia-125:hover {
+  --bdf-sepia: 125%;
+}
+
+.hover\:bdf-sepia-150:hover {
+  --bdf-sepia: 150%;
+}
+
+.hover\:bdf-sepia-175:hover {
+  --bdf-sepia: 175%;
+}
+
+.hover\:bdf-sepia-200:hover {
+  --bdf-sepia: 200%;
+}
+
+.focus\:bdf-sepia-0:focus {
+  --bdf-sepia: 0%;
+}
+
+.focus\:bdf-sepia-25:focus {
+  --bdf-sepia: 25%;
+}
+
+.focus\:bdf-sepia-50:focus {
+  --bdf-sepia: 50%;
+}
+
+.focus\:bdf-sepia-75:focus {
+  --bdf-sepia: 75%;
+}
+
+.focus\:bdf-sepia-100:focus {
+  --bdf-sepia: 100%;
+}
+
+.focus\:bdf-sepia-125:focus {
+  --bdf-sepia: 125%;
+}
+
+.focus\:bdf-sepia-150:focus {
+  --bdf-sepia: 150%;
+}
+
+.focus\:bdf-sepia-175:focus {
+  --bdf-sepia: 175%;
+}
+
+.focus\:bdf-sepia-200:focus {
+  --bdf-sepia: 200%;
+}
+
+.filter {
+  --filter-blur: 0;
+  --filter-brightness: 1;
+  --filter-contrast: 1;
+  --filter-drop-shadow: 0 0 0;
+  --filter-grayscale: 0;
+  --filter-hue-rotate: 0;
+  --filter-invert: 0;
+  --filter-saturate: 1;
+  --filter-sepia: 0;
+  filter: blur(var(--filter-blur)) brightness(var(--filter-brightness)) contrast(var(--filter-contrast)) drop-shadow(var(--filter-drop-shadow)) grayscale(var(--filter-grayscale)) hue-rotate(var(--filter-hue-rotate)) invert(var(--filter-invert)) saturate(var(--filter-saturate)) sepia(var(--filter-sepia));
+}
+
+.filter-blur-2 {
+  --filter-blur: 2px;
+}
+
+.filter-blur-4 {
+  --filter-blur: 4px;
+}
+
+.filter-blur-8 {
+  --filter-blur: 8px;
+}
+
+.filter-blur-16 {
+  --filter-blur: 16px;
+}
+
+.filter-blur-32 {
+  --filter-blur: 32px;
+}
+
+.filter-blur-64 {
+  --filter-blur: 64px;
+}
+
+.hover\:filter-blur-2:hover {
+  --filter-blur: 2px;
+}
+
+.hover\:filter-blur-4:hover {
+  --filter-blur: 4px;
+}
+
+.hover\:filter-blur-8:hover {
+  --filter-blur: 8px;
+}
+
+.hover\:filter-blur-16:hover {
+  --filter-blur: 16px;
+}
+
+.hover\:filter-blur-32:hover {
+  --filter-blur: 32px;
+}
+
+.hover\:filter-blur-64:hover {
+  --filter-blur: 64px;
+}
+
+.focus\:filter-blur-2:focus {
+  --filter-blur: 2px;
+}
+
+.focus\:filter-blur-4:focus {
+  --filter-blur: 4px;
+}
+
+.focus\:filter-blur-8:focus {
+  --filter-blur: 8px;
+}
+
+.focus\:filter-blur-16:focus {
+  --filter-blur: 16px;
+}
+
+.focus\:filter-blur-32:focus {
+  --filter-blur: 32px;
+}
+
+.focus\:filter-blur-64:focus {
+  --filter-blur: 64px;
+}
+
+.filter-brightness-0 {
+  --filter-brightness: 0%;
+}
+
+.filter-brightness-25 {
+  --filter-brightness: 25%;
+}
+
+.filter-brightness-50 {
+  --filter-brightness: 50%;
+}
+
+.filter-brightness-75 {
+  --filter-brightness: 75%;
+}
+
+.filter-brightness-100 {
+  --filter-brightness: 100%;
+}
+
+.hover\:filter-brightness-0:hover {
+  --filter-brightness: 0%;
+}
+
+.hover\:filter-brightness-25:hover {
+  --filter-brightness: 25%;
+}
+
+.hover\:filter-brightness-50:hover {
+  --filter-brightness: 50%;
+}
+
+.hover\:filter-brightness-75:hover {
+  --filter-brightness: 75%;
+}
+
+.hover\:filter-brightness-100:hover {
+  --filter-brightness: 100%;
+}
+
+.focus\:filter-brightness-0:focus {
+  --filter-brightness: 0%;
+}
+
+.focus\:filter-brightness-25:focus {
+  --filter-brightness: 25%;
+}
+
+.focus\:filter-brightness-50:focus {
+  --filter-brightness: 50%;
+}
+
+.focus\:filter-brightness-75:focus {
+  --filter-brightness: 75%;
+}
+
+.focus\:filter-brightness-100:focus {
+  --filter-brightness: 100%;
+}
+
+.filter-contrast-0 {
+  --filter-contrast: 0%;
+}
+
+.filter-contrast-25 {
+  --filter-contrast: 25%;
+}
+
+.filter-contrast-50 {
+  --filter-contrast: 50%;
+}
+
+.filter-contrast-75 {
+  --filter-contrast: 75%;
+}
+
+.filter-contrast-100 {
+  --filter-contrast: 100%;
+}
+
+.hover\:filter-contrast-0:hover {
+  --filter-contrast: 0%;
+}
+
+.hover\:filter-contrast-25:hover {
+  --filter-contrast: 25%;
+}
+
+.hover\:filter-contrast-50:hover {
+  --filter-contrast: 50%;
+}
+
+.hover\:filter-contrast-75:hover {
+  --filter-contrast: 75%;
+}
+
+.hover\:filter-contrast-100:hover {
+  --filter-contrast: 100%;
+}
+
+.focus\:filter-contrast-0:focus {
+  --filter-contrast: 0%;
+}
+
+.focus\:filter-contrast-25:focus {
+  --filter-contrast: 25%;
+}
+
+.focus\:filter-contrast-50:focus {
+  --filter-contrast: 50%;
+}
+
+.focus\:filter-contrast-75:focus {
+  --filter-contrast: 75%;
+}
+
+.focus\:filter-contrast-100:focus {
+  --filter-contrast: 100%;
+}
+
+.filter-drop-shadow-sm {
+  --filter-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.filter-drop-shadow {
+  --filter-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.filter-drop-shadow-md {
+  --filter-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.filter-drop-shadow-lg {
+  --filter-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.filter-drop-shadow-xl {
+  --filter-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+}
+
+.filter-drop-shadow-2xl {
+  --filter-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+}
+
+.hover\:filter-drop-shadow-sm:hover {
+  --filter-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.hover\:filter-drop-shadow:hover {
+  --filter-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.hover\:filter-drop-shadow-md:hover {
+  --filter-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hover\:filter-drop-shadow-lg:hover {
+  --filter-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hover\:filter-drop-shadow-xl:hover {
+  --filter-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+}
+
+.hover\:filter-drop-shadow-2xl:hover {
+  --filter-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+}
+
+.focus\:filter-drop-shadow-sm:focus {
+  --filter-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.focus\:filter-drop-shadow:focus {
+  --filter-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.focus\:filter-drop-shadow-md:focus {
+  --filter-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.focus\:filter-drop-shadow-lg:focus {
+  --filter-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.focus\:filter-drop-shadow-xl:focus {
+  --filter-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+}
+
+.focus\:filter-drop-shadow-2xl:focus {
+  --filter-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+}
+
+.filter-grayscale-0 {
+  --filter-grayscale: 0%;
+}
+
+.filter-grayscale-25 {
+  --filter-grayscale: 25%;
+}
+
+.filter-grayscale-50 {
+  --filter-grayscale: 50%;
+}
+
+.filter-grayscale-75 {
+  --filter-grayscale: 75%;
+}
+
+.filter-grayscale-100 {
+  --filter-grayscale: 100%;
+}
+
+.hover\:filter-grayscale-0:hover {
+  --filter-grayscale: 0%;
+}
+
+.hover\:filter-grayscale-25:hover {
+  --filter-grayscale: 25%;
+}
+
+.hover\:filter-grayscale-50:hover {
+  --filter-grayscale: 50%;
+}
+
+.hover\:filter-grayscale-75:hover {
+  --filter-grayscale: 75%;
+}
+
+.hover\:filter-grayscale-100:hover {
+  --filter-grayscale: 100%;
+}
+
+.focus\:filter-grayscale-0:focus {
+  --filter-grayscale: 0%;
+}
+
+.focus\:filter-grayscale-25:focus {
+  --filter-grayscale: 25%;
+}
+
+.focus\:filter-grayscale-50:focus {
+  --filter-grayscale: 50%;
+}
+
+.focus\:filter-grayscale-75:focus {
+  --filter-grayscale: 75%;
+}
+
+.focus\:filter-grayscale-100:focus {
+  --filter-grayscale: 100%;
+}
+
+.filter-hue-rotate-0 {
+  --filter-hue-rotate: 0deg;
+}
+
+.filter-hue-rotate-60 {
+  --filter-hue-rotate: 60deg;
+}
+
+.filter-hue-rotate-90 {
+  --filter-hue-rotate: 90deg;
+}
+
+.filter-hue-rotate-120 {
+  --filter-hue-rotate: 120deg;
+}
+
+.filter-hue-rotate-150 {
+  --filter-hue-rotate: 150deg;
+}
+
+.filter-hue-rotate-180 {
+  --filter-hue-rotate: 180deg;
+}
+
+.filter-hue-rotate-210 {
+  --filter-hue-rotate: 210deg;
+}
+
+.filter-hue-rotate-240 {
+  --filter-hue-rotate: 240deg;
+}
+
+.filter-hue-rotate-270 {
+  --filter-hue-rotate: 270deg;
+}
+
+.filter-hue-rotate-300 {
+  --filter-hue-rotate: 300deg;
+}
+
+.filter-hue-rotate-330 {
+  --filter-hue-rotate: 330deg;
+}
+
+.hover\:filter-hue-rotate-0:hover {
+  --filter-hue-rotate: 0deg;
+}
+
+.hover\:filter-hue-rotate-60:hover {
+  --filter-hue-rotate: 60deg;
+}
+
+.hover\:filter-hue-rotate-90:hover {
+  --filter-hue-rotate: 90deg;
+}
+
+.hover\:filter-hue-rotate-120:hover {
+  --filter-hue-rotate: 120deg;
+}
+
+.hover\:filter-hue-rotate-150:hover {
+  --filter-hue-rotate: 150deg;
+}
+
+.hover\:filter-hue-rotate-180:hover {
+  --filter-hue-rotate: 180deg;
+}
+
+.hover\:filter-hue-rotate-210:hover {
+  --filter-hue-rotate: 210deg;
+}
+
+.hover\:filter-hue-rotate-240:hover {
+  --filter-hue-rotate: 240deg;
+}
+
+.hover\:filter-hue-rotate-270:hover {
+  --filter-hue-rotate: 270deg;
+}
+
+.hover\:filter-hue-rotate-300:hover {
+  --filter-hue-rotate: 300deg;
+}
+
+.hover\:filter-hue-rotate-330:hover {
+  --filter-hue-rotate: 330deg;
+}
+
+.focus\:filter-hue-rotate-0:focus {
+  --filter-hue-rotate: 0deg;
+}
+
+.focus\:filter-hue-rotate-60:focus {
+  --filter-hue-rotate: 60deg;
+}
+
+.focus\:filter-hue-rotate-90:focus {
+  --filter-hue-rotate: 90deg;
+}
+
+.focus\:filter-hue-rotate-120:focus {
+  --filter-hue-rotate: 120deg;
+}
+
+.focus\:filter-hue-rotate-150:focus {
+  --filter-hue-rotate: 150deg;
+}
+
+.focus\:filter-hue-rotate-180:focus {
+  --filter-hue-rotate: 180deg;
+}
+
+.focus\:filter-hue-rotate-210:focus {
+  --filter-hue-rotate: 210deg;
+}
+
+.focus\:filter-hue-rotate-240:focus {
+  --filter-hue-rotate: 240deg;
+}
+
+.focus\:filter-hue-rotate-270:focus {
+  --filter-hue-rotate: 270deg;
+}
+
+.focus\:filter-hue-rotate-300:focus {
+  --filter-hue-rotate: 300deg;
+}
+
+.focus\:filter-hue-rotate-330:focus {
+  --filter-hue-rotate: 330deg;
+}
+
+.filter-invert-0 {
+  --filter-invert: 0%;
+}
+
+.filter-invert-25 {
+  --filter-invert: 25%;
+}
+
+.filter-invert-50 {
+  --filter-invert: 50%;
+}
+
+.filter-invert-75 {
+  --filter-invert: 75%;
+}
+
+.filter-invert-100 {
+  --filter-invert: 100%;
+}
+
+.hover\:filter-invert-0:hover {
+  --filter-invert: 0%;
+}
+
+.hover\:filter-invert-25:hover {
+  --filter-invert: 25%;
+}
+
+.hover\:filter-invert-50:hover {
+  --filter-invert: 50%;
+}
+
+.hover\:filter-invert-75:hover {
+  --filter-invert: 75%;
+}
+
+.hover\:filter-invert-100:hover {
+  --filter-invert: 100%;
+}
+
+.focus\:filter-invert-0:focus {
+  --filter-invert: 0%;
+}
+
+.focus\:filter-invert-25:focus {
+  --filter-invert: 25%;
+}
+
+.focus\:filter-invert-50:focus {
+  --filter-invert: 50%;
+}
+
+.focus\:filter-invert-75:focus {
+  --filter-invert: 75%;
+}
+
+.focus\:filter-invert-100:focus {
+  --filter-invert: 100%;
+}
+
+.filter-saturate-0 {
+  --filter-saturate: 0%;
+}
+
+.filter-saturate-25 {
+  --filter-saturate: 25%;
+}
+
+.filter-saturate-50 {
+  --filter-saturate: 50%;
+}
+
+.filter-saturate-75 {
+  --filter-saturate: 75%;
+}
+
+.filter-saturate-100 {
+  --filter-saturate: 100%;
+}
+
+.filter-saturate-125 {
+  --filter-saturate: 125%;
+}
+
+.filter-saturate-150 {
+  --filter-saturate: 150%;
+}
+
+.filter-saturate-175 {
+  --filter-saturate: 175%;
+}
+
+.filter-saturate-200 {
+  --filter-saturate: 200%;
+}
+
+.hover\:filter-saturate-0:hover {
+  --filter-saturate: 0%;
+}
+
+.hover\:filter-saturate-25:hover {
+  --filter-saturate: 25%;
+}
+
+.hover\:filter-saturate-50:hover {
+  --filter-saturate: 50%;
+}
+
+.hover\:filter-saturate-75:hover {
+  --filter-saturate: 75%;
+}
+
+.hover\:filter-saturate-100:hover {
+  --filter-saturate: 100%;
+}
+
+.hover\:filter-saturate-125:hover {
+  --filter-saturate: 125%;
+}
+
+.hover\:filter-saturate-150:hover {
+  --filter-saturate: 150%;
+}
+
+.hover\:filter-saturate-175:hover {
+  --filter-saturate: 175%;
+}
+
+.hover\:filter-saturate-200:hover {
+  --filter-saturate: 200%;
+}
+
+.focus\:filter-saturate-0:focus {
+  --filter-saturate: 0%;
+}
+
+.focus\:filter-saturate-25:focus {
+  --filter-saturate: 25%;
+}
+
+.focus\:filter-saturate-50:focus {
+  --filter-saturate: 50%;
+}
+
+.focus\:filter-saturate-75:focus {
+  --filter-saturate: 75%;
+}
+
+.focus\:filter-saturate-100:focus {
+  --filter-saturate: 100%;
+}
+
+.focus\:filter-saturate-125:focus {
+  --filter-saturate: 125%;
+}
+
+.focus\:filter-saturate-150:focus {
+  --filter-saturate: 150%;
+}
+
+.focus\:filter-saturate-175:focus {
+  --filter-saturate: 175%;
+}
+
+.focus\:filter-saturate-200:focus {
+  --filter-saturate: 200%;
+}
+
+.filter-sepia-0 {
+  --filter-sepia: 0%;
+}
+
+.filter-sepia-25 {
+  --filter-sepia: 25%;
+}
+
+.filter-sepia-50 {
+  --filter-sepia: 50%;
+}
+
+.filter-sepia-75 {
+  --filter-sepia: 75%;
+}
+
+.filter-sepia-100 {
+  --filter-sepia: 100%;
+}
+
+.filter-sepia-125 {
+  --filter-sepia: 125%;
+}
+
+.filter-sepia-150 {
+  --filter-sepia: 150%;
+}
+
+.filter-sepia-175 {
+  --filter-sepia: 175%;
+}
+
+.filter-sepia-200 {
+  --filter-sepia: 200%;
+}
+
+.hover\:filter-sepia-0:hover {
+  --filter-sepia: 0%;
+}
+
+.hover\:filter-sepia-25:hover {
+  --filter-sepia: 25%;
+}
+
+.hover\:filter-sepia-50:hover {
+  --filter-sepia: 50%;
+}
+
+.hover\:filter-sepia-75:hover {
+  --filter-sepia: 75%;
+}
+
+.hover\:filter-sepia-100:hover {
+  --filter-sepia: 100%;
+}
+
+.hover\:filter-sepia-125:hover {
+  --filter-sepia: 125%;
+}
+
+.hover\:filter-sepia-150:hover {
+  --filter-sepia: 150%;
+}
+
+.hover\:filter-sepia-175:hover {
+  --filter-sepia: 175%;
+}
+
+.hover\:filter-sepia-200:hover {
+  --filter-sepia: 200%;
+}
+
+.focus\:filter-sepia-0:focus {
+  --filter-sepia: 0%;
+}
+
+.focus\:filter-sepia-25:focus {
+  --filter-sepia: 25%;
+}
+
+.focus\:filter-sepia-50:focus {
+  --filter-sepia: 50%;
+}
+
+.focus\:filter-sepia-75:focus {
+  --filter-sepia: 75%;
+}
+
+.focus\:filter-sepia-100:focus {
+  --filter-sepia: 100%;
+}
+
+.focus\:filter-sepia-125:focus {
+  --filter-sepia: 125%;
+}
+
+.focus\:filter-sepia-150:focus {
+  --filter-sepia: 150%;
+}
+
+.focus\:filter-sepia-175:focus {
+  --filter-sepia: 175%;
+}
+
+.focus\:filter-sepia-200:focus {
+  --filter-sepia: 200%;
+}
+
 :root {
   font-family: 'Manrope', sans-serif;
 }
@@ -45082,6 +46709,1606 @@ video {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
   }
+
+  .sm\:blend-normal {
+    mix-blend-mode: normal;
+  }
+
+  .sm\:blend-multiply {
+    mix-blend-mode: multiply;
+  }
+
+  .sm\:blend-screen {
+    mix-blend-mode: screen;
+  }
+
+  .sm\:blend-overlay {
+    mix-blend-mode: overlay;
+  }
+
+  .sm\:blend-darken {
+    mix-blend-mode: darken;
+  }
+
+  .sm\:blend-lighten {
+    mix-blend-mode: lighten;
+  }
+
+  .sm\:blend-color-dodge {
+    mix-blend-mode: color-dodge;
+  }
+
+  .sm\:blend-color-burn {
+    mix-blend-mode: color-burn;
+  }
+
+  .sm\:blend-hard-light {
+    mix-blend-mode: hard-light;
+  }
+
+  .sm\:blend-soft-light {
+    mix-blend-mode: soft-light;
+  }
+
+  .sm\:blend-difference {
+    mix-blend-mode: difference;
+  }
+
+  .sm\:blend-exclusion {
+    mix-blend-mode: exclusion;
+  }
+
+  .sm\:blend-hue {
+    mix-blend-mode: hue;
+  }
+
+  .sm\:blend-saturation {
+    mix-blend-mode: saturation;
+  }
+
+  .sm\:blend-color {
+    mix-blend-mode: color;
+  }
+
+  .sm\:blend-luminosity {
+    mix-blend-mode: luminosity;
+  }
+
+  .sm\:bg-blend-normal {
+    background-blend-mode: normal;
+  }
+
+  .sm\:bg-blend-multiply {
+    background-blend-mode: multiply;
+  }
+
+  .sm\:bg-blend-screen {
+    background-blend-mode: screen;
+  }
+
+  .sm\:bg-blend-overlay {
+    background-blend-mode: overlay;
+  }
+
+  .sm\:bg-blend-darken {
+    background-blend-mode: darken;
+  }
+
+  .sm\:bg-blend-lighten {
+    background-blend-mode: lighten;
+  }
+
+  .sm\:bg-blend-color-dodge {
+    background-blend-mode: color-dodge;
+  }
+
+  .sm\:bg-blend-color-burn {
+    background-blend-mode: color-burn;
+  }
+
+  .sm\:bg-blend-hard-light {
+    background-blend-mode: hard-light;
+  }
+
+  .sm\:bg-blend-soft-light {
+    background-blend-mode: soft-light;
+  }
+
+  .sm\:bg-blend-difference {
+    background-blend-mode: difference;
+  }
+
+  .sm\:bg-blend-exclusion {
+    background-blend-mode: exclusion;
+  }
+
+  .sm\:bg-blend-hue {
+    background-blend-mode: hue;
+  }
+
+  .sm\:bg-blend-saturation {
+    background-blend-mode: saturation;
+  }
+
+  .sm\:bg-blend-color {
+    background-blend-mode: color;
+  }
+
+  .sm\:bg-blend-luminosity {
+    background-blend-mode: luminosity;
+  }
+
+  .sm\:isolation-isolate {
+    isolation: isolate;
+  }
+
+  .sm\:isolation-auto {
+    isolation: auto;
+  }
+
+  .sm\:bdf-blur-2 {
+    --bdf-blur: 2px;
+  }
+
+  .sm\:bdf-blur-4 {
+    --bdf-blur: 4px;
+  }
+
+  .sm\:bdf-blur-8 {
+    --bdf-blur: 8px;
+  }
+
+  .sm\:bdf-blur-16 {
+    --bdf-blur: 16px;
+  }
+
+  .sm\:bdf-blur-32 {
+    --bdf-blur: 32px;
+  }
+
+  .sm\:bdf-blur-64 {
+    --bdf-blur: 64px;
+  }
+
+  .sm\:hover\:bdf-blur-2:hover {
+    --bdf-blur: 2px;
+  }
+
+  .sm\:hover\:bdf-blur-4:hover {
+    --bdf-blur: 4px;
+  }
+
+  .sm\:hover\:bdf-blur-8:hover {
+    --bdf-blur: 8px;
+  }
+
+  .sm\:hover\:bdf-blur-16:hover {
+    --bdf-blur: 16px;
+  }
+
+  .sm\:hover\:bdf-blur-32:hover {
+    --bdf-blur: 32px;
+  }
+
+  .sm\:hover\:bdf-blur-64:hover {
+    --bdf-blur: 64px;
+  }
+
+  .sm\:focus\:bdf-blur-2:focus {
+    --bdf-blur: 2px;
+  }
+
+  .sm\:focus\:bdf-blur-4:focus {
+    --bdf-blur: 4px;
+  }
+
+  .sm\:focus\:bdf-blur-8:focus {
+    --bdf-blur: 8px;
+  }
+
+  .sm\:focus\:bdf-blur-16:focus {
+    --bdf-blur: 16px;
+  }
+
+  .sm\:focus\:bdf-blur-32:focus {
+    --bdf-blur: 32px;
+  }
+
+  .sm\:focus\:bdf-blur-64:focus {
+    --bdf-blur: 64px;
+  }
+
+  .sm\:bdf-brightness-0 {
+    --bdf-brightness: 0%;
+  }
+
+  .sm\:bdf-brightness-25 {
+    --bdf-brightness: 25%;
+  }
+
+  .sm\:bdf-brightness-50 {
+    --bdf-brightness: 50%;
+  }
+
+  .sm\:bdf-brightness-75 {
+    --bdf-brightness: 75%;
+  }
+
+  .sm\:bdf-brightness-100 {
+    --bdf-brightness: 100%;
+  }
+
+  .sm\:hover\:bdf-brightness-0:hover {
+    --bdf-brightness: 0%;
+  }
+
+  .sm\:hover\:bdf-brightness-25:hover {
+    --bdf-brightness: 25%;
+  }
+
+  .sm\:hover\:bdf-brightness-50:hover {
+    --bdf-brightness: 50%;
+  }
+
+  .sm\:hover\:bdf-brightness-75:hover {
+    --bdf-brightness: 75%;
+  }
+
+  .sm\:hover\:bdf-brightness-100:hover {
+    --bdf-brightness: 100%;
+  }
+
+  .sm\:focus\:bdf-brightness-0:focus {
+    --bdf-brightness: 0%;
+  }
+
+  .sm\:focus\:bdf-brightness-25:focus {
+    --bdf-brightness: 25%;
+  }
+
+  .sm\:focus\:bdf-brightness-50:focus {
+    --bdf-brightness: 50%;
+  }
+
+  .sm\:focus\:bdf-brightness-75:focus {
+    --bdf-brightness: 75%;
+  }
+
+  .sm\:focus\:bdf-brightness-100:focus {
+    --bdf-brightness: 100%;
+  }
+
+  .sm\:bdf-contrast-0 {
+    --bdf-contrast: 0%;
+  }
+
+  .sm\:bdf-contrast-25 {
+    --bdf-contrast: 25%;
+  }
+
+  .sm\:bdf-contrast-50 {
+    --bdf-contrast: 50%;
+  }
+
+  .sm\:bdf-contrast-75 {
+    --bdf-contrast: 75%;
+  }
+
+  .sm\:bdf-contrast-100 {
+    --bdf-contrast: 100%;
+  }
+
+  .sm\:hover\:bdf-contrast-0:hover {
+    --bdf-contrast: 0%;
+  }
+
+  .sm\:hover\:bdf-contrast-25:hover {
+    --bdf-contrast: 25%;
+  }
+
+  .sm\:hover\:bdf-contrast-50:hover {
+    --bdf-contrast: 50%;
+  }
+
+  .sm\:hover\:bdf-contrast-75:hover {
+    --bdf-contrast: 75%;
+  }
+
+  .sm\:hover\:bdf-contrast-100:hover {
+    --bdf-contrast: 100%;
+  }
+
+  .sm\:focus\:bdf-contrast-0:focus {
+    --bdf-contrast: 0%;
+  }
+
+  .sm\:focus\:bdf-contrast-25:focus {
+    --bdf-contrast: 25%;
+  }
+
+  .sm\:focus\:bdf-contrast-50:focus {
+    --bdf-contrast: 50%;
+  }
+
+  .sm\:focus\:bdf-contrast-75:focus {
+    --bdf-contrast: 75%;
+  }
+
+  .sm\:focus\:bdf-contrast-100:focus {
+    --bdf-contrast: 100%;
+  }
+
+  .sm\:bdf-drop-shadow-sm {
+    --bdf-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .sm\:bdf-drop-shadow {
+    --bdf-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:bdf-drop-shadow-md {
+    --bdf-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:bdf-drop-shadow-lg {
+    --bdf-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:bdf-drop-shadow-xl {
+    --bdf-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:bdf-drop-shadow-2xl {
+    --bdf-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .sm\:hover\:bdf-drop-shadow-sm:hover {
+    --bdf-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .sm\:hover\:bdf-drop-shadow:hover {
+    --bdf-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:hover\:bdf-drop-shadow-md:hover {
+    --bdf-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:hover\:bdf-drop-shadow-lg:hover {
+    --bdf-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:hover\:bdf-drop-shadow-xl:hover {
+    --bdf-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:hover\:bdf-drop-shadow-2xl:hover {
+    --bdf-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .sm\:focus\:bdf-drop-shadow-sm:focus {
+    --bdf-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .sm\:focus\:bdf-drop-shadow:focus {
+    --bdf-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:focus\:bdf-drop-shadow-md:focus {
+    --bdf-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:focus\:bdf-drop-shadow-lg:focus {
+    --bdf-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:focus\:bdf-drop-shadow-xl:focus {
+    --bdf-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:focus\:bdf-drop-shadow-2xl:focus {
+    --bdf-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .sm\:bdf-grayscale-0 {
+    --bdf-grayscale: 0%;
+  }
+
+  .sm\:bdf-grayscale-25 {
+    --bdf-grayscale: 25%;
+  }
+
+  .sm\:bdf-grayscale-50 {
+    --bdf-grayscale: 50%;
+  }
+
+  .sm\:bdf-grayscale-75 {
+    --bdf-grayscale: 75%;
+  }
+
+  .sm\:bdf-grayscale-100 {
+    --bdf-grayscale: 100%;
+  }
+
+  .sm\:hover\:bdf-grayscale-0:hover {
+    --bdf-grayscale: 0%;
+  }
+
+  .sm\:hover\:bdf-grayscale-25:hover {
+    --bdf-grayscale: 25%;
+  }
+
+  .sm\:hover\:bdf-grayscale-50:hover {
+    --bdf-grayscale: 50%;
+  }
+
+  .sm\:hover\:bdf-grayscale-75:hover {
+    --bdf-grayscale: 75%;
+  }
+
+  .sm\:hover\:bdf-grayscale-100:hover {
+    --bdf-grayscale: 100%;
+  }
+
+  .sm\:focus\:bdf-grayscale-0:focus {
+    --bdf-grayscale: 0%;
+  }
+
+  .sm\:focus\:bdf-grayscale-25:focus {
+    --bdf-grayscale: 25%;
+  }
+
+  .sm\:focus\:bdf-grayscale-50:focus {
+    --bdf-grayscale: 50%;
+  }
+
+  .sm\:focus\:bdf-grayscale-75:focus {
+    --bdf-grayscale: 75%;
+  }
+
+  .sm\:focus\:bdf-grayscale-100:focus {
+    --bdf-grayscale: 100%;
+  }
+
+  .sm\:bdf-hue-rotate-0 {
+    --bdf-hue-rotate: 0deg;
+  }
+
+  .sm\:bdf-hue-rotate-60 {
+    --bdf-hue-rotate: 60deg;
+  }
+
+  .sm\:bdf-hue-rotate-90 {
+    --bdf-hue-rotate: 90deg;
+  }
+
+  .sm\:bdf-hue-rotate-120 {
+    --bdf-hue-rotate: 120deg;
+  }
+
+  .sm\:bdf-hue-rotate-150 {
+    --bdf-hue-rotate: 150deg;
+  }
+
+  .sm\:bdf-hue-rotate-180 {
+    --bdf-hue-rotate: 180deg;
+  }
+
+  .sm\:bdf-hue-rotate-210 {
+    --bdf-hue-rotate: 210deg;
+  }
+
+  .sm\:bdf-hue-rotate-240 {
+    --bdf-hue-rotate: 240deg;
+  }
+
+  .sm\:bdf-hue-rotate-270 {
+    --bdf-hue-rotate: 270deg;
+  }
+
+  .sm\:bdf-hue-rotate-300 {
+    --bdf-hue-rotate: 300deg;
+  }
+
+  .sm\:bdf-hue-rotate-330 {
+    --bdf-hue-rotate: 330deg;
+  }
+
+  .sm\:hover\:bdf-hue-rotate-0:hover {
+    --bdf-hue-rotate: 0deg;
+  }
+
+  .sm\:hover\:bdf-hue-rotate-60:hover {
+    --bdf-hue-rotate: 60deg;
+  }
+
+  .sm\:hover\:bdf-hue-rotate-90:hover {
+    --bdf-hue-rotate: 90deg;
+  }
+
+  .sm\:hover\:bdf-hue-rotate-120:hover {
+    --bdf-hue-rotate: 120deg;
+  }
+
+  .sm\:hover\:bdf-hue-rotate-150:hover {
+    --bdf-hue-rotate: 150deg;
+  }
+
+  .sm\:hover\:bdf-hue-rotate-180:hover {
+    --bdf-hue-rotate: 180deg;
+  }
+
+  .sm\:hover\:bdf-hue-rotate-210:hover {
+    --bdf-hue-rotate: 210deg;
+  }
+
+  .sm\:hover\:bdf-hue-rotate-240:hover {
+    --bdf-hue-rotate: 240deg;
+  }
+
+  .sm\:hover\:bdf-hue-rotate-270:hover {
+    --bdf-hue-rotate: 270deg;
+  }
+
+  .sm\:hover\:bdf-hue-rotate-300:hover {
+    --bdf-hue-rotate: 300deg;
+  }
+
+  .sm\:hover\:bdf-hue-rotate-330:hover {
+    --bdf-hue-rotate: 330deg;
+  }
+
+  .sm\:focus\:bdf-hue-rotate-0:focus {
+    --bdf-hue-rotate: 0deg;
+  }
+
+  .sm\:focus\:bdf-hue-rotate-60:focus {
+    --bdf-hue-rotate: 60deg;
+  }
+
+  .sm\:focus\:bdf-hue-rotate-90:focus {
+    --bdf-hue-rotate: 90deg;
+  }
+
+  .sm\:focus\:bdf-hue-rotate-120:focus {
+    --bdf-hue-rotate: 120deg;
+  }
+
+  .sm\:focus\:bdf-hue-rotate-150:focus {
+    --bdf-hue-rotate: 150deg;
+  }
+
+  .sm\:focus\:bdf-hue-rotate-180:focus {
+    --bdf-hue-rotate: 180deg;
+  }
+
+  .sm\:focus\:bdf-hue-rotate-210:focus {
+    --bdf-hue-rotate: 210deg;
+  }
+
+  .sm\:focus\:bdf-hue-rotate-240:focus {
+    --bdf-hue-rotate: 240deg;
+  }
+
+  .sm\:focus\:bdf-hue-rotate-270:focus {
+    --bdf-hue-rotate: 270deg;
+  }
+
+  .sm\:focus\:bdf-hue-rotate-300:focus {
+    --bdf-hue-rotate: 300deg;
+  }
+
+  .sm\:focus\:bdf-hue-rotate-330:focus {
+    --bdf-hue-rotate: 330deg;
+  }
+
+  .sm\:bdf-invert-0 {
+    --bdf-invert: 0%;
+  }
+
+  .sm\:bdf-invert-25 {
+    --bdf-invert: 25%;
+  }
+
+  .sm\:bdf-invert-50 {
+    --bdf-invert: 50%;
+  }
+
+  .sm\:bdf-invert-75 {
+    --bdf-invert: 75%;
+  }
+
+  .sm\:bdf-invert-100 {
+    --bdf-invert: 100%;
+  }
+
+  .sm\:hover\:bdf-invert-0:hover {
+    --bdf-invert: 0%;
+  }
+
+  .sm\:hover\:bdf-invert-25:hover {
+    --bdf-invert: 25%;
+  }
+
+  .sm\:hover\:bdf-invert-50:hover {
+    --bdf-invert: 50%;
+  }
+
+  .sm\:hover\:bdf-invert-75:hover {
+    --bdf-invert: 75%;
+  }
+
+  .sm\:hover\:bdf-invert-100:hover {
+    --bdf-invert: 100%;
+  }
+
+  .sm\:focus\:bdf-invert-0:focus {
+    --bdf-invert: 0%;
+  }
+
+  .sm\:focus\:bdf-invert-25:focus {
+    --bdf-invert: 25%;
+  }
+
+  .sm\:focus\:bdf-invert-50:focus {
+    --bdf-invert: 50%;
+  }
+
+  .sm\:focus\:bdf-invert-75:focus {
+    --bdf-invert: 75%;
+  }
+
+  .sm\:focus\:bdf-invert-100:focus {
+    --bdf-invert: 100%;
+  }
+
+  .sm\:bdf-saturate-0 {
+    --bdf-saturate: 0%;
+  }
+
+  .sm\:bdf-saturate-25 {
+    --bdf-saturate: 25%;
+  }
+
+  .sm\:bdf-saturate-50 {
+    --bdf-saturate: 50%;
+  }
+
+  .sm\:bdf-saturate-75 {
+    --bdf-saturate: 75%;
+  }
+
+  .sm\:bdf-saturate-100 {
+    --bdf-saturate: 100%;
+  }
+
+  .sm\:bdf-saturate-125 {
+    --bdf-saturate: 125%;
+  }
+
+  .sm\:bdf-saturate-150 {
+    --bdf-saturate: 150%;
+  }
+
+  .sm\:bdf-saturate-175 {
+    --bdf-saturate: 175%;
+  }
+
+  .sm\:bdf-saturate-200 {
+    --bdf-saturate: 200%;
+  }
+
+  .sm\:hover\:bdf-saturate-0:hover {
+    --bdf-saturate: 0%;
+  }
+
+  .sm\:hover\:bdf-saturate-25:hover {
+    --bdf-saturate: 25%;
+  }
+
+  .sm\:hover\:bdf-saturate-50:hover {
+    --bdf-saturate: 50%;
+  }
+
+  .sm\:hover\:bdf-saturate-75:hover {
+    --bdf-saturate: 75%;
+  }
+
+  .sm\:hover\:bdf-saturate-100:hover {
+    --bdf-saturate: 100%;
+  }
+
+  .sm\:hover\:bdf-saturate-125:hover {
+    --bdf-saturate: 125%;
+  }
+
+  .sm\:hover\:bdf-saturate-150:hover {
+    --bdf-saturate: 150%;
+  }
+
+  .sm\:hover\:bdf-saturate-175:hover {
+    --bdf-saturate: 175%;
+  }
+
+  .sm\:hover\:bdf-saturate-200:hover {
+    --bdf-saturate: 200%;
+  }
+
+  .sm\:focus\:bdf-saturate-0:focus {
+    --bdf-saturate: 0%;
+  }
+
+  .sm\:focus\:bdf-saturate-25:focus {
+    --bdf-saturate: 25%;
+  }
+
+  .sm\:focus\:bdf-saturate-50:focus {
+    --bdf-saturate: 50%;
+  }
+
+  .sm\:focus\:bdf-saturate-75:focus {
+    --bdf-saturate: 75%;
+  }
+
+  .sm\:focus\:bdf-saturate-100:focus {
+    --bdf-saturate: 100%;
+  }
+
+  .sm\:focus\:bdf-saturate-125:focus {
+    --bdf-saturate: 125%;
+  }
+
+  .sm\:focus\:bdf-saturate-150:focus {
+    --bdf-saturate: 150%;
+  }
+
+  .sm\:focus\:bdf-saturate-175:focus {
+    --bdf-saturate: 175%;
+  }
+
+  .sm\:focus\:bdf-saturate-200:focus {
+    --bdf-saturate: 200%;
+  }
+
+  .sm\:bdf-sepia-0 {
+    --bdf-sepia: 0%;
+  }
+
+  .sm\:bdf-sepia-25 {
+    --bdf-sepia: 25%;
+  }
+
+  .sm\:bdf-sepia-50 {
+    --bdf-sepia: 50%;
+  }
+
+  .sm\:bdf-sepia-75 {
+    --bdf-sepia: 75%;
+  }
+
+  .sm\:bdf-sepia-100 {
+    --bdf-sepia: 100%;
+  }
+
+  .sm\:bdf-sepia-125 {
+    --bdf-sepia: 125%;
+  }
+
+  .sm\:bdf-sepia-150 {
+    --bdf-sepia: 150%;
+  }
+
+  .sm\:bdf-sepia-175 {
+    --bdf-sepia: 175%;
+  }
+
+  .sm\:bdf-sepia-200 {
+    --bdf-sepia: 200%;
+  }
+
+  .sm\:hover\:bdf-sepia-0:hover {
+    --bdf-sepia: 0%;
+  }
+
+  .sm\:hover\:bdf-sepia-25:hover {
+    --bdf-sepia: 25%;
+  }
+
+  .sm\:hover\:bdf-sepia-50:hover {
+    --bdf-sepia: 50%;
+  }
+
+  .sm\:hover\:bdf-sepia-75:hover {
+    --bdf-sepia: 75%;
+  }
+
+  .sm\:hover\:bdf-sepia-100:hover {
+    --bdf-sepia: 100%;
+  }
+
+  .sm\:hover\:bdf-sepia-125:hover {
+    --bdf-sepia: 125%;
+  }
+
+  .sm\:hover\:bdf-sepia-150:hover {
+    --bdf-sepia: 150%;
+  }
+
+  .sm\:hover\:bdf-sepia-175:hover {
+    --bdf-sepia: 175%;
+  }
+
+  .sm\:hover\:bdf-sepia-200:hover {
+    --bdf-sepia: 200%;
+  }
+
+  .sm\:focus\:bdf-sepia-0:focus {
+    --bdf-sepia: 0%;
+  }
+
+  .sm\:focus\:bdf-sepia-25:focus {
+    --bdf-sepia: 25%;
+  }
+
+  .sm\:focus\:bdf-sepia-50:focus {
+    --bdf-sepia: 50%;
+  }
+
+  .sm\:focus\:bdf-sepia-75:focus {
+    --bdf-sepia: 75%;
+  }
+
+  .sm\:focus\:bdf-sepia-100:focus {
+    --bdf-sepia: 100%;
+  }
+
+  .sm\:focus\:bdf-sepia-125:focus {
+    --bdf-sepia: 125%;
+  }
+
+  .sm\:focus\:bdf-sepia-150:focus {
+    --bdf-sepia: 150%;
+  }
+
+  .sm\:focus\:bdf-sepia-175:focus {
+    --bdf-sepia: 175%;
+  }
+
+  .sm\:focus\:bdf-sepia-200:focus {
+    --bdf-sepia: 200%;
+  }
+
+  .sm\:filter-blur-2 {
+    --filter-blur: 2px;
+  }
+
+  .sm\:filter-blur-4 {
+    --filter-blur: 4px;
+  }
+
+  .sm\:filter-blur-8 {
+    --filter-blur: 8px;
+  }
+
+  .sm\:filter-blur-16 {
+    --filter-blur: 16px;
+  }
+
+  .sm\:filter-blur-32 {
+    --filter-blur: 32px;
+  }
+
+  .sm\:filter-blur-64 {
+    --filter-blur: 64px;
+  }
+
+  .sm\:hover\:filter-blur-2:hover {
+    --filter-blur: 2px;
+  }
+
+  .sm\:hover\:filter-blur-4:hover {
+    --filter-blur: 4px;
+  }
+
+  .sm\:hover\:filter-blur-8:hover {
+    --filter-blur: 8px;
+  }
+
+  .sm\:hover\:filter-blur-16:hover {
+    --filter-blur: 16px;
+  }
+
+  .sm\:hover\:filter-blur-32:hover {
+    --filter-blur: 32px;
+  }
+
+  .sm\:hover\:filter-blur-64:hover {
+    --filter-blur: 64px;
+  }
+
+  .sm\:focus\:filter-blur-2:focus {
+    --filter-blur: 2px;
+  }
+
+  .sm\:focus\:filter-blur-4:focus {
+    --filter-blur: 4px;
+  }
+
+  .sm\:focus\:filter-blur-8:focus {
+    --filter-blur: 8px;
+  }
+
+  .sm\:focus\:filter-blur-16:focus {
+    --filter-blur: 16px;
+  }
+
+  .sm\:focus\:filter-blur-32:focus {
+    --filter-blur: 32px;
+  }
+
+  .sm\:focus\:filter-blur-64:focus {
+    --filter-blur: 64px;
+  }
+
+  .sm\:filter-brightness-0 {
+    --filter-brightness: 0%;
+  }
+
+  .sm\:filter-brightness-25 {
+    --filter-brightness: 25%;
+  }
+
+  .sm\:filter-brightness-50 {
+    --filter-brightness: 50%;
+  }
+
+  .sm\:filter-brightness-75 {
+    --filter-brightness: 75%;
+  }
+
+  .sm\:filter-brightness-100 {
+    --filter-brightness: 100%;
+  }
+
+  .sm\:hover\:filter-brightness-0:hover {
+    --filter-brightness: 0%;
+  }
+
+  .sm\:hover\:filter-brightness-25:hover {
+    --filter-brightness: 25%;
+  }
+
+  .sm\:hover\:filter-brightness-50:hover {
+    --filter-brightness: 50%;
+  }
+
+  .sm\:hover\:filter-brightness-75:hover {
+    --filter-brightness: 75%;
+  }
+
+  .sm\:hover\:filter-brightness-100:hover {
+    --filter-brightness: 100%;
+  }
+
+  .sm\:focus\:filter-brightness-0:focus {
+    --filter-brightness: 0%;
+  }
+
+  .sm\:focus\:filter-brightness-25:focus {
+    --filter-brightness: 25%;
+  }
+
+  .sm\:focus\:filter-brightness-50:focus {
+    --filter-brightness: 50%;
+  }
+
+  .sm\:focus\:filter-brightness-75:focus {
+    --filter-brightness: 75%;
+  }
+
+  .sm\:focus\:filter-brightness-100:focus {
+    --filter-brightness: 100%;
+  }
+
+  .sm\:filter-contrast-0 {
+    --filter-contrast: 0%;
+  }
+
+  .sm\:filter-contrast-25 {
+    --filter-contrast: 25%;
+  }
+
+  .sm\:filter-contrast-50 {
+    --filter-contrast: 50%;
+  }
+
+  .sm\:filter-contrast-75 {
+    --filter-contrast: 75%;
+  }
+
+  .sm\:filter-contrast-100 {
+    --filter-contrast: 100%;
+  }
+
+  .sm\:hover\:filter-contrast-0:hover {
+    --filter-contrast: 0%;
+  }
+
+  .sm\:hover\:filter-contrast-25:hover {
+    --filter-contrast: 25%;
+  }
+
+  .sm\:hover\:filter-contrast-50:hover {
+    --filter-contrast: 50%;
+  }
+
+  .sm\:hover\:filter-contrast-75:hover {
+    --filter-contrast: 75%;
+  }
+
+  .sm\:hover\:filter-contrast-100:hover {
+    --filter-contrast: 100%;
+  }
+
+  .sm\:focus\:filter-contrast-0:focus {
+    --filter-contrast: 0%;
+  }
+
+  .sm\:focus\:filter-contrast-25:focus {
+    --filter-contrast: 25%;
+  }
+
+  .sm\:focus\:filter-contrast-50:focus {
+    --filter-contrast: 50%;
+  }
+
+  .sm\:focus\:filter-contrast-75:focus {
+    --filter-contrast: 75%;
+  }
+
+  .sm\:focus\:filter-contrast-100:focus {
+    --filter-contrast: 100%;
+  }
+
+  .sm\:filter-drop-shadow-sm {
+    --filter-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .sm\:filter-drop-shadow {
+    --filter-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:filter-drop-shadow-md {
+    --filter-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:filter-drop-shadow-lg {
+    --filter-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:filter-drop-shadow-xl {
+    --filter-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:filter-drop-shadow-2xl {
+    --filter-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .sm\:hover\:filter-drop-shadow-sm:hover {
+    --filter-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .sm\:hover\:filter-drop-shadow:hover {
+    --filter-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:hover\:filter-drop-shadow-md:hover {
+    --filter-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:hover\:filter-drop-shadow-lg:hover {
+    --filter-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:hover\:filter-drop-shadow-xl:hover {
+    --filter-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:hover\:filter-drop-shadow-2xl:hover {
+    --filter-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .sm\:focus\:filter-drop-shadow-sm:focus {
+    --filter-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .sm\:focus\:filter-drop-shadow:focus {
+    --filter-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:focus\:filter-drop-shadow-md:focus {
+    --filter-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:focus\:filter-drop-shadow-lg:focus {
+    --filter-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:focus\:filter-drop-shadow-xl:focus {
+    --filter-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .sm\:focus\:filter-drop-shadow-2xl:focus {
+    --filter-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .sm\:filter-grayscale-0 {
+    --filter-grayscale: 0%;
+  }
+
+  .sm\:filter-grayscale-25 {
+    --filter-grayscale: 25%;
+  }
+
+  .sm\:filter-grayscale-50 {
+    --filter-grayscale: 50%;
+  }
+
+  .sm\:filter-grayscale-75 {
+    --filter-grayscale: 75%;
+  }
+
+  .sm\:filter-grayscale-100 {
+    --filter-grayscale: 100%;
+  }
+
+  .sm\:hover\:filter-grayscale-0:hover {
+    --filter-grayscale: 0%;
+  }
+
+  .sm\:hover\:filter-grayscale-25:hover {
+    --filter-grayscale: 25%;
+  }
+
+  .sm\:hover\:filter-grayscale-50:hover {
+    --filter-grayscale: 50%;
+  }
+
+  .sm\:hover\:filter-grayscale-75:hover {
+    --filter-grayscale: 75%;
+  }
+
+  .sm\:hover\:filter-grayscale-100:hover {
+    --filter-grayscale: 100%;
+  }
+
+  .sm\:focus\:filter-grayscale-0:focus {
+    --filter-grayscale: 0%;
+  }
+
+  .sm\:focus\:filter-grayscale-25:focus {
+    --filter-grayscale: 25%;
+  }
+
+  .sm\:focus\:filter-grayscale-50:focus {
+    --filter-grayscale: 50%;
+  }
+
+  .sm\:focus\:filter-grayscale-75:focus {
+    --filter-grayscale: 75%;
+  }
+
+  .sm\:focus\:filter-grayscale-100:focus {
+    --filter-grayscale: 100%;
+  }
+
+  .sm\:filter-hue-rotate-0 {
+    --filter-hue-rotate: 0deg;
+  }
+
+  .sm\:filter-hue-rotate-60 {
+    --filter-hue-rotate: 60deg;
+  }
+
+  .sm\:filter-hue-rotate-90 {
+    --filter-hue-rotate: 90deg;
+  }
+
+  .sm\:filter-hue-rotate-120 {
+    --filter-hue-rotate: 120deg;
+  }
+
+  .sm\:filter-hue-rotate-150 {
+    --filter-hue-rotate: 150deg;
+  }
+
+  .sm\:filter-hue-rotate-180 {
+    --filter-hue-rotate: 180deg;
+  }
+
+  .sm\:filter-hue-rotate-210 {
+    --filter-hue-rotate: 210deg;
+  }
+
+  .sm\:filter-hue-rotate-240 {
+    --filter-hue-rotate: 240deg;
+  }
+
+  .sm\:filter-hue-rotate-270 {
+    --filter-hue-rotate: 270deg;
+  }
+
+  .sm\:filter-hue-rotate-300 {
+    --filter-hue-rotate: 300deg;
+  }
+
+  .sm\:filter-hue-rotate-330 {
+    --filter-hue-rotate: 330deg;
+  }
+
+  .sm\:hover\:filter-hue-rotate-0:hover {
+    --filter-hue-rotate: 0deg;
+  }
+
+  .sm\:hover\:filter-hue-rotate-60:hover {
+    --filter-hue-rotate: 60deg;
+  }
+
+  .sm\:hover\:filter-hue-rotate-90:hover {
+    --filter-hue-rotate: 90deg;
+  }
+
+  .sm\:hover\:filter-hue-rotate-120:hover {
+    --filter-hue-rotate: 120deg;
+  }
+
+  .sm\:hover\:filter-hue-rotate-150:hover {
+    --filter-hue-rotate: 150deg;
+  }
+
+  .sm\:hover\:filter-hue-rotate-180:hover {
+    --filter-hue-rotate: 180deg;
+  }
+
+  .sm\:hover\:filter-hue-rotate-210:hover {
+    --filter-hue-rotate: 210deg;
+  }
+
+  .sm\:hover\:filter-hue-rotate-240:hover {
+    --filter-hue-rotate: 240deg;
+  }
+
+  .sm\:hover\:filter-hue-rotate-270:hover {
+    --filter-hue-rotate: 270deg;
+  }
+
+  .sm\:hover\:filter-hue-rotate-300:hover {
+    --filter-hue-rotate: 300deg;
+  }
+
+  .sm\:hover\:filter-hue-rotate-330:hover {
+    --filter-hue-rotate: 330deg;
+  }
+
+  .sm\:focus\:filter-hue-rotate-0:focus {
+    --filter-hue-rotate: 0deg;
+  }
+
+  .sm\:focus\:filter-hue-rotate-60:focus {
+    --filter-hue-rotate: 60deg;
+  }
+
+  .sm\:focus\:filter-hue-rotate-90:focus {
+    --filter-hue-rotate: 90deg;
+  }
+
+  .sm\:focus\:filter-hue-rotate-120:focus {
+    --filter-hue-rotate: 120deg;
+  }
+
+  .sm\:focus\:filter-hue-rotate-150:focus {
+    --filter-hue-rotate: 150deg;
+  }
+
+  .sm\:focus\:filter-hue-rotate-180:focus {
+    --filter-hue-rotate: 180deg;
+  }
+
+  .sm\:focus\:filter-hue-rotate-210:focus {
+    --filter-hue-rotate: 210deg;
+  }
+
+  .sm\:focus\:filter-hue-rotate-240:focus {
+    --filter-hue-rotate: 240deg;
+  }
+
+  .sm\:focus\:filter-hue-rotate-270:focus {
+    --filter-hue-rotate: 270deg;
+  }
+
+  .sm\:focus\:filter-hue-rotate-300:focus {
+    --filter-hue-rotate: 300deg;
+  }
+
+  .sm\:focus\:filter-hue-rotate-330:focus {
+    --filter-hue-rotate: 330deg;
+  }
+
+  .sm\:filter-invert-0 {
+    --filter-invert: 0%;
+  }
+
+  .sm\:filter-invert-25 {
+    --filter-invert: 25%;
+  }
+
+  .sm\:filter-invert-50 {
+    --filter-invert: 50%;
+  }
+
+  .sm\:filter-invert-75 {
+    --filter-invert: 75%;
+  }
+
+  .sm\:filter-invert-100 {
+    --filter-invert: 100%;
+  }
+
+  .sm\:hover\:filter-invert-0:hover {
+    --filter-invert: 0%;
+  }
+
+  .sm\:hover\:filter-invert-25:hover {
+    --filter-invert: 25%;
+  }
+
+  .sm\:hover\:filter-invert-50:hover {
+    --filter-invert: 50%;
+  }
+
+  .sm\:hover\:filter-invert-75:hover {
+    --filter-invert: 75%;
+  }
+
+  .sm\:hover\:filter-invert-100:hover {
+    --filter-invert: 100%;
+  }
+
+  .sm\:focus\:filter-invert-0:focus {
+    --filter-invert: 0%;
+  }
+
+  .sm\:focus\:filter-invert-25:focus {
+    --filter-invert: 25%;
+  }
+
+  .sm\:focus\:filter-invert-50:focus {
+    --filter-invert: 50%;
+  }
+
+  .sm\:focus\:filter-invert-75:focus {
+    --filter-invert: 75%;
+  }
+
+  .sm\:focus\:filter-invert-100:focus {
+    --filter-invert: 100%;
+  }
+
+  .sm\:filter-saturate-0 {
+    --filter-saturate: 0%;
+  }
+
+  .sm\:filter-saturate-25 {
+    --filter-saturate: 25%;
+  }
+
+  .sm\:filter-saturate-50 {
+    --filter-saturate: 50%;
+  }
+
+  .sm\:filter-saturate-75 {
+    --filter-saturate: 75%;
+  }
+
+  .sm\:filter-saturate-100 {
+    --filter-saturate: 100%;
+  }
+
+  .sm\:filter-saturate-125 {
+    --filter-saturate: 125%;
+  }
+
+  .sm\:filter-saturate-150 {
+    --filter-saturate: 150%;
+  }
+
+  .sm\:filter-saturate-175 {
+    --filter-saturate: 175%;
+  }
+
+  .sm\:filter-saturate-200 {
+    --filter-saturate: 200%;
+  }
+
+  .sm\:hover\:filter-saturate-0:hover {
+    --filter-saturate: 0%;
+  }
+
+  .sm\:hover\:filter-saturate-25:hover {
+    --filter-saturate: 25%;
+  }
+
+  .sm\:hover\:filter-saturate-50:hover {
+    --filter-saturate: 50%;
+  }
+
+  .sm\:hover\:filter-saturate-75:hover {
+    --filter-saturate: 75%;
+  }
+
+  .sm\:hover\:filter-saturate-100:hover {
+    --filter-saturate: 100%;
+  }
+
+  .sm\:hover\:filter-saturate-125:hover {
+    --filter-saturate: 125%;
+  }
+
+  .sm\:hover\:filter-saturate-150:hover {
+    --filter-saturate: 150%;
+  }
+
+  .sm\:hover\:filter-saturate-175:hover {
+    --filter-saturate: 175%;
+  }
+
+  .sm\:hover\:filter-saturate-200:hover {
+    --filter-saturate: 200%;
+  }
+
+  .sm\:focus\:filter-saturate-0:focus {
+    --filter-saturate: 0%;
+  }
+
+  .sm\:focus\:filter-saturate-25:focus {
+    --filter-saturate: 25%;
+  }
+
+  .sm\:focus\:filter-saturate-50:focus {
+    --filter-saturate: 50%;
+  }
+
+  .sm\:focus\:filter-saturate-75:focus {
+    --filter-saturate: 75%;
+  }
+
+  .sm\:focus\:filter-saturate-100:focus {
+    --filter-saturate: 100%;
+  }
+
+  .sm\:focus\:filter-saturate-125:focus {
+    --filter-saturate: 125%;
+  }
+
+  .sm\:focus\:filter-saturate-150:focus {
+    --filter-saturate: 150%;
+  }
+
+  .sm\:focus\:filter-saturate-175:focus {
+    --filter-saturate: 175%;
+  }
+
+  .sm\:focus\:filter-saturate-200:focus {
+    --filter-saturate: 200%;
+  }
+
+  .sm\:filter-sepia-0 {
+    --filter-sepia: 0%;
+  }
+
+  .sm\:filter-sepia-25 {
+    --filter-sepia: 25%;
+  }
+
+  .sm\:filter-sepia-50 {
+    --filter-sepia: 50%;
+  }
+
+  .sm\:filter-sepia-75 {
+    --filter-sepia: 75%;
+  }
+
+  .sm\:filter-sepia-100 {
+    --filter-sepia: 100%;
+  }
+
+  .sm\:filter-sepia-125 {
+    --filter-sepia: 125%;
+  }
+
+  .sm\:filter-sepia-150 {
+    --filter-sepia: 150%;
+  }
+
+  .sm\:filter-sepia-175 {
+    --filter-sepia: 175%;
+  }
+
+  .sm\:filter-sepia-200 {
+    --filter-sepia: 200%;
+  }
+
+  .sm\:hover\:filter-sepia-0:hover {
+    --filter-sepia: 0%;
+  }
+
+  .sm\:hover\:filter-sepia-25:hover {
+    --filter-sepia: 25%;
+  }
+
+  .sm\:hover\:filter-sepia-50:hover {
+    --filter-sepia: 50%;
+  }
+
+  .sm\:hover\:filter-sepia-75:hover {
+    --filter-sepia: 75%;
+  }
+
+  .sm\:hover\:filter-sepia-100:hover {
+    --filter-sepia: 100%;
+  }
+
+  .sm\:hover\:filter-sepia-125:hover {
+    --filter-sepia: 125%;
+  }
+
+  .sm\:hover\:filter-sepia-150:hover {
+    --filter-sepia: 150%;
+  }
+
+  .sm\:hover\:filter-sepia-175:hover {
+    --filter-sepia: 175%;
+  }
+
+  .sm\:hover\:filter-sepia-200:hover {
+    --filter-sepia: 200%;
+  }
+
+  .sm\:focus\:filter-sepia-0:focus {
+    --filter-sepia: 0%;
+  }
+
+  .sm\:focus\:filter-sepia-25:focus {
+    --filter-sepia: 25%;
+  }
+
+  .sm\:focus\:filter-sepia-50:focus {
+    --filter-sepia: 50%;
+  }
+
+  .sm\:focus\:filter-sepia-75:focus {
+    --filter-sepia: 75%;
+  }
+
+  .sm\:focus\:filter-sepia-100:focus {
+    --filter-sepia: 100%;
+  }
+
+  .sm\:focus\:filter-sepia-125:focus {
+    --filter-sepia: 125%;
+  }
+
+  .sm\:focus\:filter-sepia-150:focus {
+    --filter-sepia: 150%;
+  }
+
+  .sm\:focus\:filter-sepia-175:focus {
+    --filter-sepia: 175%;
+  }
+
+  .sm\:focus\:filter-sepia-200:focus {
+    --filter-sepia: 200%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -67296,6 +70523,1606 @@ video {
   .md\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .md\:blend-normal {
+    mix-blend-mode: normal;
+  }
+
+  .md\:blend-multiply {
+    mix-blend-mode: multiply;
+  }
+
+  .md\:blend-screen {
+    mix-blend-mode: screen;
+  }
+
+  .md\:blend-overlay {
+    mix-blend-mode: overlay;
+  }
+
+  .md\:blend-darken {
+    mix-blend-mode: darken;
+  }
+
+  .md\:blend-lighten {
+    mix-blend-mode: lighten;
+  }
+
+  .md\:blend-color-dodge {
+    mix-blend-mode: color-dodge;
+  }
+
+  .md\:blend-color-burn {
+    mix-blend-mode: color-burn;
+  }
+
+  .md\:blend-hard-light {
+    mix-blend-mode: hard-light;
+  }
+
+  .md\:blend-soft-light {
+    mix-blend-mode: soft-light;
+  }
+
+  .md\:blend-difference {
+    mix-blend-mode: difference;
+  }
+
+  .md\:blend-exclusion {
+    mix-blend-mode: exclusion;
+  }
+
+  .md\:blend-hue {
+    mix-blend-mode: hue;
+  }
+
+  .md\:blend-saturation {
+    mix-blend-mode: saturation;
+  }
+
+  .md\:blend-color {
+    mix-blend-mode: color;
+  }
+
+  .md\:blend-luminosity {
+    mix-blend-mode: luminosity;
+  }
+
+  .md\:bg-blend-normal {
+    background-blend-mode: normal;
+  }
+
+  .md\:bg-blend-multiply {
+    background-blend-mode: multiply;
+  }
+
+  .md\:bg-blend-screen {
+    background-blend-mode: screen;
+  }
+
+  .md\:bg-blend-overlay {
+    background-blend-mode: overlay;
+  }
+
+  .md\:bg-blend-darken {
+    background-blend-mode: darken;
+  }
+
+  .md\:bg-blend-lighten {
+    background-blend-mode: lighten;
+  }
+
+  .md\:bg-blend-color-dodge {
+    background-blend-mode: color-dodge;
+  }
+
+  .md\:bg-blend-color-burn {
+    background-blend-mode: color-burn;
+  }
+
+  .md\:bg-blend-hard-light {
+    background-blend-mode: hard-light;
+  }
+
+  .md\:bg-blend-soft-light {
+    background-blend-mode: soft-light;
+  }
+
+  .md\:bg-blend-difference {
+    background-blend-mode: difference;
+  }
+
+  .md\:bg-blend-exclusion {
+    background-blend-mode: exclusion;
+  }
+
+  .md\:bg-blend-hue {
+    background-blend-mode: hue;
+  }
+
+  .md\:bg-blend-saturation {
+    background-blend-mode: saturation;
+  }
+
+  .md\:bg-blend-color {
+    background-blend-mode: color;
+  }
+
+  .md\:bg-blend-luminosity {
+    background-blend-mode: luminosity;
+  }
+
+  .md\:isolation-isolate {
+    isolation: isolate;
+  }
+
+  .md\:isolation-auto {
+    isolation: auto;
+  }
+
+  .md\:bdf-blur-2 {
+    --bdf-blur: 2px;
+  }
+
+  .md\:bdf-blur-4 {
+    --bdf-blur: 4px;
+  }
+
+  .md\:bdf-blur-8 {
+    --bdf-blur: 8px;
+  }
+
+  .md\:bdf-blur-16 {
+    --bdf-blur: 16px;
+  }
+
+  .md\:bdf-blur-32 {
+    --bdf-blur: 32px;
+  }
+
+  .md\:bdf-blur-64 {
+    --bdf-blur: 64px;
+  }
+
+  .md\:hover\:bdf-blur-2:hover {
+    --bdf-blur: 2px;
+  }
+
+  .md\:hover\:bdf-blur-4:hover {
+    --bdf-blur: 4px;
+  }
+
+  .md\:hover\:bdf-blur-8:hover {
+    --bdf-blur: 8px;
+  }
+
+  .md\:hover\:bdf-blur-16:hover {
+    --bdf-blur: 16px;
+  }
+
+  .md\:hover\:bdf-blur-32:hover {
+    --bdf-blur: 32px;
+  }
+
+  .md\:hover\:bdf-blur-64:hover {
+    --bdf-blur: 64px;
+  }
+
+  .md\:focus\:bdf-blur-2:focus {
+    --bdf-blur: 2px;
+  }
+
+  .md\:focus\:bdf-blur-4:focus {
+    --bdf-blur: 4px;
+  }
+
+  .md\:focus\:bdf-blur-8:focus {
+    --bdf-blur: 8px;
+  }
+
+  .md\:focus\:bdf-blur-16:focus {
+    --bdf-blur: 16px;
+  }
+
+  .md\:focus\:bdf-blur-32:focus {
+    --bdf-blur: 32px;
+  }
+
+  .md\:focus\:bdf-blur-64:focus {
+    --bdf-blur: 64px;
+  }
+
+  .md\:bdf-brightness-0 {
+    --bdf-brightness: 0%;
+  }
+
+  .md\:bdf-brightness-25 {
+    --bdf-brightness: 25%;
+  }
+
+  .md\:bdf-brightness-50 {
+    --bdf-brightness: 50%;
+  }
+
+  .md\:bdf-brightness-75 {
+    --bdf-brightness: 75%;
+  }
+
+  .md\:bdf-brightness-100 {
+    --bdf-brightness: 100%;
+  }
+
+  .md\:hover\:bdf-brightness-0:hover {
+    --bdf-brightness: 0%;
+  }
+
+  .md\:hover\:bdf-brightness-25:hover {
+    --bdf-brightness: 25%;
+  }
+
+  .md\:hover\:bdf-brightness-50:hover {
+    --bdf-brightness: 50%;
+  }
+
+  .md\:hover\:bdf-brightness-75:hover {
+    --bdf-brightness: 75%;
+  }
+
+  .md\:hover\:bdf-brightness-100:hover {
+    --bdf-brightness: 100%;
+  }
+
+  .md\:focus\:bdf-brightness-0:focus {
+    --bdf-brightness: 0%;
+  }
+
+  .md\:focus\:bdf-brightness-25:focus {
+    --bdf-brightness: 25%;
+  }
+
+  .md\:focus\:bdf-brightness-50:focus {
+    --bdf-brightness: 50%;
+  }
+
+  .md\:focus\:bdf-brightness-75:focus {
+    --bdf-brightness: 75%;
+  }
+
+  .md\:focus\:bdf-brightness-100:focus {
+    --bdf-brightness: 100%;
+  }
+
+  .md\:bdf-contrast-0 {
+    --bdf-contrast: 0%;
+  }
+
+  .md\:bdf-contrast-25 {
+    --bdf-contrast: 25%;
+  }
+
+  .md\:bdf-contrast-50 {
+    --bdf-contrast: 50%;
+  }
+
+  .md\:bdf-contrast-75 {
+    --bdf-contrast: 75%;
+  }
+
+  .md\:bdf-contrast-100 {
+    --bdf-contrast: 100%;
+  }
+
+  .md\:hover\:bdf-contrast-0:hover {
+    --bdf-contrast: 0%;
+  }
+
+  .md\:hover\:bdf-contrast-25:hover {
+    --bdf-contrast: 25%;
+  }
+
+  .md\:hover\:bdf-contrast-50:hover {
+    --bdf-contrast: 50%;
+  }
+
+  .md\:hover\:bdf-contrast-75:hover {
+    --bdf-contrast: 75%;
+  }
+
+  .md\:hover\:bdf-contrast-100:hover {
+    --bdf-contrast: 100%;
+  }
+
+  .md\:focus\:bdf-contrast-0:focus {
+    --bdf-contrast: 0%;
+  }
+
+  .md\:focus\:bdf-contrast-25:focus {
+    --bdf-contrast: 25%;
+  }
+
+  .md\:focus\:bdf-contrast-50:focus {
+    --bdf-contrast: 50%;
+  }
+
+  .md\:focus\:bdf-contrast-75:focus {
+    --bdf-contrast: 75%;
+  }
+
+  .md\:focus\:bdf-contrast-100:focus {
+    --bdf-contrast: 100%;
+  }
+
+  .md\:bdf-drop-shadow-sm {
+    --bdf-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .md\:bdf-drop-shadow {
+    --bdf-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:bdf-drop-shadow-md {
+    --bdf-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:bdf-drop-shadow-lg {
+    --bdf-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:bdf-drop-shadow-xl {
+    --bdf-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:bdf-drop-shadow-2xl {
+    --bdf-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .md\:hover\:bdf-drop-shadow-sm:hover {
+    --bdf-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .md\:hover\:bdf-drop-shadow:hover {
+    --bdf-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:hover\:bdf-drop-shadow-md:hover {
+    --bdf-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:hover\:bdf-drop-shadow-lg:hover {
+    --bdf-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:hover\:bdf-drop-shadow-xl:hover {
+    --bdf-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:hover\:bdf-drop-shadow-2xl:hover {
+    --bdf-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .md\:focus\:bdf-drop-shadow-sm:focus {
+    --bdf-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .md\:focus\:bdf-drop-shadow:focus {
+    --bdf-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:focus\:bdf-drop-shadow-md:focus {
+    --bdf-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:focus\:bdf-drop-shadow-lg:focus {
+    --bdf-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:focus\:bdf-drop-shadow-xl:focus {
+    --bdf-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:focus\:bdf-drop-shadow-2xl:focus {
+    --bdf-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .md\:bdf-grayscale-0 {
+    --bdf-grayscale: 0%;
+  }
+
+  .md\:bdf-grayscale-25 {
+    --bdf-grayscale: 25%;
+  }
+
+  .md\:bdf-grayscale-50 {
+    --bdf-grayscale: 50%;
+  }
+
+  .md\:bdf-grayscale-75 {
+    --bdf-grayscale: 75%;
+  }
+
+  .md\:bdf-grayscale-100 {
+    --bdf-grayscale: 100%;
+  }
+
+  .md\:hover\:bdf-grayscale-0:hover {
+    --bdf-grayscale: 0%;
+  }
+
+  .md\:hover\:bdf-grayscale-25:hover {
+    --bdf-grayscale: 25%;
+  }
+
+  .md\:hover\:bdf-grayscale-50:hover {
+    --bdf-grayscale: 50%;
+  }
+
+  .md\:hover\:bdf-grayscale-75:hover {
+    --bdf-grayscale: 75%;
+  }
+
+  .md\:hover\:bdf-grayscale-100:hover {
+    --bdf-grayscale: 100%;
+  }
+
+  .md\:focus\:bdf-grayscale-0:focus {
+    --bdf-grayscale: 0%;
+  }
+
+  .md\:focus\:bdf-grayscale-25:focus {
+    --bdf-grayscale: 25%;
+  }
+
+  .md\:focus\:bdf-grayscale-50:focus {
+    --bdf-grayscale: 50%;
+  }
+
+  .md\:focus\:bdf-grayscale-75:focus {
+    --bdf-grayscale: 75%;
+  }
+
+  .md\:focus\:bdf-grayscale-100:focus {
+    --bdf-grayscale: 100%;
+  }
+
+  .md\:bdf-hue-rotate-0 {
+    --bdf-hue-rotate: 0deg;
+  }
+
+  .md\:bdf-hue-rotate-60 {
+    --bdf-hue-rotate: 60deg;
+  }
+
+  .md\:bdf-hue-rotate-90 {
+    --bdf-hue-rotate: 90deg;
+  }
+
+  .md\:bdf-hue-rotate-120 {
+    --bdf-hue-rotate: 120deg;
+  }
+
+  .md\:bdf-hue-rotate-150 {
+    --bdf-hue-rotate: 150deg;
+  }
+
+  .md\:bdf-hue-rotate-180 {
+    --bdf-hue-rotate: 180deg;
+  }
+
+  .md\:bdf-hue-rotate-210 {
+    --bdf-hue-rotate: 210deg;
+  }
+
+  .md\:bdf-hue-rotate-240 {
+    --bdf-hue-rotate: 240deg;
+  }
+
+  .md\:bdf-hue-rotate-270 {
+    --bdf-hue-rotate: 270deg;
+  }
+
+  .md\:bdf-hue-rotate-300 {
+    --bdf-hue-rotate: 300deg;
+  }
+
+  .md\:bdf-hue-rotate-330 {
+    --bdf-hue-rotate: 330deg;
+  }
+
+  .md\:hover\:bdf-hue-rotate-0:hover {
+    --bdf-hue-rotate: 0deg;
+  }
+
+  .md\:hover\:bdf-hue-rotate-60:hover {
+    --bdf-hue-rotate: 60deg;
+  }
+
+  .md\:hover\:bdf-hue-rotate-90:hover {
+    --bdf-hue-rotate: 90deg;
+  }
+
+  .md\:hover\:bdf-hue-rotate-120:hover {
+    --bdf-hue-rotate: 120deg;
+  }
+
+  .md\:hover\:bdf-hue-rotate-150:hover {
+    --bdf-hue-rotate: 150deg;
+  }
+
+  .md\:hover\:bdf-hue-rotate-180:hover {
+    --bdf-hue-rotate: 180deg;
+  }
+
+  .md\:hover\:bdf-hue-rotate-210:hover {
+    --bdf-hue-rotate: 210deg;
+  }
+
+  .md\:hover\:bdf-hue-rotate-240:hover {
+    --bdf-hue-rotate: 240deg;
+  }
+
+  .md\:hover\:bdf-hue-rotate-270:hover {
+    --bdf-hue-rotate: 270deg;
+  }
+
+  .md\:hover\:bdf-hue-rotate-300:hover {
+    --bdf-hue-rotate: 300deg;
+  }
+
+  .md\:hover\:bdf-hue-rotate-330:hover {
+    --bdf-hue-rotate: 330deg;
+  }
+
+  .md\:focus\:bdf-hue-rotate-0:focus {
+    --bdf-hue-rotate: 0deg;
+  }
+
+  .md\:focus\:bdf-hue-rotate-60:focus {
+    --bdf-hue-rotate: 60deg;
+  }
+
+  .md\:focus\:bdf-hue-rotate-90:focus {
+    --bdf-hue-rotate: 90deg;
+  }
+
+  .md\:focus\:bdf-hue-rotate-120:focus {
+    --bdf-hue-rotate: 120deg;
+  }
+
+  .md\:focus\:bdf-hue-rotate-150:focus {
+    --bdf-hue-rotate: 150deg;
+  }
+
+  .md\:focus\:bdf-hue-rotate-180:focus {
+    --bdf-hue-rotate: 180deg;
+  }
+
+  .md\:focus\:bdf-hue-rotate-210:focus {
+    --bdf-hue-rotate: 210deg;
+  }
+
+  .md\:focus\:bdf-hue-rotate-240:focus {
+    --bdf-hue-rotate: 240deg;
+  }
+
+  .md\:focus\:bdf-hue-rotate-270:focus {
+    --bdf-hue-rotate: 270deg;
+  }
+
+  .md\:focus\:bdf-hue-rotate-300:focus {
+    --bdf-hue-rotate: 300deg;
+  }
+
+  .md\:focus\:bdf-hue-rotate-330:focus {
+    --bdf-hue-rotate: 330deg;
+  }
+
+  .md\:bdf-invert-0 {
+    --bdf-invert: 0%;
+  }
+
+  .md\:bdf-invert-25 {
+    --bdf-invert: 25%;
+  }
+
+  .md\:bdf-invert-50 {
+    --bdf-invert: 50%;
+  }
+
+  .md\:bdf-invert-75 {
+    --bdf-invert: 75%;
+  }
+
+  .md\:bdf-invert-100 {
+    --bdf-invert: 100%;
+  }
+
+  .md\:hover\:bdf-invert-0:hover {
+    --bdf-invert: 0%;
+  }
+
+  .md\:hover\:bdf-invert-25:hover {
+    --bdf-invert: 25%;
+  }
+
+  .md\:hover\:bdf-invert-50:hover {
+    --bdf-invert: 50%;
+  }
+
+  .md\:hover\:bdf-invert-75:hover {
+    --bdf-invert: 75%;
+  }
+
+  .md\:hover\:bdf-invert-100:hover {
+    --bdf-invert: 100%;
+  }
+
+  .md\:focus\:bdf-invert-0:focus {
+    --bdf-invert: 0%;
+  }
+
+  .md\:focus\:bdf-invert-25:focus {
+    --bdf-invert: 25%;
+  }
+
+  .md\:focus\:bdf-invert-50:focus {
+    --bdf-invert: 50%;
+  }
+
+  .md\:focus\:bdf-invert-75:focus {
+    --bdf-invert: 75%;
+  }
+
+  .md\:focus\:bdf-invert-100:focus {
+    --bdf-invert: 100%;
+  }
+
+  .md\:bdf-saturate-0 {
+    --bdf-saturate: 0%;
+  }
+
+  .md\:bdf-saturate-25 {
+    --bdf-saturate: 25%;
+  }
+
+  .md\:bdf-saturate-50 {
+    --bdf-saturate: 50%;
+  }
+
+  .md\:bdf-saturate-75 {
+    --bdf-saturate: 75%;
+  }
+
+  .md\:bdf-saturate-100 {
+    --bdf-saturate: 100%;
+  }
+
+  .md\:bdf-saturate-125 {
+    --bdf-saturate: 125%;
+  }
+
+  .md\:bdf-saturate-150 {
+    --bdf-saturate: 150%;
+  }
+
+  .md\:bdf-saturate-175 {
+    --bdf-saturate: 175%;
+  }
+
+  .md\:bdf-saturate-200 {
+    --bdf-saturate: 200%;
+  }
+
+  .md\:hover\:bdf-saturate-0:hover {
+    --bdf-saturate: 0%;
+  }
+
+  .md\:hover\:bdf-saturate-25:hover {
+    --bdf-saturate: 25%;
+  }
+
+  .md\:hover\:bdf-saturate-50:hover {
+    --bdf-saturate: 50%;
+  }
+
+  .md\:hover\:bdf-saturate-75:hover {
+    --bdf-saturate: 75%;
+  }
+
+  .md\:hover\:bdf-saturate-100:hover {
+    --bdf-saturate: 100%;
+  }
+
+  .md\:hover\:bdf-saturate-125:hover {
+    --bdf-saturate: 125%;
+  }
+
+  .md\:hover\:bdf-saturate-150:hover {
+    --bdf-saturate: 150%;
+  }
+
+  .md\:hover\:bdf-saturate-175:hover {
+    --bdf-saturate: 175%;
+  }
+
+  .md\:hover\:bdf-saturate-200:hover {
+    --bdf-saturate: 200%;
+  }
+
+  .md\:focus\:bdf-saturate-0:focus {
+    --bdf-saturate: 0%;
+  }
+
+  .md\:focus\:bdf-saturate-25:focus {
+    --bdf-saturate: 25%;
+  }
+
+  .md\:focus\:bdf-saturate-50:focus {
+    --bdf-saturate: 50%;
+  }
+
+  .md\:focus\:bdf-saturate-75:focus {
+    --bdf-saturate: 75%;
+  }
+
+  .md\:focus\:bdf-saturate-100:focus {
+    --bdf-saturate: 100%;
+  }
+
+  .md\:focus\:bdf-saturate-125:focus {
+    --bdf-saturate: 125%;
+  }
+
+  .md\:focus\:bdf-saturate-150:focus {
+    --bdf-saturate: 150%;
+  }
+
+  .md\:focus\:bdf-saturate-175:focus {
+    --bdf-saturate: 175%;
+  }
+
+  .md\:focus\:bdf-saturate-200:focus {
+    --bdf-saturate: 200%;
+  }
+
+  .md\:bdf-sepia-0 {
+    --bdf-sepia: 0%;
+  }
+
+  .md\:bdf-sepia-25 {
+    --bdf-sepia: 25%;
+  }
+
+  .md\:bdf-sepia-50 {
+    --bdf-sepia: 50%;
+  }
+
+  .md\:bdf-sepia-75 {
+    --bdf-sepia: 75%;
+  }
+
+  .md\:bdf-sepia-100 {
+    --bdf-sepia: 100%;
+  }
+
+  .md\:bdf-sepia-125 {
+    --bdf-sepia: 125%;
+  }
+
+  .md\:bdf-sepia-150 {
+    --bdf-sepia: 150%;
+  }
+
+  .md\:bdf-sepia-175 {
+    --bdf-sepia: 175%;
+  }
+
+  .md\:bdf-sepia-200 {
+    --bdf-sepia: 200%;
+  }
+
+  .md\:hover\:bdf-sepia-0:hover {
+    --bdf-sepia: 0%;
+  }
+
+  .md\:hover\:bdf-sepia-25:hover {
+    --bdf-sepia: 25%;
+  }
+
+  .md\:hover\:bdf-sepia-50:hover {
+    --bdf-sepia: 50%;
+  }
+
+  .md\:hover\:bdf-sepia-75:hover {
+    --bdf-sepia: 75%;
+  }
+
+  .md\:hover\:bdf-sepia-100:hover {
+    --bdf-sepia: 100%;
+  }
+
+  .md\:hover\:bdf-sepia-125:hover {
+    --bdf-sepia: 125%;
+  }
+
+  .md\:hover\:bdf-sepia-150:hover {
+    --bdf-sepia: 150%;
+  }
+
+  .md\:hover\:bdf-sepia-175:hover {
+    --bdf-sepia: 175%;
+  }
+
+  .md\:hover\:bdf-sepia-200:hover {
+    --bdf-sepia: 200%;
+  }
+
+  .md\:focus\:bdf-sepia-0:focus {
+    --bdf-sepia: 0%;
+  }
+
+  .md\:focus\:bdf-sepia-25:focus {
+    --bdf-sepia: 25%;
+  }
+
+  .md\:focus\:bdf-sepia-50:focus {
+    --bdf-sepia: 50%;
+  }
+
+  .md\:focus\:bdf-sepia-75:focus {
+    --bdf-sepia: 75%;
+  }
+
+  .md\:focus\:bdf-sepia-100:focus {
+    --bdf-sepia: 100%;
+  }
+
+  .md\:focus\:bdf-sepia-125:focus {
+    --bdf-sepia: 125%;
+  }
+
+  .md\:focus\:bdf-sepia-150:focus {
+    --bdf-sepia: 150%;
+  }
+
+  .md\:focus\:bdf-sepia-175:focus {
+    --bdf-sepia: 175%;
+  }
+
+  .md\:focus\:bdf-sepia-200:focus {
+    --bdf-sepia: 200%;
+  }
+
+  .md\:filter-blur-2 {
+    --filter-blur: 2px;
+  }
+
+  .md\:filter-blur-4 {
+    --filter-blur: 4px;
+  }
+
+  .md\:filter-blur-8 {
+    --filter-blur: 8px;
+  }
+
+  .md\:filter-blur-16 {
+    --filter-blur: 16px;
+  }
+
+  .md\:filter-blur-32 {
+    --filter-blur: 32px;
+  }
+
+  .md\:filter-blur-64 {
+    --filter-blur: 64px;
+  }
+
+  .md\:hover\:filter-blur-2:hover {
+    --filter-blur: 2px;
+  }
+
+  .md\:hover\:filter-blur-4:hover {
+    --filter-blur: 4px;
+  }
+
+  .md\:hover\:filter-blur-8:hover {
+    --filter-blur: 8px;
+  }
+
+  .md\:hover\:filter-blur-16:hover {
+    --filter-blur: 16px;
+  }
+
+  .md\:hover\:filter-blur-32:hover {
+    --filter-blur: 32px;
+  }
+
+  .md\:hover\:filter-blur-64:hover {
+    --filter-blur: 64px;
+  }
+
+  .md\:focus\:filter-blur-2:focus {
+    --filter-blur: 2px;
+  }
+
+  .md\:focus\:filter-blur-4:focus {
+    --filter-blur: 4px;
+  }
+
+  .md\:focus\:filter-blur-8:focus {
+    --filter-blur: 8px;
+  }
+
+  .md\:focus\:filter-blur-16:focus {
+    --filter-blur: 16px;
+  }
+
+  .md\:focus\:filter-blur-32:focus {
+    --filter-blur: 32px;
+  }
+
+  .md\:focus\:filter-blur-64:focus {
+    --filter-blur: 64px;
+  }
+
+  .md\:filter-brightness-0 {
+    --filter-brightness: 0%;
+  }
+
+  .md\:filter-brightness-25 {
+    --filter-brightness: 25%;
+  }
+
+  .md\:filter-brightness-50 {
+    --filter-brightness: 50%;
+  }
+
+  .md\:filter-brightness-75 {
+    --filter-brightness: 75%;
+  }
+
+  .md\:filter-brightness-100 {
+    --filter-brightness: 100%;
+  }
+
+  .md\:hover\:filter-brightness-0:hover {
+    --filter-brightness: 0%;
+  }
+
+  .md\:hover\:filter-brightness-25:hover {
+    --filter-brightness: 25%;
+  }
+
+  .md\:hover\:filter-brightness-50:hover {
+    --filter-brightness: 50%;
+  }
+
+  .md\:hover\:filter-brightness-75:hover {
+    --filter-brightness: 75%;
+  }
+
+  .md\:hover\:filter-brightness-100:hover {
+    --filter-brightness: 100%;
+  }
+
+  .md\:focus\:filter-brightness-0:focus {
+    --filter-brightness: 0%;
+  }
+
+  .md\:focus\:filter-brightness-25:focus {
+    --filter-brightness: 25%;
+  }
+
+  .md\:focus\:filter-brightness-50:focus {
+    --filter-brightness: 50%;
+  }
+
+  .md\:focus\:filter-brightness-75:focus {
+    --filter-brightness: 75%;
+  }
+
+  .md\:focus\:filter-brightness-100:focus {
+    --filter-brightness: 100%;
+  }
+
+  .md\:filter-contrast-0 {
+    --filter-contrast: 0%;
+  }
+
+  .md\:filter-contrast-25 {
+    --filter-contrast: 25%;
+  }
+
+  .md\:filter-contrast-50 {
+    --filter-contrast: 50%;
+  }
+
+  .md\:filter-contrast-75 {
+    --filter-contrast: 75%;
+  }
+
+  .md\:filter-contrast-100 {
+    --filter-contrast: 100%;
+  }
+
+  .md\:hover\:filter-contrast-0:hover {
+    --filter-contrast: 0%;
+  }
+
+  .md\:hover\:filter-contrast-25:hover {
+    --filter-contrast: 25%;
+  }
+
+  .md\:hover\:filter-contrast-50:hover {
+    --filter-contrast: 50%;
+  }
+
+  .md\:hover\:filter-contrast-75:hover {
+    --filter-contrast: 75%;
+  }
+
+  .md\:hover\:filter-contrast-100:hover {
+    --filter-contrast: 100%;
+  }
+
+  .md\:focus\:filter-contrast-0:focus {
+    --filter-contrast: 0%;
+  }
+
+  .md\:focus\:filter-contrast-25:focus {
+    --filter-contrast: 25%;
+  }
+
+  .md\:focus\:filter-contrast-50:focus {
+    --filter-contrast: 50%;
+  }
+
+  .md\:focus\:filter-contrast-75:focus {
+    --filter-contrast: 75%;
+  }
+
+  .md\:focus\:filter-contrast-100:focus {
+    --filter-contrast: 100%;
+  }
+
+  .md\:filter-drop-shadow-sm {
+    --filter-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .md\:filter-drop-shadow {
+    --filter-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:filter-drop-shadow-md {
+    --filter-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:filter-drop-shadow-lg {
+    --filter-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:filter-drop-shadow-xl {
+    --filter-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:filter-drop-shadow-2xl {
+    --filter-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .md\:hover\:filter-drop-shadow-sm:hover {
+    --filter-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .md\:hover\:filter-drop-shadow:hover {
+    --filter-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:hover\:filter-drop-shadow-md:hover {
+    --filter-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:hover\:filter-drop-shadow-lg:hover {
+    --filter-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:hover\:filter-drop-shadow-xl:hover {
+    --filter-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:hover\:filter-drop-shadow-2xl:hover {
+    --filter-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .md\:focus\:filter-drop-shadow-sm:focus {
+    --filter-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .md\:focus\:filter-drop-shadow:focus {
+    --filter-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:focus\:filter-drop-shadow-md:focus {
+    --filter-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:focus\:filter-drop-shadow-lg:focus {
+    --filter-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:focus\:filter-drop-shadow-xl:focus {
+    --filter-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .md\:focus\:filter-drop-shadow-2xl:focus {
+    --filter-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .md\:filter-grayscale-0 {
+    --filter-grayscale: 0%;
+  }
+
+  .md\:filter-grayscale-25 {
+    --filter-grayscale: 25%;
+  }
+
+  .md\:filter-grayscale-50 {
+    --filter-grayscale: 50%;
+  }
+
+  .md\:filter-grayscale-75 {
+    --filter-grayscale: 75%;
+  }
+
+  .md\:filter-grayscale-100 {
+    --filter-grayscale: 100%;
+  }
+
+  .md\:hover\:filter-grayscale-0:hover {
+    --filter-grayscale: 0%;
+  }
+
+  .md\:hover\:filter-grayscale-25:hover {
+    --filter-grayscale: 25%;
+  }
+
+  .md\:hover\:filter-grayscale-50:hover {
+    --filter-grayscale: 50%;
+  }
+
+  .md\:hover\:filter-grayscale-75:hover {
+    --filter-grayscale: 75%;
+  }
+
+  .md\:hover\:filter-grayscale-100:hover {
+    --filter-grayscale: 100%;
+  }
+
+  .md\:focus\:filter-grayscale-0:focus {
+    --filter-grayscale: 0%;
+  }
+
+  .md\:focus\:filter-grayscale-25:focus {
+    --filter-grayscale: 25%;
+  }
+
+  .md\:focus\:filter-grayscale-50:focus {
+    --filter-grayscale: 50%;
+  }
+
+  .md\:focus\:filter-grayscale-75:focus {
+    --filter-grayscale: 75%;
+  }
+
+  .md\:focus\:filter-grayscale-100:focus {
+    --filter-grayscale: 100%;
+  }
+
+  .md\:filter-hue-rotate-0 {
+    --filter-hue-rotate: 0deg;
+  }
+
+  .md\:filter-hue-rotate-60 {
+    --filter-hue-rotate: 60deg;
+  }
+
+  .md\:filter-hue-rotate-90 {
+    --filter-hue-rotate: 90deg;
+  }
+
+  .md\:filter-hue-rotate-120 {
+    --filter-hue-rotate: 120deg;
+  }
+
+  .md\:filter-hue-rotate-150 {
+    --filter-hue-rotate: 150deg;
+  }
+
+  .md\:filter-hue-rotate-180 {
+    --filter-hue-rotate: 180deg;
+  }
+
+  .md\:filter-hue-rotate-210 {
+    --filter-hue-rotate: 210deg;
+  }
+
+  .md\:filter-hue-rotate-240 {
+    --filter-hue-rotate: 240deg;
+  }
+
+  .md\:filter-hue-rotate-270 {
+    --filter-hue-rotate: 270deg;
+  }
+
+  .md\:filter-hue-rotate-300 {
+    --filter-hue-rotate: 300deg;
+  }
+
+  .md\:filter-hue-rotate-330 {
+    --filter-hue-rotate: 330deg;
+  }
+
+  .md\:hover\:filter-hue-rotate-0:hover {
+    --filter-hue-rotate: 0deg;
+  }
+
+  .md\:hover\:filter-hue-rotate-60:hover {
+    --filter-hue-rotate: 60deg;
+  }
+
+  .md\:hover\:filter-hue-rotate-90:hover {
+    --filter-hue-rotate: 90deg;
+  }
+
+  .md\:hover\:filter-hue-rotate-120:hover {
+    --filter-hue-rotate: 120deg;
+  }
+
+  .md\:hover\:filter-hue-rotate-150:hover {
+    --filter-hue-rotate: 150deg;
+  }
+
+  .md\:hover\:filter-hue-rotate-180:hover {
+    --filter-hue-rotate: 180deg;
+  }
+
+  .md\:hover\:filter-hue-rotate-210:hover {
+    --filter-hue-rotate: 210deg;
+  }
+
+  .md\:hover\:filter-hue-rotate-240:hover {
+    --filter-hue-rotate: 240deg;
+  }
+
+  .md\:hover\:filter-hue-rotate-270:hover {
+    --filter-hue-rotate: 270deg;
+  }
+
+  .md\:hover\:filter-hue-rotate-300:hover {
+    --filter-hue-rotate: 300deg;
+  }
+
+  .md\:hover\:filter-hue-rotate-330:hover {
+    --filter-hue-rotate: 330deg;
+  }
+
+  .md\:focus\:filter-hue-rotate-0:focus {
+    --filter-hue-rotate: 0deg;
+  }
+
+  .md\:focus\:filter-hue-rotate-60:focus {
+    --filter-hue-rotate: 60deg;
+  }
+
+  .md\:focus\:filter-hue-rotate-90:focus {
+    --filter-hue-rotate: 90deg;
+  }
+
+  .md\:focus\:filter-hue-rotate-120:focus {
+    --filter-hue-rotate: 120deg;
+  }
+
+  .md\:focus\:filter-hue-rotate-150:focus {
+    --filter-hue-rotate: 150deg;
+  }
+
+  .md\:focus\:filter-hue-rotate-180:focus {
+    --filter-hue-rotate: 180deg;
+  }
+
+  .md\:focus\:filter-hue-rotate-210:focus {
+    --filter-hue-rotate: 210deg;
+  }
+
+  .md\:focus\:filter-hue-rotate-240:focus {
+    --filter-hue-rotate: 240deg;
+  }
+
+  .md\:focus\:filter-hue-rotate-270:focus {
+    --filter-hue-rotate: 270deg;
+  }
+
+  .md\:focus\:filter-hue-rotate-300:focus {
+    --filter-hue-rotate: 300deg;
+  }
+
+  .md\:focus\:filter-hue-rotate-330:focus {
+    --filter-hue-rotate: 330deg;
+  }
+
+  .md\:filter-invert-0 {
+    --filter-invert: 0%;
+  }
+
+  .md\:filter-invert-25 {
+    --filter-invert: 25%;
+  }
+
+  .md\:filter-invert-50 {
+    --filter-invert: 50%;
+  }
+
+  .md\:filter-invert-75 {
+    --filter-invert: 75%;
+  }
+
+  .md\:filter-invert-100 {
+    --filter-invert: 100%;
+  }
+
+  .md\:hover\:filter-invert-0:hover {
+    --filter-invert: 0%;
+  }
+
+  .md\:hover\:filter-invert-25:hover {
+    --filter-invert: 25%;
+  }
+
+  .md\:hover\:filter-invert-50:hover {
+    --filter-invert: 50%;
+  }
+
+  .md\:hover\:filter-invert-75:hover {
+    --filter-invert: 75%;
+  }
+
+  .md\:hover\:filter-invert-100:hover {
+    --filter-invert: 100%;
+  }
+
+  .md\:focus\:filter-invert-0:focus {
+    --filter-invert: 0%;
+  }
+
+  .md\:focus\:filter-invert-25:focus {
+    --filter-invert: 25%;
+  }
+
+  .md\:focus\:filter-invert-50:focus {
+    --filter-invert: 50%;
+  }
+
+  .md\:focus\:filter-invert-75:focus {
+    --filter-invert: 75%;
+  }
+
+  .md\:focus\:filter-invert-100:focus {
+    --filter-invert: 100%;
+  }
+
+  .md\:filter-saturate-0 {
+    --filter-saturate: 0%;
+  }
+
+  .md\:filter-saturate-25 {
+    --filter-saturate: 25%;
+  }
+
+  .md\:filter-saturate-50 {
+    --filter-saturate: 50%;
+  }
+
+  .md\:filter-saturate-75 {
+    --filter-saturate: 75%;
+  }
+
+  .md\:filter-saturate-100 {
+    --filter-saturate: 100%;
+  }
+
+  .md\:filter-saturate-125 {
+    --filter-saturate: 125%;
+  }
+
+  .md\:filter-saturate-150 {
+    --filter-saturate: 150%;
+  }
+
+  .md\:filter-saturate-175 {
+    --filter-saturate: 175%;
+  }
+
+  .md\:filter-saturate-200 {
+    --filter-saturate: 200%;
+  }
+
+  .md\:hover\:filter-saturate-0:hover {
+    --filter-saturate: 0%;
+  }
+
+  .md\:hover\:filter-saturate-25:hover {
+    --filter-saturate: 25%;
+  }
+
+  .md\:hover\:filter-saturate-50:hover {
+    --filter-saturate: 50%;
+  }
+
+  .md\:hover\:filter-saturate-75:hover {
+    --filter-saturate: 75%;
+  }
+
+  .md\:hover\:filter-saturate-100:hover {
+    --filter-saturate: 100%;
+  }
+
+  .md\:hover\:filter-saturate-125:hover {
+    --filter-saturate: 125%;
+  }
+
+  .md\:hover\:filter-saturate-150:hover {
+    --filter-saturate: 150%;
+  }
+
+  .md\:hover\:filter-saturate-175:hover {
+    --filter-saturate: 175%;
+  }
+
+  .md\:hover\:filter-saturate-200:hover {
+    --filter-saturate: 200%;
+  }
+
+  .md\:focus\:filter-saturate-0:focus {
+    --filter-saturate: 0%;
+  }
+
+  .md\:focus\:filter-saturate-25:focus {
+    --filter-saturate: 25%;
+  }
+
+  .md\:focus\:filter-saturate-50:focus {
+    --filter-saturate: 50%;
+  }
+
+  .md\:focus\:filter-saturate-75:focus {
+    --filter-saturate: 75%;
+  }
+
+  .md\:focus\:filter-saturate-100:focus {
+    --filter-saturate: 100%;
+  }
+
+  .md\:focus\:filter-saturate-125:focus {
+    --filter-saturate: 125%;
+  }
+
+  .md\:focus\:filter-saturate-150:focus {
+    --filter-saturate: 150%;
+  }
+
+  .md\:focus\:filter-saturate-175:focus {
+    --filter-saturate: 175%;
+  }
+
+  .md\:focus\:filter-saturate-200:focus {
+    --filter-saturate: 200%;
+  }
+
+  .md\:filter-sepia-0 {
+    --filter-sepia: 0%;
+  }
+
+  .md\:filter-sepia-25 {
+    --filter-sepia: 25%;
+  }
+
+  .md\:filter-sepia-50 {
+    --filter-sepia: 50%;
+  }
+
+  .md\:filter-sepia-75 {
+    --filter-sepia: 75%;
+  }
+
+  .md\:filter-sepia-100 {
+    --filter-sepia: 100%;
+  }
+
+  .md\:filter-sepia-125 {
+    --filter-sepia: 125%;
+  }
+
+  .md\:filter-sepia-150 {
+    --filter-sepia: 150%;
+  }
+
+  .md\:filter-sepia-175 {
+    --filter-sepia: 175%;
+  }
+
+  .md\:filter-sepia-200 {
+    --filter-sepia: 200%;
+  }
+
+  .md\:hover\:filter-sepia-0:hover {
+    --filter-sepia: 0%;
+  }
+
+  .md\:hover\:filter-sepia-25:hover {
+    --filter-sepia: 25%;
+  }
+
+  .md\:hover\:filter-sepia-50:hover {
+    --filter-sepia: 50%;
+  }
+
+  .md\:hover\:filter-sepia-75:hover {
+    --filter-sepia: 75%;
+  }
+
+  .md\:hover\:filter-sepia-100:hover {
+    --filter-sepia: 100%;
+  }
+
+  .md\:hover\:filter-sepia-125:hover {
+    --filter-sepia: 125%;
+  }
+
+  .md\:hover\:filter-sepia-150:hover {
+    --filter-sepia: 150%;
+  }
+
+  .md\:hover\:filter-sepia-175:hover {
+    --filter-sepia: 175%;
+  }
+
+  .md\:hover\:filter-sepia-200:hover {
+    --filter-sepia: 200%;
+  }
+
+  .md\:focus\:filter-sepia-0:focus {
+    --filter-sepia: 0%;
+  }
+
+  .md\:focus\:filter-sepia-25:focus {
+    --filter-sepia: 25%;
+  }
+
+  .md\:focus\:filter-sepia-50:focus {
+    --filter-sepia: 50%;
+  }
+
+  .md\:focus\:filter-sepia-75:focus {
+    --filter-sepia: 75%;
+  }
+
+  .md\:focus\:filter-sepia-100:focus {
+    --filter-sepia: 100%;
+  }
+
+  .md\:focus\:filter-sepia-125:focus {
+    --filter-sepia: 125%;
+  }
+
+  .md\:focus\:filter-sepia-150:focus {
+    --filter-sepia: 150%;
+  }
+
+  .md\:focus\:filter-sepia-175:focus {
+    --filter-sepia: 175%;
+  }
+
+  .md\:focus\:filter-sepia-200:focus {
+    --filter-sepia: 200%;
   }
 }
 
@@ -89512,6 +94339,1606 @@ video {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
   }
+
+  .lg\:blend-normal {
+    mix-blend-mode: normal;
+  }
+
+  .lg\:blend-multiply {
+    mix-blend-mode: multiply;
+  }
+
+  .lg\:blend-screen {
+    mix-blend-mode: screen;
+  }
+
+  .lg\:blend-overlay {
+    mix-blend-mode: overlay;
+  }
+
+  .lg\:blend-darken {
+    mix-blend-mode: darken;
+  }
+
+  .lg\:blend-lighten {
+    mix-blend-mode: lighten;
+  }
+
+  .lg\:blend-color-dodge {
+    mix-blend-mode: color-dodge;
+  }
+
+  .lg\:blend-color-burn {
+    mix-blend-mode: color-burn;
+  }
+
+  .lg\:blend-hard-light {
+    mix-blend-mode: hard-light;
+  }
+
+  .lg\:blend-soft-light {
+    mix-blend-mode: soft-light;
+  }
+
+  .lg\:blend-difference {
+    mix-blend-mode: difference;
+  }
+
+  .lg\:blend-exclusion {
+    mix-blend-mode: exclusion;
+  }
+
+  .lg\:blend-hue {
+    mix-blend-mode: hue;
+  }
+
+  .lg\:blend-saturation {
+    mix-blend-mode: saturation;
+  }
+
+  .lg\:blend-color {
+    mix-blend-mode: color;
+  }
+
+  .lg\:blend-luminosity {
+    mix-blend-mode: luminosity;
+  }
+
+  .lg\:bg-blend-normal {
+    background-blend-mode: normal;
+  }
+
+  .lg\:bg-blend-multiply {
+    background-blend-mode: multiply;
+  }
+
+  .lg\:bg-blend-screen {
+    background-blend-mode: screen;
+  }
+
+  .lg\:bg-blend-overlay {
+    background-blend-mode: overlay;
+  }
+
+  .lg\:bg-blend-darken {
+    background-blend-mode: darken;
+  }
+
+  .lg\:bg-blend-lighten {
+    background-blend-mode: lighten;
+  }
+
+  .lg\:bg-blend-color-dodge {
+    background-blend-mode: color-dodge;
+  }
+
+  .lg\:bg-blend-color-burn {
+    background-blend-mode: color-burn;
+  }
+
+  .lg\:bg-blend-hard-light {
+    background-blend-mode: hard-light;
+  }
+
+  .lg\:bg-blend-soft-light {
+    background-blend-mode: soft-light;
+  }
+
+  .lg\:bg-blend-difference {
+    background-blend-mode: difference;
+  }
+
+  .lg\:bg-blend-exclusion {
+    background-blend-mode: exclusion;
+  }
+
+  .lg\:bg-blend-hue {
+    background-blend-mode: hue;
+  }
+
+  .lg\:bg-blend-saturation {
+    background-blend-mode: saturation;
+  }
+
+  .lg\:bg-blend-color {
+    background-blend-mode: color;
+  }
+
+  .lg\:bg-blend-luminosity {
+    background-blend-mode: luminosity;
+  }
+
+  .lg\:isolation-isolate {
+    isolation: isolate;
+  }
+
+  .lg\:isolation-auto {
+    isolation: auto;
+  }
+
+  .lg\:bdf-blur-2 {
+    --bdf-blur: 2px;
+  }
+
+  .lg\:bdf-blur-4 {
+    --bdf-blur: 4px;
+  }
+
+  .lg\:bdf-blur-8 {
+    --bdf-blur: 8px;
+  }
+
+  .lg\:bdf-blur-16 {
+    --bdf-blur: 16px;
+  }
+
+  .lg\:bdf-blur-32 {
+    --bdf-blur: 32px;
+  }
+
+  .lg\:bdf-blur-64 {
+    --bdf-blur: 64px;
+  }
+
+  .lg\:hover\:bdf-blur-2:hover {
+    --bdf-blur: 2px;
+  }
+
+  .lg\:hover\:bdf-blur-4:hover {
+    --bdf-blur: 4px;
+  }
+
+  .lg\:hover\:bdf-blur-8:hover {
+    --bdf-blur: 8px;
+  }
+
+  .lg\:hover\:bdf-blur-16:hover {
+    --bdf-blur: 16px;
+  }
+
+  .lg\:hover\:bdf-blur-32:hover {
+    --bdf-blur: 32px;
+  }
+
+  .lg\:hover\:bdf-blur-64:hover {
+    --bdf-blur: 64px;
+  }
+
+  .lg\:focus\:bdf-blur-2:focus {
+    --bdf-blur: 2px;
+  }
+
+  .lg\:focus\:bdf-blur-4:focus {
+    --bdf-blur: 4px;
+  }
+
+  .lg\:focus\:bdf-blur-8:focus {
+    --bdf-blur: 8px;
+  }
+
+  .lg\:focus\:bdf-blur-16:focus {
+    --bdf-blur: 16px;
+  }
+
+  .lg\:focus\:bdf-blur-32:focus {
+    --bdf-blur: 32px;
+  }
+
+  .lg\:focus\:bdf-blur-64:focus {
+    --bdf-blur: 64px;
+  }
+
+  .lg\:bdf-brightness-0 {
+    --bdf-brightness: 0%;
+  }
+
+  .lg\:bdf-brightness-25 {
+    --bdf-brightness: 25%;
+  }
+
+  .lg\:bdf-brightness-50 {
+    --bdf-brightness: 50%;
+  }
+
+  .lg\:bdf-brightness-75 {
+    --bdf-brightness: 75%;
+  }
+
+  .lg\:bdf-brightness-100 {
+    --bdf-brightness: 100%;
+  }
+
+  .lg\:hover\:bdf-brightness-0:hover {
+    --bdf-brightness: 0%;
+  }
+
+  .lg\:hover\:bdf-brightness-25:hover {
+    --bdf-brightness: 25%;
+  }
+
+  .lg\:hover\:bdf-brightness-50:hover {
+    --bdf-brightness: 50%;
+  }
+
+  .lg\:hover\:bdf-brightness-75:hover {
+    --bdf-brightness: 75%;
+  }
+
+  .lg\:hover\:bdf-brightness-100:hover {
+    --bdf-brightness: 100%;
+  }
+
+  .lg\:focus\:bdf-brightness-0:focus {
+    --bdf-brightness: 0%;
+  }
+
+  .lg\:focus\:bdf-brightness-25:focus {
+    --bdf-brightness: 25%;
+  }
+
+  .lg\:focus\:bdf-brightness-50:focus {
+    --bdf-brightness: 50%;
+  }
+
+  .lg\:focus\:bdf-brightness-75:focus {
+    --bdf-brightness: 75%;
+  }
+
+  .lg\:focus\:bdf-brightness-100:focus {
+    --bdf-brightness: 100%;
+  }
+
+  .lg\:bdf-contrast-0 {
+    --bdf-contrast: 0%;
+  }
+
+  .lg\:bdf-contrast-25 {
+    --bdf-contrast: 25%;
+  }
+
+  .lg\:bdf-contrast-50 {
+    --bdf-contrast: 50%;
+  }
+
+  .lg\:bdf-contrast-75 {
+    --bdf-contrast: 75%;
+  }
+
+  .lg\:bdf-contrast-100 {
+    --bdf-contrast: 100%;
+  }
+
+  .lg\:hover\:bdf-contrast-0:hover {
+    --bdf-contrast: 0%;
+  }
+
+  .lg\:hover\:bdf-contrast-25:hover {
+    --bdf-contrast: 25%;
+  }
+
+  .lg\:hover\:bdf-contrast-50:hover {
+    --bdf-contrast: 50%;
+  }
+
+  .lg\:hover\:bdf-contrast-75:hover {
+    --bdf-contrast: 75%;
+  }
+
+  .lg\:hover\:bdf-contrast-100:hover {
+    --bdf-contrast: 100%;
+  }
+
+  .lg\:focus\:bdf-contrast-0:focus {
+    --bdf-contrast: 0%;
+  }
+
+  .lg\:focus\:bdf-contrast-25:focus {
+    --bdf-contrast: 25%;
+  }
+
+  .lg\:focus\:bdf-contrast-50:focus {
+    --bdf-contrast: 50%;
+  }
+
+  .lg\:focus\:bdf-contrast-75:focus {
+    --bdf-contrast: 75%;
+  }
+
+  .lg\:focus\:bdf-contrast-100:focus {
+    --bdf-contrast: 100%;
+  }
+
+  .lg\:bdf-drop-shadow-sm {
+    --bdf-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .lg\:bdf-drop-shadow {
+    --bdf-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:bdf-drop-shadow-md {
+    --bdf-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:bdf-drop-shadow-lg {
+    --bdf-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:bdf-drop-shadow-xl {
+    --bdf-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:bdf-drop-shadow-2xl {
+    --bdf-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .lg\:hover\:bdf-drop-shadow-sm:hover {
+    --bdf-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .lg\:hover\:bdf-drop-shadow:hover {
+    --bdf-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:hover\:bdf-drop-shadow-md:hover {
+    --bdf-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:hover\:bdf-drop-shadow-lg:hover {
+    --bdf-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:hover\:bdf-drop-shadow-xl:hover {
+    --bdf-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:hover\:bdf-drop-shadow-2xl:hover {
+    --bdf-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .lg\:focus\:bdf-drop-shadow-sm:focus {
+    --bdf-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .lg\:focus\:bdf-drop-shadow:focus {
+    --bdf-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:focus\:bdf-drop-shadow-md:focus {
+    --bdf-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:focus\:bdf-drop-shadow-lg:focus {
+    --bdf-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:focus\:bdf-drop-shadow-xl:focus {
+    --bdf-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:focus\:bdf-drop-shadow-2xl:focus {
+    --bdf-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .lg\:bdf-grayscale-0 {
+    --bdf-grayscale: 0%;
+  }
+
+  .lg\:bdf-grayscale-25 {
+    --bdf-grayscale: 25%;
+  }
+
+  .lg\:bdf-grayscale-50 {
+    --bdf-grayscale: 50%;
+  }
+
+  .lg\:bdf-grayscale-75 {
+    --bdf-grayscale: 75%;
+  }
+
+  .lg\:bdf-grayscale-100 {
+    --bdf-grayscale: 100%;
+  }
+
+  .lg\:hover\:bdf-grayscale-0:hover {
+    --bdf-grayscale: 0%;
+  }
+
+  .lg\:hover\:bdf-grayscale-25:hover {
+    --bdf-grayscale: 25%;
+  }
+
+  .lg\:hover\:bdf-grayscale-50:hover {
+    --bdf-grayscale: 50%;
+  }
+
+  .lg\:hover\:bdf-grayscale-75:hover {
+    --bdf-grayscale: 75%;
+  }
+
+  .lg\:hover\:bdf-grayscale-100:hover {
+    --bdf-grayscale: 100%;
+  }
+
+  .lg\:focus\:bdf-grayscale-0:focus {
+    --bdf-grayscale: 0%;
+  }
+
+  .lg\:focus\:bdf-grayscale-25:focus {
+    --bdf-grayscale: 25%;
+  }
+
+  .lg\:focus\:bdf-grayscale-50:focus {
+    --bdf-grayscale: 50%;
+  }
+
+  .lg\:focus\:bdf-grayscale-75:focus {
+    --bdf-grayscale: 75%;
+  }
+
+  .lg\:focus\:bdf-grayscale-100:focus {
+    --bdf-grayscale: 100%;
+  }
+
+  .lg\:bdf-hue-rotate-0 {
+    --bdf-hue-rotate: 0deg;
+  }
+
+  .lg\:bdf-hue-rotate-60 {
+    --bdf-hue-rotate: 60deg;
+  }
+
+  .lg\:bdf-hue-rotate-90 {
+    --bdf-hue-rotate: 90deg;
+  }
+
+  .lg\:bdf-hue-rotate-120 {
+    --bdf-hue-rotate: 120deg;
+  }
+
+  .lg\:bdf-hue-rotate-150 {
+    --bdf-hue-rotate: 150deg;
+  }
+
+  .lg\:bdf-hue-rotate-180 {
+    --bdf-hue-rotate: 180deg;
+  }
+
+  .lg\:bdf-hue-rotate-210 {
+    --bdf-hue-rotate: 210deg;
+  }
+
+  .lg\:bdf-hue-rotate-240 {
+    --bdf-hue-rotate: 240deg;
+  }
+
+  .lg\:bdf-hue-rotate-270 {
+    --bdf-hue-rotate: 270deg;
+  }
+
+  .lg\:bdf-hue-rotate-300 {
+    --bdf-hue-rotate: 300deg;
+  }
+
+  .lg\:bdf-hue-rotate-330 {
+    --bdf-hue-rotate: 330deg;
+  }
+
+  .lg\:hover\:bdf-hue-rotate-0:hover {
+    --bdf-hue-rotate: 0deg;
+  }
+
+  .lg\:hover\:bdf-hue-rotate-60:hover {
+    --bdf-hue-rotate: 60deg;
+  }
+
+  .lg\:hover\:bdf-hue-rotate-90:hover {
+    --bdf-hue-rotate: 90deg;
+  }
+
+  .lg\:hover\:bdf-hue-rotate-120:hover {
+    --bdf-hue-rotate: 120deg;
+  }
+
+  .lg\:hover\:bdf-hue-rotate-150:hover {
+    --bdf-hue-rotate: 150deg;
+  }
+
+  .lg\:hover\:bdf-hue-rotate-180:hover {
+    --bdf-hue-rotate: 180deg;
+  }
+
+  .lg\:hover\:bdf-hue-rotate-210:hover {
+    --bdf-hue-rotate: 210deg;
+  }
+
+  .lg\:hover\:bdf-hue-rotate-240:hover {
+    --bdf-hue-rotate: 240deg;
+  }
+
+  .lg\:hover\:bdf-hue-rotate-270:hover {
+    --bdf-hue-rotate: 270deg;
+  }
+
+  .lg\:hover\:bdf-hue-rotate-300:hover {
+    --bdf-hue-rotate: 300deg;
+  }
+
+  .lg\:hover\:bdf-hue-rotate-330:hover {
+    --bdf-hue-rotate: 330deg;
+  }
+
+  .lg\:focus\:bdf-hue-rotate-0:focus {
+    --bdf-hue-rotate: 0deg;
+  }
+
+  .lg\:focus\:bdf-hue-rotate-60:focus {
+    --bdf-hue-rotate: 60deg;
+  }
+
+  .lg\:focus\:bdf-hue-rotate-90:focus {
+    --bdf-hue-rotate: 90deg;
+  }
+
+  .lg\:focus\:bdf-hue-rotate-120:focus {
+    --bdf-hue-rotate: 120deg;
+  }
+
+  .lg\:focus\:bdf-hue-rotate-150:focus {
+    --bdf-hue-rotate: 150deg;
+  }
+
+  .lg\:focus\:bdf-hue-rotate-180:focus {
+    --bdf-hue-rotate: 180deg;
+  }
+
+  .lg\:focus\:bdf-hue-rotate-210:focus {
+    --bdf-hue-rotate: 210deg;
+  }
+
+  .lg\:focus\:bdf-hue-rotate-240:focus {
+    --bdf-hue-rotate: 240deg;
+  }
+
+  .lg\:focus\:bdf-hue-rotate-270:focus {
+    --bdf-hue-rotate: 270deg;
+  }
+
+  .lg\:focus\:bdf-hue-rotate-300:focus {
+    --bdf-hue-rotate: 300deg;
+  }
+
+  .lg\:focus\:bdf-hue-rotate-330:focus {
+    --bdf-hue-rotate: 330deg;
+  }
+
+  .lg\:bdf-invert-0 {
+    --bdf-invert: 0%;
+  }
+
+  .lg\:bdf-invert-25 {
+    --bdf-invert: 25%;
+  }
+
+  .lg\:bdf-invert-50 {
+    --bdf-invert: 50%;
+  }
+
+  .lg\:bdf-invert-75 {
+    --bdf-invert: 75%;
+  }
+
+  .lg\:bdf-invert-100 {
+    --bdf-invert: 100%;
+  }
+
+  .lg\:hover\:bdf-invert-0:hover {
+    --bdf-invert: 0%;
+  }
+
+  .lg\:hover\:bdf-invert-25:hover {
+    --bdf-invert: 25%;
+  }
+
+  .lg\:hover\:bdf-invert-50:hover {
+    --bdf-invert: 50%;
+  }
+
+  .lg\:hover\:bdf-invert-75:hover {
+    --bdf-invert: 75%;
+  }
+
+  .lg\:hover\:bdf-invert-100:hover {
+    --bdf-invert: 100%;
+  }
+
+  .lg\:focus\:bdf-invert-0:focus {
+    --bdf-invert: 0%;
+  }
+
+  .lg\:focus\:bdf-invert-25:focus {
+    --bdf-invert: 25%;
+  }
+
+  .lg\:focus\:bdf-invert-50:focus {
+    --bdf-invert: 50%;
+  }
+
+  .lg\:focus\:bdf-invert-75:focus {
+    --bdf-invert: 75%;
+  }
+
+  .lg\:focus\:bdf-invert-100:focus {
+    --bdf-invert: 100%;
+  }
+
+  .lg\:bdf-saturate-0 {
+    --bdf-saturate: 0%;
+  }
+
+  .lg\:bdf-saturate-25 {
+    --bdf-saturate: 25%;
+  }
+
+  .lg\:bdf-saturate-50 {
+    --bdf-saturate: 50%;
+  }
+
+  .lg\:bdf-saturate-75 {
+    --bdf-saturate: 75%;
+  }
+
+  .lg\:bdf-saturate-100 {
+    --bdf-saturate: 100%;
+  }
+
+  .lg\:bdf-saturate-125 {
+    --bdf-saturate: 125%;
+  }
+
+  .lg\:bdf-saturate-150 {
+    --bdf-saturate: 150%;
+  }
+
+  .lg\:bdf-saturate-175 {
+    --bdf-saturate: 175%;
+  }
+
+  .lg\:bdf-saturate-200 {
+    --bdf-saturate: 200%;
+  }
+
+  .lg\:hover\:bdf-saturate-0:hover {
+    --bdf-saturate: 0%;
+  }
+
+  .lg\:hover\:bdf-saturate-25:hover {
+    --bdf-saturate: 25%;
+  }
+
+  .lg\:hover\:bdf-saturate-50:hover {
+    --bdf-saturate: 50%;
+  }
+
+  .lg\:hover\:bdf-saturate-75:hover {
+    --bdf-saturate: 75%;
+  }
+
+  .lg\:hover\:bdf-saturate-100:hover {
+    --bdf-saturate: 100%;
+  }
+
+  .lg\:hover\:bdf-saturate-125:hover {
+    --bdf-saturate: 125%;
+  }
+
+  .lg\:hover\:bdf-saturate-150:hover {
+    --bdf-saturate: 150%;
+  }
+
+  .lg\:hover\:bdf-saturate-175:hover {
+    --bdf-saturate: 175%;
+  }
+
+  .lg\:hover\:bdf-saturate-200:hover {
+    --bdf-saturate: 200%;
+  }
+
+  .lg\:focus\:bdf-saturate-0:focus {
+    --bdf-saturate: 0%;
+  }
+
+  .lg\:focus\:bdf-saturate-25:focus {
+    --bdf-saturate: 25%;
+  }
+
+  .lg\:focus\:bdf-saturate-50:focus {
+    --bdf-saturate: 50%;
+  }
+
+  .lg\:focus\:bdf-saturate-75:focus {
+    --bdf-saturate: 75%;
+  }
+
+  .lg\:focus\:bdf-saturate-100:focus {
+    --bdf-saturate: 100%;
+  }
+
+  .lg\:focus\:bdf-saturate-125:focus {
+    --bdf-saturate: 125%;
+  }
+
+  .lg\:focus\:bdf-saturate-150:focus {
+    --bdf-saturate: 150%;
+  }
+
+  .lg\:focus\:bdf-saturate-175:focus {
+    --bdf-saturate: 175%;
+  }
+
+  .lg\:focus\:bdf-saturate-200:focus {
+    --bdf-saturate: 200%;
+  }
+
+  .lg\:bdf-sepia-0 {
+    --bdf-sepia: 0%;
+  }
+
+  .lg\:bdf-sepia-25 {
+    --bdf-sepia: 25%;
+  }
+
+  .lg\:bdf-sepia-50 {
+    --bdf-sepia: 50%;
+  }
+
+  .lg\:bdf-sepia-75 {
+    --bdf-sepia: 75%;
+  }
+
+  .lg\:bdf-sepia-100 {
+    --bdf-sepia: 100%;
+  }
+
+  .lg\:bdf-sepia-125 {
+    --bdf-sepia: 125%;
+  }
+
+  .lg\:bdf-sepia-150 {
+    --bdf-sepia: 150%;
+  }
+
+  .lg\:bdf-sepia-175 {
+    --bdf-sepia: 175%;
+  }
+
+  .lg\:bdf-sepia-200 {
+    --bdf-sepia: 200%;
+  }
+
+  .lg\:hover\:bdf-sepia-0:hover {
+    --bdf-sepia: 0%;
+  }
+
+  .lg\:hover\:bdf-sepia-25:hover {
+    --bdf-sepia: 25%;
+  }
+
+  .lg\:hover\:bdf-sepia-50:hover {
+    --bdf-sepia: 50%;
+  }
+
+  .lg\:hover\:bdf-sepia-75:hover {
+    --bdf-sepia: 75%;
+  }
+
+  .lg\:hover\:bdf-sepia-100:hover {
+    --bdf-sepia: 100%;
+  }
+
+  .lg\:hover\:bdf-sepia-125:hover {
+    --bdf-sepia: 125%;
+  }
+
+  .lg\:hover\:bdf-sepia-150:hover {
+    --bdf-sepia: 150%;
+  }
+
+  .lg\:hover\:bdf-sepia-175:hover {
+    --bdf-sepia: 175%;
+  }
+
+  .lg\:hover\:bdf-sepia-200:hover {
+    --bdf-sepia: 200%;
+  }
+
+  .lg\:focus\:bdf-sepia-0:focus {
+    --bdf-sepia: 0%;
+  }
+
+  .lg\:focus\:bdf-sepia-25:focus {
+    --bdf-sepia: 25%;
+  }
+
+  .lg\:focus\:bdf-sepia-50:focus {
+    --bdf-sepia: 50%;
+  }
+
+  .lg\:focus\:bdf-sepia-75:focus {
+    --bdf-sepia: 75%;
+  }
+
+  .lg\:focus\:bdf-sepia-100:focus {
+    --bdf-sepia: 100%;
+  }
+
+  .lg\:focus\:bdf-sepia-125:focus {
+    --bdf-sepia: 125%;
+  }
+
+  .lg\:focus\:bdf-sepia-150:focus {
+    --bdf-sepia: 150%;
+  }
+
+  .lg\:focus\:bdf-sepia-175:focus {
+    --bdf-sepia: 175%;
+  }
+
+  .lg\:focus\:bdf-sepia-200:focus {
+    --bdf-sepia: 200%;
+  }
+
+  .lg\:filter-blur-2 {
+    --filter-blur: 2px;
+  }
+
+  .lg\:filter-blur-4 {
+    --filter-blur: 4px;
+  }
+
+  .lg\:filter-blur-8 {
+    --filter-blur: 8px;
+  }
+
+  .lg\:filter-blur-16 {
+    --filter-blur: 16px;
+  }
+
+  .lg\:filter-blur-32 {
+    --filter-blur: 32px;
+  }
+
+  .lg\:filter-blur-64 {
+    --filter-blur: 64px;
+  }
+
+  .lg\:hover\:filter-blur-2:hover {
+    --filter-blur: 2px;
+  }
+
+  .lg\:hover\:filter-blur-4:hover {
+    --filter-blur: 4px;
+  }
+
+  .lg\:hover\:filter-blur-8:hover {
+    --filter-blur: 8px;
+  }
+
+  .lg\:hover\:filter-blur-16:hover {
+    --filter-blur: 16px;
+  }
+
+  .lg\:hover\:filter-blur-32:hover {
+    --filter-blur: 32px;
+  }
+
+  .lg\:hover\:filter-blur-64:hover {
+    --filter-blur: 64px;
+  }
+
+  .lg\:focus\:filter-blur-2:focus {
+    --filter-blur: 2px;
+  }
+
+  .lg\:focus\:filter-blur-4:focus {
+    --filter-blur: 4px;
+  }
+
+  .lg\:focus\:filter-blur-8:focus {
+    --filter-blur: 8px;
+  }
+
+  .lg\:focus\:filter-blur-16:focus {
+    --filter-blur: 16px;
+  }
+
+  .lg\:focus\:filter-blur-32:focus {
+    --filter-blur: 32px;
+  }
+
+  .lg\:focus\:filter-blur-64:focus {
+    --filter-blur: 64px;
+  }
+
+  .lg\:filter-brightness-0 {
+    --filter-brightness: 0%;
+  }
+
+  .lg\:filter-brightness-25 {
+    --filter-brightness: 25%;
+  }
+
+  .lg\:filter-brightness-50 {
+    --filter-brightness: 50%;
+  }
+
+  .lg\:filter-brightness-75 {
+    --filter-brightness: 75%;
+  }
+
+  .lg\:filter-brightness-100 {
+    --filter-brightness: 100%;
+  }
+
+  .lg\:hover\:filter-brightness-0:hover {
+    --filter-brightness: 0%;
+  }
+
+  .lg\:hover\:filter-brightness-25:hover {
+    --filter-brightness: 25%;
+  }
+
+  .lg\:hover\:filter-brightness-50:hover {
+    --filter-brightness: 50%;
+  }
+
+  .lg\:hover\:filter-brightness-75:hover {
+    --filter-brightness: 75%;
+  }
+
+  .lg\:hover\:filter-brightness-100:hover {
+    --filter-brightness: 100%;
+  }
+
+  .lg\:focus\:filter-brightness-0:focus {
+    --filter-brightness: 0%;
+  }
+
+  .lg\:focus\:filter-brightness-25:focus {
+    --filter-brightness: 25%;
+  }
+
+  .lg\:focus\:filter-brightness-50:focus {
+    --filter-brightness: 50%;
+  }
+
+  .lg\:focus\:filter-brightness-75:focus {
+    --filter-brightness: 75%;
+  }
+
+  .lg\:focus\:filter-brightness-100:focus {
+    --filter-brightness: 100%;
+  }
+
+  .lg\:filter-contrast-0 {
+    --filter-contrast: 0%;
+  }
+
+  .lg\:filter-contrast-25 {
+    --filter-contrast: 25%;
+  }
+
+  .lg\:filter-contrast-50 {
+    --filter-contrast: 50%;
+  }
+
+  .lg\:filter-contrast-75 {
+    --filter-contrast: 75%;
+  }
+
+  .lg\:filter-contrast-100 {
+    --filter-contrast: 100%;
+  }
+
+  .lg\:hover\:filter-contrast-0:hover {
+    --filter-contrast: 0%;
+  }
+
+  .lg\:hover\:filter-contrast-25:hover {
+    --filter-contrast: 25%;
+  }
+
+  .lg\:hover\:filter-contrast-50:hover {
+    --filter-contrast: 50%;
+  }
+
+  .lg\:hover\:filter-contrast-75:hover {
+    --filter-contrast: 75%;
+  }
+
+  .lg\:hover\:filter-contrast-100:hover {
+    --filter-contrast: 100%;
+  }
+
+  .lg\:focus\:filter-contrast-0:focus {
+    --filter-contrast: 0%;
+  }
+
+  .lg\:focus\:filter-contrast-25:focus {
+    --filter-contrast: 25%;
+  }
+
+  .lg\:focus\:filter-contrast-50:focus {
+    --filter-contrast: 50%;
+  }
+
+  .lg\:focus\:filter-contrast-75:focus {
+    --filter-contrast: 75%;
+  }
+
+  .lg\:focus\:filter-contrast-100:focus {
+    --filter-contrast: 100%;
+  }
+
+  .lg\:filter-drop-shadow-sm {
+    --filter-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .lg\:filter-drop-shadow {
+    --filter-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:filter-drop-shadow-md {
+    --filter-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:filter-drop-shadow-lg {
+    --filter-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:filter-drop-shadow-xl {
+    --filter-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:filter-drop-shadow-2xl {
+    --filter-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .lg\:hover\:filter-drop-shadow-sm:hover {
+    --filter-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .lg\:hover\:filter-drop-shadow:hover {
+    --filter-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:hover\:filter-drop-shadow-md:hover {
+    --filter-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:hover\:filter-drop-shadow-lg:hover {
+    --filter-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:hover\:filter-drop-shadow-xl:hover {
+    --filter-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:hover\:filter-drop-shadow-2xl:hover {
+    --filter-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .lg\:focus\:filter-drop-shadow-sm:focus {
+    --filter-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .lg\:focus\:filter-drop-shadow:focus {
+    --filter-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:focus\:filter-drop-shadow-md:focus {
+    --filter-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:focus\:filter-drop-shadow-lg:focus {
+    --filter-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:focus\:filter-drop-shadow-xl:focus {
+    --filter-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .lg\:focus\:filter-drop-shadow-2xl:focus {
+    --filter-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .lg\:filter-grayscale-0 {
+    --filter-grayscale: 0%;
+  }
+
+  .lg\:filter-grayscale-25 {
+    --filter-grayscale: 25%;
+  }
+
+  .lg\:filter-grayscale-50 {
+    --filter-grayscale: 50%;
+  }
+
+  .lg\:filter-grayscale-75 {
+    --filter-grayscale: 75%;
+  }
+
+  .lg\:filter-grayscale-100 {
+    --filter-grayscale: 100%;
+  }
+
+  .lg\:hover\:filter-grayscale-0:hover {
+    --filter-grayscale: 0%;
+  }
+
+  .lg\:hover\:filter-grayscale-25:hover {
+    --filter-grayscale: 25%;
+  }
+
+  .lg\:hover\:filter-grayscale-50:hover {
+    --filter-grayscale: 50%;
+  }
+
+  .lg\:hover\:filter-grayscale-75:hover {
+    --filter-grayscale: 75%;
+  }
+
+  .lg\:hover\:filter-grayscale-100:hover {
+    --filter-grayscale: 100%;
+  }
+
+  .lg\:focus\:filter-grayscale-0:focus {
+    --filter-grayscale: 0%;
+  }
+
+  .lg\:focus\:filter-grayscale-25:focus {
+    --filter-grayscale: 25%;
+  }
+
+  .lg\:focus\:filter-grayscale-50:focus {
+    --filter-grayscale: 50%;
+  }
+
+  .lg\:focus\:filter-grayscale-75:focus {
+    --filter-grayscale: 75%;
+  }
+
+  .lg\:focus\:filter-grayscale-100:focus {
+    --filter-grayscale: 100%;
+  }
+
+  .lg\:filter-hue-rotate-0 {
+    --filter-hue-rotate: 0deg;
+  }
+
+  .lg\:filter-hue-rotate-60 {
+    --filter-hue-rotate: 60deg;
+  }
+
+  .lg\:filter-hue-rotate-90 {
+    --filter-hue-rotate: 90deg;
+  }
+
+  .lg\:filter-hue-rotate-120 {
+    --filter-hue-rotate: 120deg;
+  }
+
+  .lg\:filter-hue-rotate-150 {
+    --filter-hue-rotate: 150deg;
+  }
+
+  .lg\:filter-hue-rotate-180 {
+    --filter-hue-rotate: 180deg;
+  }
+
+  .lg\:filter-hue-rotate-210 {
+    --filter-hue-rotate: 210deg;
+  }
+
+  .lg\:filter-hue-rotate-240 {
+    --filter-hue-rotate: 240deg;
+  }
+
+  .lg\:filter-hue-rotate-270 {
+    --filter-hue-rotate: 270deg;
+  }
+
+  .lg\:filter-hue-rotate-300 {
+    --filter-hue-rotate: 300deg;
+  }
+
+  .lg\:filter-hue-rotate-330 {
+    --filter-hue-rotate: 330deg;
+  }
+
+  .lg\:hover\:filter-hue-rotate-0:hover {
+    --filter-hue-rotate: 0deg;
+  }
+
+  .lg\:hover\:filter-hue-rotate-60:hover {
+    --filter-hue-rotate: 60deg;
+  }
+
+  .lg\:hover\:filter-hue-rotate-90:hover {
+    --filter-hue-rotate: 90deg;
+  }
+
+  .lg\:hover\:filter-hue-rotate-120:hover {
+    --filter-hue-rotate: 120deg;
+  }
+
+  .lg\:hover\:filter-hue-rotate-150:hover {
+    --filter-hue-rotate: 150deg;
+  }
+
+  .lg\:hover\:filter-hue-rotate-180:hover {
+    --filter-hue-rotate: 180deg;
+  }
+
+  .lg\:hover\:filter-hue-rotate-210:hover {
+    --filter-hue-rotate: 210deg;
+  }
+
+  .lg\:hover\:filter-hue-rotate-240:hover {
+    --filter-hue-rotate: 240deg;
+  }
+
+  .lg\:hover\:filter-hue-rotate-270:hover {
+    --filter-hue-rotate: 270deg;
+  }
+
+  .lg\:hover\:filter-hue-rotate-300:hover {
+    --filter-hue-rotate: 300deg;
+  }
+
+  .lg\:hover\:filter-hue-rotate-330:hover {
+    --filter-hue-rotate: 330deg;
+  }
+
+  .lg\:focus\:filter-hue-rotate-0:focus {
+    --filter-hue-rotate: 0deg;
+  }
+
+  .lg\:focus\:filter-hue-rotate-60:focus {
+    --filter-hue-rotate: 60deg;
+  }
+
+  .lg\:focus\:filter-hue-rotate-90:focus {
+    --filter-hue-rotate: 90deg;
+  }
+
+  .lg\:focus\:filter-hue-rotate-120:focus {
+    --filter-hue-rotate: 120deg;
+  }
+
+  .lg\:focus\:filter-hue-rotate-150:focus {
+    --filter-hue-rotate: 150deg;
+  }
+
+  .lg\:focus\:filter-hue-rotate-180:focus {
+    --filter-hue-rotate: 180deg;
+  }
+
+  .lg\:focus\:filter-hue-rotate-210:focus {
+    --filter-hue-rotate: 210deg;
+  }
+
+  .lg\:focus\:filter-hue-rotate-240:focus {
+    --filter-hue-rotate: 240deg;
+  }
+
+  .lg\:focus\:filter-hue-rotate-270:focus {
+    --filter-hue-rotate: 270deg;
+  }
+
+  .lg\:focus\:filter-hue-rotate-300:focus {
+    --filter-hue-rotate: 300deg;
+  }
+
+  .lg\:focus\:filter-hue-rotate-330:focus {
+    --filter-hue-rotate: 330deg;
+  }
+
+  .lg\:filter-invert-0 {
+    --filter-invert: 0%;
+  }
+
+  .lg\:filter-invert-25 {
+    --filter-invert: 25%;
+  }
+
+  .lg\:filter-invert-50 {
+    --filter-invert: 50%;
+  }
+
+  .lg\:filter-invert-75 {
+    --filter-invert: 75%;
+  }
+
+  .lg\:filter-invert-100 {
+    --filter-invert: 100%;
+  }
+
+  .lg\:hover\:filter-invert-0:hover {
+    --filter-invert: 0%;
+  }
+
+  .lg\:hover\:filter-invert-25:hover {
+    --filter-invert: 25%;
+  }
+
+  .lg\:hover\:filter-invert-50:hover {
+    --filter-invert: 50%;
+  }
+
+  .lg\:hover\:filter-invert-75:hover {
+    --filter-invert: 75%;
+  }
+
+  .lg\:hover\:filter-invert-100:hover {
+    --filter-invert: 100%;
+  }
+
+  .lg\:focus\:filter-invert-0:focus {
+    --filter-invert: 0%;
+  }
+
+  .lg\:focus\:filter-invert-25:focus {
+    --filter-invert: 25%;
+  }
+
+  .lg\:focus\:filter-invert-50:focus {
+    --filter-invert: 50%;
+  }
+
+  .lg\:focus\:filter-invert-75:focus {
+    --filter-invert: 75%;
+  }
+
+  .lg\:focus\:filter-invert-100:focus {
+    --filter-invert: 100%;
+  }
+
+  .lg\:filter-saturate-0 {
+    --filter-saturate: 0%;
+  }
+
+  .lg\:filter-saturate-25 {
+    --filter-saturate: 25%;
+  }
+
+  .lg\:filter-saturate-50 {
+    --filter-saturate: 50%;
+  }
+
+  .lg\:filter-saturate-75 {
+    --filter-saturate: 75%;
+  }
+
+  .lg\:filter-saturate-100 {
+    --filter-saturate: 100%;
+  }
+
+  .lg\:filter-saturate-125 {
+    --filter-saturate: 125%;
+  }
+
+  .lg\:filter-saturate-150 {
+    --filter-saturate: 150%;
+  }
+
+  .lg\:filter-saturate-175 {
+    --filter-saturate: 175%;
+  }
+
+  .lg\:filter-saturate-200 {
+    --filter-saturate: 200%;
+  }
+
+  .lg\:hover\:filter-saturate-0:hover {
+    --filter-saturate: 0%;
+  }
+
+  .lg\:hover\:filter-saturate-25:hover {
+    --filter-saturate: 25%;
+  }
+
+  .lg\:hover\:filter-saturate-50:hover {
+    --filter-saturate: 50%;
+  }
+
+  .lg\:hover\:filter-saturate-75:hover {
+    --filter-saturate: 75%;
+  }
+
+  .lg\:hover\:filter-saturate-100:hover {
+    --filter-saturate: 100%;
+  }
+
+  .lg\:hover\:filter-saturate-125:hover {
+    --filter-saturate: 125%;
+  }
+
+  .lg\:hover\:filter-saturate-150:hover {
+    --filter-saturate: 150%;
+  }
+
+  .lg\:hover\:filter-saturate-175:hover {
+    --filter-saturate: 175%;
+  }
+
+  .lg\:hover\:filter-saturate-200:hover {
+    --filter-saturate: 200%;
+  }
+
+  .lg\:focus\:filter-saturate-0:focus {
+    --filter-saturate: 0%;
+  }
+
+  .lg\:focus\:filter-saturate-25:focus {
+    --filter-saturate: 25%;
+  }
+
+  .lg\:focus\:filter-saturate-50:focus {
+    --filter-saturate: 50%;
+  }
+
+  .lg\:focus\:filter-saturate-75:focus {
+    --filter-saturate: 75%;
+  }
+
+  .lg\:focus\:filter-saturate-100:focus {
+    --filter-saturate: 100%;
+  }
+
+  .lg\:focus\:filter-saturate-125:focus {
+    --filter-saturate: 125%;
+  }
+
+  .lg\:focus\:filter-saturate-150:focus {
+    --filter-saturate: 150%;
+  }
+
+  .lg\:focus\:filter-saturate-175:focus {
+    --filter-saturate: 175%;
+  }
+
+  .lg\:focus\:filter-saturate-200:focus {
+    --filter-saturate: 200%;
+  }
+
+  .lg\:filter-sepia-0 {
+    --filter-sepia: 0%;
+  }
+
+  .lg\:filter-sepia-25 {
+    --filter-sepia: 25%;
+  }
+
+  .lg\:filter-sepia-50 {
+    --filter-sepia: 50%;
+  }
+
+  .lg\:filter-sepia-75 {
+    --filter-sepia: 75%;
+  }
+
+  .lg\:filter-sepia-100 {
+    --filter-sepia: 100%;
+  }
+
+  .lg\:filter-sepia-125 {
+    --filter-sepia: 125%;
+  }
+
+  .lg\:filter-sepia-150 {
+    --filter-sepia: 150%;
+  }
+
+  .lg\:filter-sepia-175 {
+    --filter-sepia: 175%;
+  }
+
+  .lg\:filter-sepia-200 {
+    --filter-sepia: 200%;
+  }
+
+  .lg\:hover\:filter-sepia-0:hover {
+    --filter-sepia: 0%;
+  }
+
+  .lg\:hover\:filter-sepia-25:hover {
+    --filter-sepia: 25%;
+  }
+
+  .lg\:hover\:filter-sepia-50:hover {
+    --filter-sepia: 50%;
+  }
+
+  .lg\:hover\:filter-sepia-75:hover {
+    --filter-sepia: 75%;
+  }
+
+  .lg\:hover\:filter-sepia-100:hover {
+    --filter-sepia: 100%;
+  }
+
+  .lg\:hover\:filter-sepia-125:hover {
+    --filter-sepia: 125%;
+  }
+
+  .lg\:hover\:filter-sepia-150:hover {
+    --filter-sepia: 150%;
+  }
+
+  .lg\:hover\:filter-sepia-175:hover {
+    --filter-sepia: 175%;
+  }
+
+  .lg\:hover\:filter-sepia-200:hover {
+    --filter-sepia: 200%;
+  }
+
+  .lg\:focus\:filter-sepia-0:focus {
+    --filter-sepia: 0%;
+  }
+
+  .lg\:focus\:filter-sepia-25:focus {
+    --filter-sepia: 25%;
+  }
+
+  .lg\:focus\:filter-sepia-50:focus {
+    --filter-sepia: 50%;
+  }
+
+  .lg\:focus\:filter-sepia-75:focus {
+    --filter-sepia: 75%;
+  }
+
+  .lg\:focus\:filter-sepia-100:focus {
+    --filter-sepia: 100%;
+  }
+
+  .lg\:focus\:filter-sepia-125:focus {
+    --filter-sepia: 125%;
+  }
+
+  .lg\:focus\:filter-sepia-150:focus {
+    --filter-sepia: 150%;
+  }
+
+  .lg\:focus\:filter-sepia-175:focus {
+    --filter-sepia: 175%;
+  }
+
+  .lg\:focus\:filter-sepia-200:focus {
+    --filter-sepia: 200%;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -111726,5 +118153,1605 @@ video {
   .xl\:animate-bounce {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
+  }
+
+  .xl\:blend-normal {
+    mix-blend-mode: normal;
+  }
+
+  .xl\:blend-multiply {
+    mix-blend-mode: multiply;
+  }
+
+  .xl\:blend-screen {
+    mix-blend-mode: screen;
+  }
+
+  .xl\:blend-overlay {
+    mix-blend-mode: overlay;
+  }
+
+  .xl\:blend-darken {
+    mix-blend-mode: darken;
+  }
+
+  .xl\:blend-lighten {
+    mix-blend-mode: lighten;
+  }
+
+  .xl\:blend-color-dodge {
+    mix-blend-mode: color-dodge;
+  }
+
+  .xl\:blend-color-burn {
+    mix-blend-mode: color-burn;
+  }
+
+  .xl\:blend-hard-light {
+    mix-blend-mode: hard-light;
+  }
+
+  .xl\:blend-soft-light {
+    mix-blend-mode: soft-light;
+  }
+
+  .xl\:blend-difference {
+    mix-blend-mode: difference;
+  }
+
+  .xl\:blend-exclusion {
+    mix-blend-mode: exclusion;
+  }
+
+  .xl\:blend-hue {
+    mix-blend-mode: hue;
+  }
+
+  .xl\:blend-saturation {
+    mix-blend-mode: saturation;
+  }
+
+  .xl\:blend-color {
+    mix-blend-mode: color;
+  }
+
+  .xl\:blend-luminosity {
+    mix-blend-mode: luminosity;
+  }
+
+  .xl\:bg-blend-normal {
+    background-blend-mode: normal;
+  }
+
+  .xl\:bg-blend-multiply {
+    background-blend-mode: multiply;
+  }
+
+  .xl\:bg-blend-screen {
+    background-blend-mode: screen;
+  }
+
+  .xl\:bg-blend-overlay {
+    background-blend-mode: overlay;
+  }
+
+  .xl\:bg-blend-darken {
+    background-blend-mode: darken;
+  }
+
+  .xl\:bg-blend-lighten {
+    background-blend-mode: lighten;
+  }
+
+  .xl\:bg-blend-color-dodge {
+    background-blend-mode: color-dodge;
+  }
+
+  .xl\:bg-blend-color-burn {
+    background-blend-mode: color-burn;
+  }
+
+  .xl\:bg-blend-hard-light {
+    background-blend-mode: hard-light;
+  }
+
+  .xl\:bg-blend-soft-light {
+    background-blend-mode: soft-light;
+  }
+
+  .xl\:bg-blend-difference {
+    background-blend-mode: difference;
+  }
+
+  .xl\:bg-blend-exclusion {
+    background-blend-mode: exclusion;
+  }
+
+  .xl\:bg-blend-hue {
+    background-blend-mode: hue;
+  }
+
+  .xl\:bg-blend-saturation {
+    background-blend-mode: saturation;
+  }
+
+  .xl\:bg-blend-color {
+    background-blend-mode: color;
+  }
+
+  .xl\:bg-blend-luminosity {
+    background-blend-mode: luminosity;
+  }
+
+  .xl\:isolation-isolate {
+    isolation: isolate;
+  }
+
+  .xl\:isolation-auto {
+    isolation: auto;
+  }
+
+  .xl\:bdf-blur-2 {
+    --bdf-blur: 2px;
+  }
+
+  .xl\:bdf-blur-4 {
+    --bdf-blur: 4px;
+  }
+
+  .xl\:bdf-blur-8 {
+    --bdf-blur: 8px;
+  }
+
+  .xl\:bdf-blur-16 {
+    --bdf-blur: 16px;
+  }
+
+  .xl\:bdf-blur-32 {
+    --bdf-blur: 32px;
+  }
+
+  .xl\:bdf-blur-64 {
+    --bdf-blur: 64px;
+  }
+
+  .xl\:hover\:bdf-blur-2:hover {
+    --bdf-blur: 2px;
+  }
+
+  .xl\:hover\:bdf-blur-4:hover {
+    --bdf-blur: 4px;
+  }
+
+  .xl\:hover\:bdf-blur-8:hover {
+    --bdf-blur: 8px;
+  }
+
+  .xl\:hover\:bdf-blur-16:hover {
+    --bdf-blur: 16px;
+  }
+
+  .xl\:hover\:bdf-blur-32:hover {
+    --bdf-blur: 32px;
+  }
+
+  .xl\:hover\:bdf-blur-64:hover {
+    --bdf-blur: 64px;
+  }
+
+  .xl\:focus\:bdf-blur-2:focus {
+    --bdf-blur: 2px;
+  }
+
+  .xl\:focus\:bdf-blur-4:focus {
+    --bdf-blur: 4px;
+  }
+
+  .xl\:focus\:bdf-blur-8:focus {
+    --bdf-blur: 8px;
+  }
+
+  .xl\:focus\:bdf-blur-16:focus {
+    --bdf-blur: 16px;
+  }
+
+  .xl\:focus\:bdf-blur-32:focus {
+    --bdf-blur: 32px;
+  }
+
+  .xl\:focus\:bdf-blur-64:focus {
+    --bdf-blur: 64px;
+  }
+
+  .xl\:bdf-brightness-0 {
+    --bdf-brightness: 0%;
+  }
+
+  .xl\:bdf-brightness-25 {
+    --bdf-brightness: 25%;
+  }
+
+  .xl\:bdf-brightness-50 {
+    --bdf-brightness: 50%;
+  }
+
+  .xl\:bdf-brightness-75 {
+    --bdf-brightness: 75%;
+  }
+
+  .xl\:bdf-brightness-100 {
+    --bdf-brightness: 100%;
+  }
+
+  .xl\:hover\:bdf-brightness-0:hover {
+    --bdf-brightness: 0%;
+  }
+
+  .xl\:hover\:bdf-brightness-25:hover {
+    --bdf-brightness: 25%;
+  }
+
+  .xl\:hover\:bdf-brightness-50:hover {
+    --bdf-brightness: 50%;
+  }
+
+  .xl\:hover\:bdf-brightness-75:hover {
+    --bdf-brightness: 75%;
+  }
+
+  .xl\:hover\:bdf-brightness-100:hover {
+    --bdf-brightness: 100%;
+  }
+
+  .xl\:focus\:bdf-brightness-0:focus {
+    --bdf-brightness: 0%;
+  }
+
+  .xl\:focus\:bdf-brightness-25:focus {
+    --bdf-brightness: 25%;
+  }
+
+  .xl\:focus\:bdf-brightness-50:focus {
+    --bdf-brightness: 50%;
+  }
+
+  .xl\:focus\:bdf-brightness-75:focus {
+    --bdf-brightness: 75%;
+  }
+
+  .xl\:focus\:bdf-brightness-100:focus {
+    --bdf-brightness: 100%;
+  }
+
+  .xl\:bdf-contrast-0 {
+    --bdf-contrast: 0%;
+  }
+
+  .xl\:bdf-contrast-25 {
+    --bdf-contrast: 25%;
+  }
+
+  .xl\:bdf-contrast-50 {
+    --bdf-contrast: 50%;
+  }
+
+  .xl\:bdf-contrast-75 {
+    --bdf-contrast: 75%;
+  }
+
+  .xl\:bdf-contrast-100 {
+    --bdf-contrast: 100%;
+  }
+
+  .xl\:hover\:bdf-contrast-0:hover {
+    --bdf-contrast: 0%;
+  }
+
+  .xl\:hover\:bdf-contrast-25:hover {
+    --bdf-contrast: 25%;
+  }
+
+  .xl\:hover\:bdf-contrast-50:hover {
+    --bdf-contrast: 50%;
+  }
+
+  .xl\:hover\:bdf-contrast-75:hover {
+    --bdf-contrast: 75%;
+  }
+
+  .xl\:hover\:bdf-contrast-100:hover {
+    --bdf-contrast: 100%;
+  }
+
+  .xl\:focus\:bdf-contrast-0:focus {
+    --bdf-contrast: 0%;
+  }
+
+  .xl\:focus\:bdf-contrast-25:focus {
+    --bdf-contrast: 25%;
+  }
+
+  .xl\:focus\:bdf-contrast-50:focus {
+    --bdf-contrast: 50%;
+  }
+
+  .xl\:focus\:bdf-contrast-75:focus {
+    --bdf-contrast: 75%;
+  }
+
+  .xl\:focus\:bdf-contrast-100:focus {
+    --bdf-contrast: 100%;
+  }
+
+  .xl\:bdf-drop-shadow-sm {
+    --bdf-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .xl\:bdf-drop-shadow {
+    --bdf-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:bdf-drop-shadow-md {
+    --bdf-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:bdf-drop-shadow-lg {
+    --bdf-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:bdf-drop-shadow-xl {
+    --bdf-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:bdf-drop-shadow-2xl {
+    --bdf-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .xl\:hover\:bdf-drop-shadow-sm:hover {
+    --bdf-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .xl\:hover\:bdf-drop-shadow:hover {
+    --bdf-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:hover\:bdf-drop-shadow-md:hover {
+    --bdf-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:hover\:bdf-drop-shadow-lg:hover {
+    --bdf-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:hover\:bdf-drop-shadow-xl:hover {
+    --bdf-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:hover\:bdf-drop-shadow-2xl:hover {
+    --bdf-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .xl\:focus\:bdf-drop-shadow-sm:focus {
+    --bdf-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .xl\:focus\:bdf-drop-shadow:focus {
+    --bdf-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:focus\:bdf-drop-shadow-md:focus {
+    --bdf-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:focus\:bdf-drop-shadow-lg:focus {
+    --bdf-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:focus\:bdf-drop-shadow-xl:focus {
+    --bdf-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:focus\:bdf-drop-shadow-2xl:focus {
+    --bdf-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .xl\:bdf-grayscale-0 {
+    --bdf-grayscale: 0%;
+  }
+
+  .xl\:bdf-grayscale-25 {
+    --bdf-grayscale: 25%;
+  }
+
+  .xl\:bdf-grayscale-50 {
+    --bdf-grayscale: 50%;
+  }
+
+  .xl\:bdf-grayscale-75 {
+    --bdf-grayscale: 75%;
+  }
+
+  .xl\:bdf-grayscale-100 {
+    --bdf-grayscale: 100%;
+  }
+
+  .xl\:hover\:bdf-grayscale-0:hover {
+    --bdf-grayscale: 0%;
+  }
+
+  .xl\:hover\:bdf-grayscale-25:hover {
+    --bdf-grayscale: 25%;
+  }
+
+  .xl\:hover\:bdf-grayscale-50:hover {
+    --bdf-grayscale: 50%;
+  }
+
+  .xl\:hover\:bdf-grayscale-75:hover {
+    --bdf-grayscale: 75%;
+  }
+
+  .xl\:hover\:bdf-grayscale-100:hover {
+    --bdf-grayscale: 100%;
+  }
+
+  .xl\:focus\:bdf-grayscale-0:focus {
+    --bdf-grayscale: 0%;
+  }
+
+  .xl\:focus\:bdf-grayscale-25:focus {
+    --bdf-grayscale: 25%;
+  }
+
+  .xl\:focus\:bdf-grayscale-50:focus {
+    --bdf-grayscale: 50%;
+  }
+
+  .xl\:focus\:bdf-grayscale-75:focus {
+    --bdf-grayscale: 75%;
+  }
+
+  .xl\:focus\:bdf-grayscale-100:focus {
+    --bdf-grayscale: 100%;
+  }
+
+  .xl\:bdf-hue-rotate-0 {
+    --bdf-hue-rotate: 0deg;
+  }
+
+  .xl\:bdf-hue-rotate-60 {
+    --bdf-hue-rotate: 60deg;
+  }
+
+  .xl\:bdf-hue-rotate-90 {
+    --bdf-hue-rotate: 90deg;
+  }
+
+  .xl\:bdf-hue-rotate-120 {
+    --bdf-hue-rotate: 120deg;
+  }
+
+  .xl\:bdf-hue-rotate-150 {
+    --bdf-hue-rotate: 150deg;
+  }
+
+  .xl\:bdf-hue-rotate-180 {
+    --bdf-hue-rotate: 180deg;
+  }
+
+  .xl\:bdf-hue-rotate-210 {
+    --bdf-hue-rotate: 210deg;
+  }
+
+  .xl\:bdf-hue-rotate-240 {
+    --bdf-hue-rotate: 240deg;
+  }
+
+  .xl\:bdf-hue-rotate-270 {
+    --bdf-hue-rotate: 270deg;
+  }
+
+  .xl\:bdf-hue-rotate-300 {
+    --bdf-hue-rotate: 300deg;
+  }
+
+  .xl\:bdf-hue-rotate-330 {
+    --bdf-hue-rotate: 330deg;
+  }
+
+  .xl\:hover\:bdf-hue-rotate-0:hover {
+    --bdf-hue-rotate: 0deg;
+  }
+
+  .xl\:hover\:bdf-hue-rotate-60:hover {
+    --bdf-hue-rotate: 60deg;
+  }
+
+  .xl\:hover\:bdf-hue-rotate-90:hover {
+    --bdf-hue-rotate: 90deg;
+  }
+
+  .xl\:hover\:bdf-hue-rotate-120:hover {
+    --bdf-hue-rotate: 120deg;
+  }
+
+  .xl\:hover\:bdf-hue-rotate-150:hover {
+    --bdf-hue-rotate: 150deg;
+  }
+
+  .xl\:hover\:bdf-hue-rotate-180:hover {
+    --bdf-hue-rotate: 180deg;
+  }
+
+  .xl\:hover\:bdf-hue-rotate-210:hover {
+    --bdf-hue-rotate: 210deg;
+  }
+
+  .xl\:hover\:bdf-hue-rotate-240:hover {
+    --bdf-hue-rotate: 240deg;
+  }
+
+  .xl\:hover\:bdf-hue-rotate-270:hover {
+    --bdf-hue-rotate: 270deg;
+  }
+
+  .xl\:hover\:bdf-hue-rotate-300:hover {
+    --bdf-hue-rotate: 300deg;
+  }
+
+  .xl\:hover\:bdf-hue-rotate-330:hover {
+    --bdf-hue-rotate: 330deg;
+  }
+
+  .xl\:focus\:bdf-hue-rotate-0:focus {
+    --bdf-hue-rotate: 0deg;
+  }
+
+  .xl\:focus\:bdf-hue-rotate-60:focus {
+    --bdf-hue-rotate: 60deg;
+  }
+
+  .xl\:focus\:bdf-hue-rotate-90:focus {
+    --bdf-hue-rotate: 90deg;
+  }
+
+  .xl\:focus\:bdf-hue-rotate-120:focus {
+    --bdf-hue-rotate: 120deg;
+  }
+
+  .xl\:focus\:bdf-hue-rotate-150:focus {
+    --bdf-hue-rotate: 150deg;
+  }
+
+  .xl\:focus\:bdf-hue-rotate-180:focus {
+    --bdf-hue-rotate: 180deg;
+  }
+
+  .xl\:focus\:bdf-hue-rotate-210:focus {
+    --bdf-hue-rotate: 210deg;
+  }
+
+  .xl\:focus\:bdf-hue-rotate-240:focus {
+    --bdf-hue-rotate: 240deg;
+  }
+
+  .xl\:focus\:bdf-hue-rotate-270:focus {
+    --bdf-hue-rotate: 270deg;
+  }
+
+  .xl\:focus\:bdf-hue-rotate-300:focus {
+    --bdf-hue-rotate: 300deg;
+  }
+
+  .xl\:focus\:bdf-hue-rotate-330:focus {
+    --bdf-hue-rotate: 330deg;
+  }
+
+  .xl\:bdf-invert-0 {
+    --bdf-invert: 0%;
+  }
+
+  .xl\:bdf-invert-25 {
+    --bdf-invert: 25%;
+  }
+
+  .xl\:bdf-invert-50 {
+    --bdf-invert: 50%;
+  }
+
+  .xl\:bdf-invert-75 {
+    --bdf-invert: 75%;
+  }
+
+  .xl\:bdf-invert-100 {
+    --bdf-invert: 100%;
+  }
+
+  .xl\:hover\:bdf-invert-0:hover {
+    --bdf-invert: 0%;
+  }
+
+  .xl\:hover\:bdf-invert-25:hover {
+    --bdf-invert: 25%;
+  }
+
+  .xl\:hover\:bdf-invert-50:hover {
+    --bdf-invert: 50%;
+  }
+
+  .xl\:hover\:bdf-invert-75:hover {
+    --bdf-invert: 75%;
+  }
+
+  .xl\:hover\:bdf-invert-100:hover {
+    --bdf-invert: 100%;
+  }
+
+  .xl\:focus\:bdf-invert-0:focus {
+    --bdf-invert: 0%;
+  }
+
+  .xl\:focus\:bdf-invert-25:focus {
+    --bdf-invert: 25%;
+  }
+
+  .xl\:focus\:bdf-invert-50:focus {
+    --bdf-invert: 50%;
+  }
+
+  .xl\:focus\:bdf-invert-75:focus {
+    --bdf-invert: 75%;
+  }
+
+  .xl\:focus\:bdf-invert-100:focus {
+    --bdf-invert: 100%;
+  }
+
+  .xl\:bdf-saturate-0 {
+    --bdf-saturate: 0%;
+  }
+
+  .xl\:bdf-saturate-25 {
+    --bdf-saturate: 25%;
+  }
+
+  .xl\:bdf-saturate-50 {
+    --bdf-saturate: 50%;
+  }
+
+  .xl\:bdf-saturate-75 {
+    --bdf-saturate: 75%;
+  }
+
+  .xl\:bdf-saturate-100 {
+    --bdf-saturate: 100%;
+  }
+
+  .xl\:bdf-saturate-125 {
+    --bdf-saturate: 125%;
+  }
+
+  .xl\:bdf-saturate-150 {
+    --bdf-saturate: 150%;
+  }
+
+  .xl\:bdf-saturate-175 {
+    --bdf-saturate: 175%;
+  }
+
+  .xl\:bdf-saturate-200 {
+    --bdf-saturate: 200%;
+  }
+
+  .xl\:hover\:bdf-saturate-0:hover {
+    --bdf-saturate: 0%;
+  }
+
+  .xl\:hover\:bdf-saturate-25:hover {
+    --bdf-saturate: 25%;
+  }
+
+  .xl\:hover\:bdf-saturate-50:hover {
+    --bdf-saturate: 50%;
+  }
+
+  .xl\:hover\:bdf-saturate-75:hover {
+    --bdf-saturate: 75%;
+  }
+
+  .xl\:hover\:bdf-saturate-100:hover {
+    --bdf-saturate: 100%;
+  }
+
+  .xl\:hover\:bdf-saturate-125:hover {
+    --bdf-saturate: 125%;
+  }
+
+  .xl\:hover\:bdf-saturate-150:hover {
+    --bdf-saturate: 150%;
+  }
+
+  .xl\:hover\:bdf-saturate-175:hover {
+    --bdf-saturate: 175%;
+  }
+
+  .xl\:hover\:bdf-saturate-200:hover {
+    --bdf-saturate: 200%;
+  }
+
+  .xl\:focus\:bdf-saturate-0:focus {
+    --bdf-saturate: 0%;
+  }
+
+  .xl\:focus\:bdf-saturate-25:focus {
+    --bdf-saturate: 25%;
+  }
+
+  .xl\:focus\:bdf-saturate-50:focus {
+    --bdf-saturate: 50%;
+  }
+
+  .xl\:focus\:bdf-saturate-75:focus {
+    --bdf-saturate: 75%;
+  }
+
+  .xl\:focus\:bdf-saturate-100:focus {
+    --bdf-saturate: 100%;
+  }
+
+  .xl\:focus\:bdf-saturate-125:focus {
+    --bdf-saturate: 125%;
+  }
+
+  .xl\:focus\:bdf-saturate-150:focus {
+    --bdf-saturate: 150%;
+  }
+
+  .xl\:focus\:bdf-saturate-175:focus {
+    --bdf-saturate: 175%;
+  }
+
+  .xl\:focus\:bdf-saturate-200:focus {
+    --bdf-saturate: 200%;
+  }
+
+  .xl\:bdf-sepia-0 {
+    --bdf-sepia: 0%;
+  }
+
+  .xl\:bdf-sepia-25 {
+    --bdf-sepia: 25%;
+  }
+
+  .xl\:bdf-sepia-50 {
+    --bdf-sepia: 50%;
+  }
+
+  .xl\:bdf-sepia-75 {
+    --bdf-sepia: 75%;
+  }
+
+  .xl\:bdf-sepia-100 {
+    --bdf-sepia: 100%;
+  }
+
+  .xl\:bdf-sepia-125 {
+    --bdf-sepia: 125%;
+  }
+
+  .xl\:bdf-sepia-150 {
+    --bdf-sepia: 150%;
+  }
+
+  .xl\:bdf-sepia-175 {
+    --bdf-sepia: 175%;
+  }
+
+  .xl\:bdf-sepia-200 {
+    --bdf-sepia: 200%;
+  }
+
+  .xl\:hover\:bdf-sepia-0:hover {
+    --bdf-sepia: 0%;
+  }
+
+  .xl\:hover\:bdf-sepia-25:hover {
+    --bdf-sepia: 25%;
+  }
+
+  .xl\:hover\:bdf-sepia-50:hover {
+    --bdf-sepia: 50%;
+  }
+
+  .xl\:hover\:bdf-sepia-75:hover {
+    --bdf-sepia: 75%;
+  }
+
+  .xl\:hover\:bdf-sepia-100:hover {
+    --bdf-sepia: 100%;
+  }
+
+  .xl\:hover\:bdf-sepia-125:hover {
+    --bdf-sepia: 125%;
+  }
+
+  .xl\:hover\:bdf-sepia-150:hover {
+    --bdf-sepia: 150%;
+  }
+
+  .xl\:hover\:bdf-sepia-175:hover {
+    --bdf-sepia: 175%;
+  }
+
+  .xl\:hover\:bdf-sepia-200:hover {
+    --bdf-sepia: 200%;
+  }
+
+  .xl\:focus\:bdf-sepia-0:focus {
+    --bdf-sepia: 0%;
+  }
+
+  .xl\:focus\:bdf-sepia-25:focus {
+    --bdf-sepia: 25%;
+  }
+
+  .xl\:focus\:bdf-sepia-50:focus {
+    --bdf-sepia: 50%;
+  }
+
+  .xl\:focus\:bdf-sepia-75:focus {
+    --bdf-sepia: 75%;
+  }
+
+  .xl\:focus\:bdf-sepia-100:focus {
+    --bdf-sepia: 100%;
+  }
+
+  .xl\:focus\:bdf-sepia-125:focus {
+    --bdf-sepia: 125%;
+  }
+
+  .xl\:focus\:bdf-sepia-150:focus {
+    --bdf-sepia: 150%;
+  }
+
+  .xl\:focus\:bdf-sepia-175:focus {
+    --bdf-sepia: 175%;
+  }
+
+  .xl\:focus\:bdf-sepia-200:focus {
+    --bdf-sepia: 200%;
+  }
+
+  .xl\:filter-blur-2 {
+    --filter-blur: 2px;
+  }
+
+  .xl\:filter-blur-4 {
+    --filter-blur: 4px;
+  }
+
+  .xl\:filter-blur-8 {
+    --filter-blur: 8px;
+  }
+
+  .xl\:filter-blur-16 {
+    --filter-blur: 16px;
+  }
+
+  .xl\:filter-blur-32 {
+    --filter-blur: 32px;
+  }
+
+  .xl\:filter-blur-64 {
+    --filter-blur: 64px;
+  }
+
+  .xl\:hover\:filter-blur-2:hover {
+    --filter-blur: 2px;
+  }
+
+  .xl\:hover\:filter-blur-4:hover {
+    --filter-blur: 4px;
+  }
+
+  .xl\:hover\:filter-blur-8:hover {
+    --filter-blur: 8px;
+  }
+
+  .xl\:hover\:filter-blur-16:hover {
+    --filter-blur: 16px;
+  }
+
+  .xl\:hover\:filter-blur-32:hover {
+    --filter-blur: 32px;
+  }
+
+  .xl\:hover\:filter-blur-64:hover {
+    --filter-blur: 64px;
+  }
+
+  .xl\:focus\:filter-blur-2:focus {
+    --filter-blur: 2px;
+  }
+
+  .xl\:focus\:filter-blur-4:focus {
+    --filter-blur: 4px;
+  }
+
+  .xl\:focus\:filter-blur-8:focus {
+    --filter-blur: 8px;
+  }
+
+  .xl\:focus\:filter-blur-16:focus {
+    --filter-blur: 16px;
+  }
+
+  .xl\:focus\:filter-blur-32:focus {
+    --filter-blur: 32px;
+  }
+
+  .xl\:focus\:filter-blur-64:focus {
+    --filter-blur: 64px;
+  }
+
+  .xl\:filter-brightness-0 {
+    --filter-brightness: 0%;
+  }
+
+  .xl\:filter-brightness-25 {
+    --filter-brightness: 25%;
+  }
+
+  .xl\:filter-brightness-50 {
+    --filter-brightness: 50%;
+  }
+
+  .xl\:filter-brightness-75 {
+    --filter-brightness: 75%;
+  }
+
+  .xl\:filter-brightness-100 {
+    --filter-brightness: 100%;
+  }
+
+  .xl\:hover\:filter-brightness-0:hover {
+    --filter-brightness: 0%;
+  }
+
+  .xl\:hover\:filter-brightness-25:hover {
+    --filter-brightness: 25%;
+  }
+
+  .xl\:hover\:filter-brightness-50:hover {
+    --filter-brightness: 50%;
+  }
+
+  .xl\:hover\:filter-brightness-75:hover {
+    --filter-brightness: 75%;
+  }
+
+  .xl\:hover\:filter-brightness-100:hover {
+    --filter-brightness: 100%;
+  }
+
+  .xl\:focus\:filter-brightness-0:focus {
+    --filter-brightness: 0%;
+  }
+
+  .xl\:focus\:filter-brightness-25:focus {
+    --filter-brightness: 25%;
+  }
+
+  .xl\:focus\:filter-brightness-50:focus {
+    --filter-brightness: 50%;
+  }
+
+  .xl\:focus\:filter-brightness-75:focus {
+    --filter-brightness: 75%;
+  }
+
+  .xl\:focus\:filter-brightness-100:focus {
+    --filter-brightness: 100%;
+  }
+
+  .xl\:filter-contrast-0 {
+    --filter-contrast: 0%;
+  }
+
+  .xl\:filter-contrast-25 {
+    --filter-contrast: 25%;
+  }
+
+  .xl\:filter-contrast-50 {
+    --filter-contrast: 50%;
+  }
+
+  .xl\:filter-contrast-75 {
+    --filter-contrast: 75%;
+  }
+
+  .xl\:filter-contrast-100 {
+    --filter-contrast: 100%;
+  }
+
+  .xl\:hover\:filter-contrast-0:hover {
+    --filter-contrast: 0%;
+  }
+
+  .xl\:hover\:filter-contrast-25:hover {
+    --filter-contrast: 25%;
+  }
+
+  .xl\:hover\:filter-contrast-50:hover {
+    --filter-contrast: 50%;
+  }
+
+  .xl\:hover\:filter-contrast-75:hover {
+    --filter-contrast: 75%;
+  }
+
+  .xl\:hover\:filter-contrast-100:hover {
+    --filter-contrast: 100%;
+  }
+
+  .xl\:focus\:filter-contrast-0:focus {
+    --filter-contrast: 0%;
+  }
+
+  .xl\:focus\:filter-contrast-25:focus {
+    --filter-contrast: 25%;
+  }
+
+  .xl\:focus\:filter-contrast-50:focus {
+    --filter-contrast: 50%;
+  }
+
+  .xl\:focus\:filter-contrast-75:focus {
+    --filter-contrast: 75%;
+  }
+
+  .xl\:focus\:filter-contrast-100:focus {
+    --filter-contrast: 100%;
+  }
+
+  .xl\:filter-drop-shadow-sm {
+    --filter-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .xl\:filter-drop-shadow {
+    --filter-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:filter-drop-shadow-md {
+    --filter-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:filter-drop-shadow-lg {
+    --filter-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:filter-drop-shadow-xl {
+    --filter-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:filter-drop-shadow-2xl {
+    --filter-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .xl\:hover\:filter-drop-shadow-sm:hover {
+    --filter-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .xl\:hover\:filter-drop-shadow:hover {
+    --filter-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:hover\:filter-drop-shadow-md:hover {
+    --filter-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:hover\:filter-drop-shadow-lg:hover {
+    --filter-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:hover\:filter-drop-shadow-xl:hover {
+    --filter-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:hover\:filter-drop-shadow-2xl:hover {
+    --filter-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .xl\:focus\:filter-drop-shadow-sm:focus {
+    --filter-drop-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .xl\:focus\:filter-drop-shadow:focus {
+    --filter-drop-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:focus\:filter-drop-shadow-md:focus {
+    --filter-drop-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:focus\:filter-drop-shadow-lg:focus {
+    --filter-drop-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:focus\:filter-drop-shadow-xl:focus {
+    --filter-drop-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .xl\:focus\:filter-drop-shadow-2xl:focus {
+    --filter-drop-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  }
+
+  .xl\:filter-grayscale-0 {
+    --filter-grayscale: 0%;
+  }
+
+  .xl\:filter-grayscale-25 {
+    --filter-grayscale: 25%;
+  }
+
+  .xl\:filter-grayscale-50 {
+    --filter-grayscale: 50%;
+  }
+
+  .xl\:filter-grayscale-75 {
+    --filter-grayscale: 75%;
+  }
+
+  .xl\:filter-grayscale-100 {
+    --filter-grayscale: 100%;
+  }
+
+  .xl\:hover\:filter-grayscale-0:hover {
+    --filter-grayscale: 0%;
+  }
+
+  .xl\:hover\:filter-grayscale-25:hover {
+    --filter-grayscale: 25%;
+  }
+
+  .xl\:hover\:filter-grayscale-50:hover {
+    --filter-grayscale: 50%;
+  }
+
+  .xl\:hover\:filter-grayscale-75:hover {
+    --filter-grayscale: 75%;
+  }
+
+  .xl\:hover\:filter-grayscale-100:hover {
+    --filter-grayscale: 100%;
+  }
+
+  .xl\:focus\:filter-grayscale-0:focus {
+    --filter-grayscale: 0%;
+  }
+
+  .xl\:focus\:filter-grayscale-25:focus {
+    --filter-grayscale: 25%;
+  }
+
+  .xl\:focus\:filter-grayscale-50:focus {
+    --filter-grayscale: 50%;
+  }
+
+  .xl\:focus\:filter-grayscale-75:focus {
+    --filter-grayscale: 75%;
+  }
+
+  .xl\:focus\:filter-grayscale-100:focus {
+    --filter-grayscale: 100%;
+  }
+
+  .xl\:filter-hue-rotate-0 {
+    --filter-hue-rotate: 0deg;
+  }
+
+  .xl\:filter-hue-rotate-60 {
+    --filter-hue-rotate: 60deg;
+  }
+
+  .xl\:filter-hue-rotate-90 {
+    --filter-hue-rotate: 90deg;
+  }
+
+  .xl\:filter-hue-rotate-120 {
+    --filter-hue-rotate: 120deg;
+  }
+
+  .xl\:filter-hue-rotate-150 {
+    --filter-hue-rotate: 150deg;
+  }
+
+  .xl\:filter-hue-rotate-180 {
+    --filter-hue-rotate: 180deg;
+  }
+
+  .xl\:filter-hue-rotate-210 {
+    --filter-hue-rotate: 210deg;
+  }
+
+  .xl\:filter-hue-rotate-240 {
+    --filter-hue-rotate: 240deg;
+  }
+
+  .xl\:filter-hue-rotate-270 {
+    --filter-hue-rotate: 270deg;
+  }
+
+  .xl\:filter-hue-rotate-300 {
+    --filter-hue-rotate: 300deg;
+  }
+
+  .xl\:filter-hue-rotate-330 {
+    --filter-hue-rotate: 330deg;
+  }
+
+  .xl\:hover\:filter-hue-rotate-0:hover {
+    --filter-hue-rotate: 0deg;
+  }
+
+  .xl\:hover\:filter-hue-rotate-60:hover {
+    --filter-hue-rotate: 60deg;
+  }
+
+  .xl\:hover\:filter-hue-rotate-90:hover {
+    --filter-hue-rotate: 90deg;
+  }
+
+  .xl\:hover\:filter-hue-rotate-120:hover {
+    --filter-hue-rotate: 120deg;
+  }
+
+  .xl\:hover\:filter-hue-rotate-150:hover {
+    --filter-hue-rotate: 150deg;
+  }
+
+  .xl\:hover\:filter-hue-rotate-180:hover {
+    --filter-hue-rotate: 180deg;
+  }
+
+  .xl\:hover\:filter-hue-rotate-210:hover {
+    --filter-hue-rotate: 210deg;
+  }
+
+  .xl\:hover\:filter-hue-rotate-240:hover {
+    --filter-hue-rotate: 240deg;
+  }
+
+  .xl\:hover\:filter-hue-rotate-270:hover {
+    --filter-hue-rotate: 270deg;
+  }
+
+  .xl\:hover\:filter-hue-rotate-300:hover {
+    --filter-hue-rotate: 300deg;
+  }
+
+  .xl\:hover\:filter-hue-rotate-330:hover {
+    --filter-hue-rotate: 330deg;
+  }
+
+  .xl\:focus\:filter-hue-rotate-0:focus {
+    --filter-hue-rotate: 0deg;
+  }
+
+  .xl\:focus\:filter-hue-rotate-60:focus {
+    --filter-hue-rotate: 60deg;
+  }
+
+  .xl\:focus\:filter-hue-rotate-90:focus {
+    --filter-hue-rotate: 90deg;
+  }
+
+  .xl\:focus\:filter-hue-rotate-120:focus {
+    --filter-hue-rotate: 120deg;
+  }
+
+  .xl\:focus\:filter-hue-rotate-150:focus {
+    --filter-hue-rotate: 150deg;
+  }
+
+  .xl\:focus\:filter-hue-rotate-180:focus {
+    --filter-hue-rotate: 180deg;
+  }
+
+  .xl\:focus\:filter-hue-rotate-210:focus {
+    --filter-hue-rotate: 210deg;
+  }
+
+  .xl\:focus\:filter-hue-rotate-240:focus {
+    --filter-hue-rotate: 240deg;
+  }
+
+  .xl\:focus\:filter-hue-rotate-270:focus {
+    --filter-hue-rotate: 270deg;
+  }
+
+  .xl\:focus\:filter-hue-rotate-300:focus {
+    --filter-hue-rotate: 300deg;
+  }
+
+  .xl\:focus\:filter-hue-rotate-330:focus {
+    --filter-hue-rotate: 330deg;
+  }
+
+  .xl\:filter-invert-0 {
+    --filter-invert: 0%;
+  }
+
+  .xl\:filter-invert-25 {
+    --filter-invert: 25%;
+  }
+
+  .xl\:filter-invert-50 {
+    --filter-invert: 50%;
+  }
+
+  .xl\:filter-invert-75 {
+    --filter-invert: 75%;
+  }
+
+  .xl\:filter-invert-100 {
+    --filter-invert: 100%;
+  }
+
+  .xl\:hover\:filter-invert-0:hover {
+    --filter-invert: 0%;
+  }
+
+  .xl\:hover\:filter-invert-25:hover {
+    --filter-invert: 25%;
+  }
+
+  .xl\:hover\:filter-invert-50:hover {
+    --filter-invert: 50%;
+  }
+
+  .xl\:hover\:filter-invert-75:hover {
+    --filter-invert: 75%;
+  }
+
+  .xl\:hover\:filter-invert-100:hover {
+    --filter-invert: 100%;
+  }
+
+  .xl\:focus\:filter-invert-0:focus {
+    --filter-invert: 0%;
+  }
+
+  .xl\:focus\:filter-invert-25:focus {
+    --filter-invert: 25%;
+  }
+
+  .xl\:focus\:filter-invert-50:focus {
+    --filter-invert: 50%;
+  }
+
+  .xl\:focus\:filter-invert-75:focus {
+    --filter-invert: 75%;
+  }
+
+  .xl\:focus\:filter-invert-100:focus {
+    --filter-invert: 100%;
+  }
+
+  .xl\:filter-saturate-0 {
+    --filter-saturate: 0%;
+  }
+
+  .xl\:filter-saturate-25 {
+    --filter-saturate: 25%;
+  }
+
+  .xl\:filter-saturate-50 {
+    --filter-saturate: 50%;
+  }
+
+  .xl\:filter-saturate-75 {
+    --filter-saturate: 75%;
+  }
+
+  .xl\:filter-saturate-100 {
+    --filter-saturate: 100%;
+  }
+
+  .xl\:filter-saturate-125 {
+    --filter-saturate: 125%;
+  }
+
+  .xl\:filter-saturate-150 {
+    --filter-saturate: 150%;
+  }
+
+  .xl\:filter-saturate-175 {
+    --filter-saturate: 175%;
+  }
+
+  .xl\:filter-saturate-200 {
+    --filter-saturate: 200%;
+  }
+
+  .xl\:hover\:filter-saturate-0:hover {
+    --filter-saturate: 0%;
+  }
+
+  .xl\:hover\:filter-saturate-25:hover {
+    --filter-saturate: 25%;
+  }
+
+  .xl\:hover\:filter-saturate-50:hover {
+    --filter-saturate: 50%;
+  }
+
+  .xl\:hover\:filter-saturate-75:hover {
+    --filter-saturate: 75%;
+  }
+
+  .xl\:hover\:filter-saturate-100:hover {
+    --filter-saturate: 100%;
+  }
+
+  .xl\:hover\:filter-saturate-125:hover {
+    --filter-saturate: 125%;
+  }
+
+  .xl\:hover\:filter-saturate-150:hover {
+    --filter-saturate: 150%;
+  }
+
+  .xl\:hover\:filter-saturate-175:hover {
+    --filter-saturate: 175%;
+  }
+
+  .xl\:hover\:filter-saturate-200:hover {
+    --filter-saturate: 200%;
+  }
+
+  .xl\:focus\:filter-saturate-0:focus {
+    --filter-saturate: 0%;
+  }
+
+  .xl\:focus\:filter-saturate-25:focus {
+    --filter-saturate: 25%;
+  }
+
+  .xl\:focus\:filter-saturate-50:focus {
+    --filter-saturate: 50%;
+  }
+
+  .xl\:focus\:filter-saturate-75:focus {
+    --filter-saturate: 75%;
+  }
+
+  .xl\:focus\:filter-saturate-100:focus {
+    --filter-saturate: 100%;
+  }
+
+  .xl\:focus\:filter-saturate-125:focus {
+    --filter-saturate: 125%;
+  }
+
+  .xl\:focus\:filter-saturate-150:focus {
+    --filter-saturate: 150%;
+  }
+
+  .xl\:focus\:filter-saturate-175:focus {
+    --filter-saturate: 175%;
+  }
+
+  .xl\:focus\:filter-saturate-200:focus {
+    --filter-saturate: 200%;
+  }
+
+  .xl\:filter-sepia-0 {
+    --filter-sepia: 0%;
+  }
+
+  .xl\:filter-sepia-25 {
+    --filter-sepia: 25%;
+  }
+
+  .xl\:filter-sepia-50 {
+    --filter-sepia: 50%;
+  }
+
+  .xl\:filter-sepia-75 {
+    --filter-sepia: 75%;
+  }
+
+  .xl\:filter-sepia-100 {
+    --filter-sepia: 100%;
+  }
+
+  .xl\:filter-sepia-125 {
+    --filter-sepia: 125%;
+  }
+
+  .xl\:filter-sepia-150 {
+    --filter-sepia: 150%;
+  }
+
+  .xl\:filter-sepia-175 {
+    --filter-sepia: 175%;
+  }
+
+  .xl\:filter-sepia-200 {
+    --filter-sepia: 200%;
+  }
+
+  .xl\:hover\:filter-sepia-0:hover {
+    --filter-sepia: 0%;
+  }
+
+  .xl\:hover\:filter-sepia-25:hover {
+    --filter-sepia: 25%;
+  }
+
+  .xl\:hover\:filter-sepia-50:hover {
+    --filter-sepia: 50%;
+  }
+
+  .xl\:hover\:filter-sepia-75:hover {
+    --filter-sepia: 75%;
+  }
+
+  .xl\:hover\:filter-sepia-100:hover {
+    --filter-sepia: 100%;
+  }
+
+  .xl\:hover\:filter-sepia-125:hover {
+    --filter-sepia: 125%;
+  }
+
+  .xl\:hover\:filter-sepia-150:hover {
+    --filter-sepia: 150%;
+  }
+
+  .xl\:hover\:filter-sepia-175:hover {
+    --filter-sepia: 175%;
+  }
+
+  .xl\:hover\:filter-sepia-200:hover {
+    --filter-sepia: 200%;
+  }
+
+  .xl\:focus\:filter-sepia-0:focus {
+    --filter-sepia: 0%;
+  }
+
+  .xl\:focus\:filter-sepia-25:focus {
+    --filter-sepia: 25%;
+  }
+
+  .xl\:focus\:filter-sepia-50:focus {
+    --filter-sepia: 50%;
+  }
+
+  .xl\:focus\:filter-sepia-75:focus {
+    --filter-sepia: 75%;
+  }
+
+  .xl\:focus\:filter-sepia-100:focus {
+    --filter-sepia: 100%;
+  }
+
+  .xl\:focus\:filter-sepia-125:focus {
+    --filter-sepia: 125%;
+  }
+
+  .xl\:focus\:filter-sepia-150:focus {
+    --filter-sepia: 150%;
+  }
+
+  .xl\:focus\:filter-sepia-175:focus {
+    --filter-sepia: 175%;
+  }
+
+  .xl\:focus\:filter-sepia-200:focus {
+    --filter-sepia: 200%;
   }
 }

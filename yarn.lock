@@ -10,10 +10,29 @@
     postcss "7.0.32"
     purgecss "^2.3.0"
 
+"@tailwindcss/custom-forms@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@tailwindcss/custom-forms/-/custom-forms-0.2.1.tgz#40e5ed1fff6d29d8ed1c508a0b2aaf8da96962e0"
+  integrity sha512-XdP5XY6kxo3x5o50mWUyoYWxOPV16baagLoZ5uM41gh6IhXzhz/vJYzqrTb/lN58maGIKlpkxgVsQUNSsbAS3Q==
+  dependencies:
+    lodash "^4.17.11"
+    mini-svg-data-uri "^1.0.3"
+    traverse "^0.6.6"
+
 "@tailwindcss/typography@^0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@tailwindcss/typography/-/typography-0.2.0.tgz#b597c83502e3c3c6641a8aaabda223cd494ab349"
   integrity sha512-aPgMH+CjQiScLZculoDNOQUrrK2ktkbl3D6uCLYp1jgYRlNDrMONu9nMu8LfwAeetYNpVNeIGx7WzHSu0kvECg==
+
+"@tailwindcss/ui@^0.7.2":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@tailwindcss/ui/-/ui-0.7.2.tgz#1f0a5ddf47b75b6f892553e6741764d351782a12"
+  integrity sha512-7HuFoWUMfVdY8EWEIS2FSJBCj+iEWL4JfljVE6Wd5qLrQrCzH10tuE0S6697jPm7dt8ZUEslFWlJtAsU76A5Nw==
+  dependencies:
+    "@tailwindcss/custom-forms" "^0.2.1"
+    "@tailwindcss/typography" "^0.2.0"
+    hex-rgb "^4.1.0"
+    postcss-selector-parser "^6.0.2"
 
 acorn-node@^1.6.1:
   version "1.8.2"
@@ -222,6 +241,13 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
+flat@^4.1.0:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/flat/-/flat-4.1.1.tgz#a392059cc382881ff98642f5da4dde0a959f309b"
+  integrity sha512-FmTtBsHskrU6FJ2VxCnsDb84wu9zhmO3cUX2kGFb5tuwhfXxGciiT0oRY+cck35QmG+NmGh5eLz6lLCpWTqwpA==
+  dependencies:
+    is-buffer "~2.0.3"
+
 fs-extra@^8.0.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-8.1.0.tgz#49d43c45a88cd9677668cb7be1b46efdb8d2e1c0"
@@ -275,6 +301,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+hex-rgb@^4.1.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/hex-rgb/-/hex-rgb-4.2.0.tgz#fb377f2e5658fc924f1efa189685922e56ecaf0f"
+  integrity sha512-I7DkKeQ2kR2uyqgbxPgNgClH/rfs1ioKZhZW8VTIAirsxCR5EyhYeywgZbhMScgUbKCkgo6bb6JwA0CLTn9beA==
+
 html-tags@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/html-tags/-/html-tags-3.1.0.tgz#7b5e6f7e665e9fb41f30007ed9e0d41e97fb2140"
@@ -303,6 +334,11 @@ is-arrayish@^0.3.1:
   resolved "https://registry.yarnpkg.com/is-arrayish/-/is-arrayish-0.3.2.tgz#4574a2ae56f7ab206896fb431eaeed066fdf8f03"
   integrity sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==
 
+is-buffer@~2.0.3:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-2.0.5.tgz#ebc252e400d22ff8d77fa09888821a24a658c191"
+  integrity sha512-i2R6zNFDwgEHJyQUtJEk0XFi1i0dPFn/oqjK3/vPCcDeJvW5NQ83V8QbicfF1SupOaB0h8ntgBC2YiE7dfyctQ==
+
 is-core-module@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.1.0.tgz#a4cc031d9b1aca63eecbd18a650e13cb4eeab946"
@@ -322,10 +358,15 @@ lodash.toarray@^4.4.0:
   resolved "https://registry.yarnpkg.com/lodash.toarray/-/lodash.toarray-4.4.0.tgz#24c4bfcd6b2fba38bfd0594db1179d8e9b656561"
   integrity sha1-JMS/zWsvuji/0FlNsRedjptlZWE=
 
-lodash@^4.17.20:
+lodash@^4.17.11, lodash@^4.17.20:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
+
+mini-svg-data-uri@^1.0.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/mini-svg-data-uri/-/mini-svg-data-uri-1.2.3.tgz#e16baa92ad55ddaa1c2c135759129f41910bc39f"
+  integrity sha512-zd6KCAyXgmq6FV1mR10oKXYtvmA9vRoB6xPSTUJTbFApCtkefDnYueVR1gkof3KcdLZo1Y8mjF2DFmQMIxsHNQ==
 
 minimatch@^3.0.4:
   version "3.0.4"
@@ -530,6 +571,19 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
+tailwindcss-blend-mode@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-blend-mode/-/tailwindcss-blend-mode-1.0.0.tgz#5a87b9095f1546a8ed8cd12bff941719e21cdeab"
+  integrity sha512-O73Kp4xe89tzStNBc28cTBuEhX6rpxytTzk/51XilHFUbv66o9IAZH0pCQhClYjiMjEpMFgdhg/h1CJkm4qkkQ==
+  dependencies:
+    flat "^4.1.0"
+    lodash "^4.17.11"
+
+tailwindcss-css-filters@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-css-filters/-/tailwindcss-css-filters-2.0.0.tgz#9b313ec138225a5a9893314a3346de2976eae5c0"
+  integrity sha512-T6HGH5hQIO3GlVuXlSGsne0IUgOX/S20xgMirBDwkIuZ13wd2aByRWKv+Ahd2M9KAlLvKzNybtckmbUfxi/xyQ==
+
 tailwindcss@^1.9.6:
   version "1.9.6"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.9.6.tgz#0c5089911d24e1e98e592a31bfdb3d8f34ecf1a0"
@@ -557,6 +611,11 @@ tailwindcss@^1.9.6:
     pretty-hrtime "^1.0.3"
     reduce-css-calc "^2.1.6"
     resolve "^1.14.2"
+
+traverse@^0.6.6:
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/traverse/-/traverse-0.6.6.tgz#cbdf560fd7b9af632502fed40f918c157ea97137"
+  integrity sha1-y99WD9e5r2MlAv7UD5GMFX6pcTc=
 
 uniq@^1.0.1:
   version "1.0.1"

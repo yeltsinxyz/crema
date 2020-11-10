@@ -15,8 +15,14 @@ module.exports = {
     },
     extend: {},
   },
-  variants: {},
+  variants: {
+    mixBlendMode: ['responsive'],
+    backgroundBlendMode: ['responsive'],
+    isolation: ['responsive'],
+  },
   plugins: [
     require('@tailwindcss/typography'),
+    require('tailwindcss-blend-mode')(),
+    require('tailwindcss-css-filters')
   ],
 }
