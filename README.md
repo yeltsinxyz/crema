@@ -140,6 +140,8 @@ const filters = [
 ]
 ```
 
+
+
 ## Observações
 
 Muitas partes do tema são `hard-coded`, ou seja, o HTML está inserido diretamente do PHP. É algo inclusive bastante debatido no WordPress, mas a questão principal é performance. Se eu deixasse dinâmico certas partes que não mudarão com frequência, eu teria um carregamento extra desnecessário.

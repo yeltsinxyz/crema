@@ -1,26 +1,4 @@
-<div class="flex items-center justify-center p-5 bg-gray-100 max-w-full">
-    <div
-        class="relative flex flex-col items-center w-full max-w-6xl px-4 py-8 mx-auto text-center rounded-lg shadow-2xl lg:text-left lg:block bg-gradient-to-br from-purple-600 via-indigo-500 to-teal-400 sm:px-6 md:pb-0 md:pt-12 lg:px-12 lg:py-12">
-        <h2
-            class="my-4 text-3xl font-extrabold tracking-tight text-white sm:text-4xl md:text-5xl lg:my-0 xl:text-4xl sm:leading-tight">
-            Infastructure that is <span class="block text-indigo-200 xl:inline">out of this world</span>
-        </h2>
-        <p class="mt-1 mb-10 text-sm font-medium text-indigo-200 uppercase xl:text-base xl:tracking-wider lg:mb-0">
-            Pushing the envelope for being awesome!</p>
-        <div class="flex mb-8 lg:mt-6 lg:mb-0">
-            <div class="inline-flex">
-                <a href="#"
-                    class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-indigo-700 transition duration-150 ease-in-out bg-indigo-100 border border-transparent rounded-md hover:text-indigo-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline focus:border-indigo-300">
-                    Sign Up Today
-                </a>
-            </div>
-        </div>
-        <div class="bottom-0 right-0 mb-0 mr-3 lg:absolute lg:-mb-12">
-            <img src="https://cdn.devdojo.com/images/september2020/cta-1.png"
-                class="max-w-xs mb-4 opacity-75 md:max-w-2xl lg:max-w-lg xl:mb-0 xl:max-w-md">
-        </div>
-    </div>
-</div>
+<?php include_once ( 'lib/php/cta.php' ); ?>
 
 <footer id="main-footer" class="container max-w-full bg-purple-700 text-gray-200 py-12">
 
@@ -37,7 +15,7 @@
                     </picture>
                 </a>
 
-                <p class="my-5 leading-relaxed">A <strong>YELTSIN</strong> é uma empresa de desenvolvimento, infraestrutura e marketing digital. Atendemos em todos os países para empresas de todos os tamanhos e pessoas físicas.</p>
+                <p class="my-5 leading-relaxed">A <strong>YELTSIN</strong> é uma empresa de desenvolvimento, infraestrutura e marketing digital.</p>
 
                 <p class="my-5 leading-relaxed">Trabalhamos com base em princípios. Transparência, responsabilidade, diversidade, respeito são alguns dos nossos princípios. Por sinal, o tema usado para desenvolver este site está disponível gratuitamente no <a href="https://github.com/yeltsinxyz/crema" target="_blank" class="hover:text-purple-300 underline">GitHub</a>. ;)</p>
 
@@ -121,7 +99,6 @@
 
                 <p class="font-thin text-4xl text-purple-500 py-3">&copy; 2020 Yeltsin</p>
                 
-
             </div>
 
             <div>
@@ -138,7 +115,7 @@
 
 <?php wp_footer(); ?>
 
-<script src="<?php echo get_stylesheet_directory_uri() ?>/lib/js/alpine.min.js" defer></script>
+<script src="<?php echo get_stylesheet_directory_uri() ?>/lib/js/kutty.min.js" defer></script>
 
 </body>
 </html>

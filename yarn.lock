@@ -353,6 +353,13 @@ jsonfile@^4.0.0:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
+kutty@^0.3.5:
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/kutty/-/kutty-0.3.5.tgz#79fb8ba6a60c77c292e9748f064341869227eead"
+  integrity sha512-K35z/DITqaoMd3fZRKb+3tQB9qqK9+qEPw0flSe9zp2LcK4XkAyP3leegy9hq9XMxVVsvtwkNeLSwtIAaMlLZg==
+  dependencies:
+    "@tailwindcss/typography" "^0.2.0"
+
 lodash.toarray@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.toarray/-/lodash.toarray-4.4.0.tgz#24c4bfcd6b2fba38bfd0594db1179d8e9b656561"
@@ -583,6 +590,11 @@ tailwindcss-css-filters@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/tailwindcss-css-filters/-/tailwindcss-css-filters-2.0.0.tgz#9b313ec138225a5a9893314a3346de2976eae5c0"
   integrity sha512-T6HGH5hQIO3GlVuXlSGsne0IUgOX/S20xgMirBDwkIuZ13wd2aByRWKv+Ahd2M9KAlLvKzNybtckmbUfxi/xyQ==
+
+tailwindcss-skip-link@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/tailwindcss-skip-link/-/tailwindcss-skip-link-1.0.1.tgz#b965624ed0b007ddd33f0326f2719d9a88b857c7"
+  integrity sha512-Hxivkqu7UEluZY+ZPv+aQv4dreqTfYRgniEtux4qb9yJPjyR4dXiHMIWk7LgNqsyCPKpoRL8FJq55uIQN4ms+w==
 
 tailwindcss@^1.9.6:
   version "1.9.6"

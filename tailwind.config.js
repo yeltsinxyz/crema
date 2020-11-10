@@ -23,6 +23,8 @@ module.exports = {
   plugins: [
     require('@tailwindcss/typography'),
     require('tailwindcss-blend-mode')(),
-    require('tailwindcss-css-filters')
+    require('tailwindcss-css-filters'),
+    require('tailwindcss-skip-link')(),
+    require("kutty")
   ],
 }
