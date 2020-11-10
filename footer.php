@@ -1,12 +1,36 @@
-<footer class="container max-w-full bg-purple-700 text-gray-200 px-4 py-12">
+<section id="cta" class="container max-w-full bg-gradient-to-r from-gray-700 via-gray-800 to-gray-900 text-gray-200 py-12">
+
+    <div class="container mx-auto">
+    
+        <div class="grid gap-12 grid-cols-1 md:grid-cols-2 items-center">
+        
+            <div>
+            
+                <p class="text-4xl font-light">Pronto para começar?</p>
+            
+            </div>
+
+            <div class="md:text-right">
+            
+                <a href="https://yeltsin.xyz/contato/" class="py-6 px-6 bg-gray-200 hover:bg-purple-700 text-black hover:text-white rounded font-black">Solicite um orçamento grátis</a>
+            
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="container max-w-full bg-purple-700 text-gray-200 py-12">
 
     <div class="container mx-auto">
 
-        <div class="grid gap-12 grid-cols-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
+        <div class="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
             
             <div>
 
-                <a href="<?php echo get_site_url(); ?>" title="Clique para voltar para a página inicial">
+                <a href="https://yeltsin.xyz" title="Clique para voltar para a página inicial">
                     <picture>
                         <source srcset="https://res.cloudinary.com/ddxnyuivo/image/upload/s--Bmcp2Zxt--/c_scale,q_jpegmini:1,w_200/c_scale,q_jpegmini,w_200/v1604946490/yeltsin/logo-white_iaghp7.webp" alt="Logo da Yeltsin em Branco para fundo Preto" width="200" height="90" type="image/webp">
                         <img src="https://res.cloudinary.com/ddxnyuivo/image/upload/s--5HlwgwMx--/c_scale,q_jpegmini:1,w_200/v1604946490/yeltsin/logo-white_iaghp7.png" alt="Logo da Yeltsin em Branco para fundo Preto" width="200" height="90">
@@ -15,7 +39,7 @@
 
                 <p class="my-5 leading-relaxed">A <strong>YELTSIN</strong> é uma empresa de desenvolvimento, infraestrutura e marketing digital. Atendemos em todos os países para empresas de todos os tamanhos e pessoas físicas.</p>
 
-                <p class="my-5 leading-relaxed">Trabalhamos com base em princípios. Transparência, responsabilidade, diversidade, respeito são alguns dos nossos princípios. Por sinal, o tema usado para desenvolver este site está disponível gratuitamente no <a href="http://" class="hover:text-purple-300 underline">GitHub</a>. ;)</p>
+                <p class="my-5 leading-relaxed">Trabalhamos com base em princípios. Transparência, responsabilidade, diversidade, respeito são alguns dos nossos princípios. Por sinal, o tema usado para desenvolver este site está disponível gratuitamente no <a href="https://github.com/yeltsinxyz/crema" target="_blank" class="hover:text-purple-300 underline">GitHub</a>. ;)</p>
 
             </div>
 
@@ -24,11 +48,11 @@
                 <h3 class="text-3xl font-semibold mb-5">Institucional</h3>
 
                 <ul class="text-xl">
-                    <li class="pb-2"><a href="<?php echo get_site_url(); ?>/" class="text-gray-200 hover:text-purple-400">Home</a></li>
-                    <li class="pb-2"><a href="<?php echo get_site_url(); ?>/sobre/" class="text-gray-200 hover:text-purple-400">A Empresa</a></li>
-                    <li class="pb-2"><a href="<?php echo get_site_url(); ?>/clientes/" class="text-gray-200 hover:text-purple-400">Clientes</a></li>
-                    <li class="pb-2"><a href="<?php echo get_site_url(); ?>/vagas/" class="text-gray-200 hover:text-purple-400">Vagas</a></li>
-                    <li><a href="<?php echo get_site_url(); ?>/contato/" class="text-gray-200 hover:text-purple-400">Contato</a></li>
+                    <li class="pb-2"><a href="https://yeltsin.xyz/" class="text-gray-200 hover:text-purple-400">Home</a></li>
+                    <li class="pb-2"><a href="https://yeltsin.xyz/sobre/" class="text-gray-200 hover:text-purple-400">A Empresa</a></li>
+                    <li class="pb-2"><a href="https://yeltsin.xyz/clientes/" class="text-gray-200 hover:text-purple-400">Clientes</a></li>
+                    <li class="pb-2"><a href="https://yeltsin.xyz/vagas/" class="text-gray-200 hover:text-purple-400">Vagas</a></li>
+                    <li><a href="https://yeltsin.xyz/contato/" class="text-gray-200 hover:text-purple-400">Contato</a></li>
                 </ul>
 
             </div>
@@ -38,11 +62,11 @@
                 <h3 class="text-3xl font-semibold mb-5">Serviços</h3>
 
                 <ul class="text-xl">
-                    <li class="pb-2"><a href="<?php echo get_site_url(); ?>/criacao-sites/" class="text-gray-200 hover:text-purple-400">Criação de Sites</a></li>
-                    <li class="pb-2"><a href="<?php echo get_site_url(); ?>/criacao-apps/" class="text-gray-200 hover:text-purple-400">Criação de Aplicativos</a></li>
-                    <li class="pb-2"><a href="<?php echo get_site_url(); ?>/hospedagem-sites/" class="text-gray-200 hover:text-purple-400">Hospedagem de Sites</a></li>
-                    <li class="pb-2"><a href="<?php echo get_site_url(); ?>/servidores-dedicados/" class="text-gray-200 hover:text-purple-400">Servidores Dedicados</a></li>
-                    <li class="pb-2"><a href="<?php echo get_site_url(); ?>/midias-sociais/" class="text-gray-200 hover:text-purple-400">Mídias Sociais</a></li>
+                    <li class="pb-2"><a href="https://yeltsin.xyz/criacao-sites/" class="text-gray-200 hover:text-purple-400">Criação de Sites</a></li>
+                    <li class="pb-2"><a href="https://yeltsin.xyz/criacao-apps/" class="text-gray-200 hover:text-purple-400">Criação de Aplicativos</a></li>
+                    <li class="pb-2"><a href="https://yeltsin.xyz/hospedagem-sites/" class="text-gray-200 hover:text-purple-400">Hospedagem de Sites</a></li>
+                    <li class="pb-2"><a href="https://yeltsin.xyz/servidores-dedicados/" class="text-gray-200 hover:text-purple-400">Servidores Dedicados</a></li>
+                    <li class="pb-2"><a href="https://yeltsin.xyz/midias-sociais/" class="text-gray-200 hover:text-purple-400">Mídias Sociais</a></li>
                 </ul>
 
             </div>
@@ -87,11 +111,11 @@
 
 </footer>
 
-<footer id="copyright-info" class="container max-w-full bg-purple-900 text-gray-200 px-4 py-6">
+<footer id="copyright-info" class="container max-w-full bg-purple-900 text-gray-200 py-6">
 
     <div class="container mx-auto">
     
-        <div class="grid gap-12 grid-cols-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
+        <div class="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
 
             <div>
 
@@ -102,7 +126,7 @@
 
             <div>
             
-                <p class="text-4xl text-right py-3"><a href="<?php echo get_site_url(); ?>/privacidade/" class="text-purple-300 hover:text-purple-400 underline">Privacidade</a></p>
+                <p class="text-4xl md:text-right lg:text-right py-3"><a href="https://yeltsin.xyz/privacidade/" class="text-purple-300 hover:text-purple-400 underline">Privacidade</a></p>
             
             </div>
 
