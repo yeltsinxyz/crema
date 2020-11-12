@@ -14,7 +14,7 @@
 
             <div class="col-auto md:col-span-4">
 
-                <?php echo do_shortcode( '[contact-form-7 id="1839" title="Formulário de contato 1" html_class="card border-0 shadow-xl rounded-lg mb-6"]' ); ?>
+                <?php echo do_shortcode( '[contact-form-7 id="4" title="Formulário de contato 1" html_class="card border-0 shadow-xl rounded-lg mb-6"]' ); ?>
 
                 <p class="text-xs text-center text-gray-900">Você concorda com a nossa <a href="https://yeltsin.xyz/politica/" class="text-primary">Política de Privacidade</a></p>
 
