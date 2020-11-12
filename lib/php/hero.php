@@ -2,7 +2,7 @@
 
     <div class="container mx-auto">
 
-        <div class="grid grid-cols-1 lg:grid-cols-11 items-center gap-0 lg:gap-24 w-full xl:w-11/12 mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-11 items-center gap-0 lg:gap-24 w-full mx-auto">
 
             <div class="col-auto md:col-span-7 text-center lg:text-left">
 
