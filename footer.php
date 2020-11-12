@@ -117,7 +117,7 @@
 
 <?php wp_footer(); ?>
 
-<script src="<?php echo get_stylesheet_directory_uri() ?>/lib/js/kutty.min.js" defer></script>
+<script src="<?php echo get_stylesheet_directory_uri() ?>/lib/js/kutty.min.js" defer type="text/javascript"></script>
 
 </body>
 </html>
