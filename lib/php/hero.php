@@ -1,4 +1,4 @@
-<section class="container max-w-full bg-gray-200 py-12">
+<section class="container max-w-full bg-gray-200 bg-hero-topography py-12">
 
     <div class="container mx-auto">
 

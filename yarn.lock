@@ -365,7 +365,7 @@ lodash.toarray@^4.4.0:
   resolved "https://registry.yarnpkg.com/lodash.toarray/-/lodash.toarray-4.4.0.tgz#24c4bfcd6b2fba38bfd0594db1179d8e9b656561"
   integrity sha1-JMS/zWsvuji/0FlNsRedjptlZWE=
 
-lodash@^4.17.11, lodash@^4.17.20:
+lodash@^4.17.11, lodash@^4.17.15, lodash@^4.17.20:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
@@ -578,6 +578,20 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
+tailwind-heropatterns@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/tailwind-heropatterns/-/tailwind-heropatterns-0.0.8.tgz#280a39c469f996873237b4fe7caab3cb3a1f7c23"
+  integrity sha512-no7lc5K9TF5Jy8GyfIq/F1/nS2HbwGPObwaeauRQJLZybE41BkCCVyew23O1m3ljYSE436YwHdNuphxfKF7ZgA==
+  dependencies:
+    lodash "^4.17.11"
+
+tailwindcss-aspect-ratio@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-aspect-ratio/-/tailwindcss-aspect-ratio-3.0.0.tgz#4f9fc7ca0f3468373290faaa8b92652157bee6a4"
+  integrity sha512-syVueHOdk0u6S9lFSQQxHwsYS+9AJ0tp1WWBB+vAwmJYzc9g/2OLwq4mHpigYue6t3PUgTSbRi9unQd7WEDjGQ==
+  dependencies:
+    lodash "^4.17.15"
+
 tailwindcss-blend-mode@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/tailwindcss-blend-mode/-/tailwindcss-blend-mode-1.0.0.tgz#5a87b9095f1546a8ed8cd12bff941719e21cdeab"
@@ -591,12 +605,20 @@ tailwindcss-css-filters@^2.0.0:
   resolved "https://registry.yarnpkg.com/tailwindcss-css-filters/-/tailwindcss-css-filters-2.0.0.tgz#9b313ec138225a5a9893314a3346de2976eae5c0"
   integrity sha512-T6HGH5hQIO3GlVuXlSGsne0IUgOX/S20xgMirBDwkIuZ13wd2aByRWKv+Ahd2M9KAlLvKzNybtckmbUfxi/xyQ==
 
+tailwindcss-responsive-embed@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-responsive-embed/-/tailwindcss-responsive-embed-1.0.0.tgz#1182a5774576e961a87b4226d58055f29c408c54"
+  integrity sha512-LE27r3IFGTf1CpXuGoGDoTfsMA03K3BnS5mx/cRg+RVBavpHlNzWx/lIYUpe4TOGi1PAwBf6qEdjpVHRlUJVSg==
+  dependencies:
+    tailwindcss "^1.2.0"
+    tailwindcss-aspect-ratio "^3.0.0"
+
 tailwindcss-skip-link@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/tailwindcss-skip-link/-/tailwindcss-skip-link-1.0.1.tgz#b965624ed0b007ddd33f0326f2719d9a88b857c7"
   integrity sha512-Hxivkqu7UEluZY+ZPv+aQv4dreqTfYRgniEtux4qb9yJPjyR4dXiHMIWk7LgNqsyCPKpoRL8FJq55uIQN4ms+w==
 
-tailwindcss@^1.9.6:
+tailwindcss@^1.2.0, tailwindcss@^1.9.6:
   version "1.9.6"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.9.6.tgz#0c5089911d24e1e98e592a31bfdb3d8f34ecf1a0"
   integrity sha512-nY8WYM/RLPqGsPEGEV2z63riyQPcHYZUJpAwdyBzVpxQHOHqHE+F/fvbCeXhdF1+TA5l72vSkZrtYCB9hRcwkQ==
