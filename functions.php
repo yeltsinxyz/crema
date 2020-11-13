@@ -216,6 +216,8 @@ function crema_theme_support()  {
 	// Add theme support for document Title tag
 	add_theme_support( 'title-tag' );
 
+	add_image_size( 'blog-home', 384, 221, true );
+
 	// Add theme support for Translation
 	load_theme_textdomain( 'crema', get_template_directory() . '/lang' );
 }
