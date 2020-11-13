@@ -194,3 +194,31 @@ function create_servio_tax() {
 
 }
 add_action( 'init', 'create_servio_tax' );
+
+// Set content width value based on the theme's design
+if ( ! isset( $content_width ) )
+	$content_width = 900;
+
+if ( ! function_exists('crema_theme_support') ) {
+
+// Register Theme Features
+function crema_theme_support()  {
+
+	// Add theme support for Automatic Feed Links
+	add_theme_support( 'automatic-feed-links' );
+
+	// Add theme support for Featured Images
+	add_theme_support( 'post-thumbnails', array( 'post', 'page', 'clientes', 'depoimentos' ) );
+
+	// Add theme support for HTML5 Semantic Markup
+	add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list', 'gallery', 'caption' ) );
+
+	// Add theme support for document Title tag
+	add_theme_support( 'title-tag' );
+
+	// Add theme support for Translation
+	load_theme_textdomain( 'crema', get_template_directory() . '/lang' );
+}
+add_action( 'after_setup_theme', 'crema_theme_support' );
+
+}
