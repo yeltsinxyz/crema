@@ -177,7 +177,7 @@
 
                     ?>
                     
-                    <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="lg:w-1/2 sm:w-1/2 p-6">
 
                         <div class="flex relative">
 
@@ -188,9 +188,9 @@
                                 <h4 class="tracking-widest text-sm title-font font-medium text-purple-500 mb-1"><?php the_category(); ?></h4>
                                 
                                 <h3 class="title-font text-lg font-medium text-gray-900 mb-3"><?php the_title(); ?></h3>
-                                
-                                <p class="leading-relaxed"><?php the_excerpt(); ?></p>
 
+                                <p class="leading-relaxed"><?php the_excerpt(); ?></p>
+                                
                                 <p class="leading-relaxed"><a href="<?php echo the_permalink() ?>" class="underline">Veja mais</a></p>
                                 
                             </div>

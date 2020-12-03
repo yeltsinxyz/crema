@@ -11,4 +11,8 @@ License: GNU AGPLv3
 License URI: https://choosealicense.com/licenses/agpl-3.0/
 */
 
+/* DEVELOPMENT */
 @import url("dist/css/theme.css");
+
+/* PRODUCTION */
+/* @import url("dist/css/css-dist/theme.min.css"); */

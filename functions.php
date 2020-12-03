@@ -156,3 +156,8 @@ add_action( 'after_setup_theme', 'custom_theme_features' );
 
 add_image_size( 'clientesHome', 600, 360, array( 'center', 'center' ) );
 add_image_size( 'artigosHome', 711, 443, array( 'center', 'center' ) );
+
+function wpdocs_custom_excerpt_length( $length ) {
+    return 20;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );

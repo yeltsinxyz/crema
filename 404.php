@@ -6,8 +6,8 @@
 
             <div class="container mx-auto text-center">
         
-                <h2 class="text-5xl text-center font-semibold py-2 text-white"><?php the_title(); ?></h2>
-                <p class="text-white text-2xl"><?php get_breadcrumb(); ?></p>
+                <h2 class="text-5xl text-center font-semibold py-2 text-white">404</h2>
+                <p class="text-white text-2xl">Desculpe, a página não foi encontrada.</p>
             
             </div>
 

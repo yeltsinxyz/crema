@@ -17,7 +17,7 @@
 
             <div class="container mx-auto prose prose-lg xl:prose-xl">
 
-                <?php the_content(); ?>
+                
 
             </div>
 
